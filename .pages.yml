@@ -1,0 +1,251 @@
+media:
+  - name: images
+    label: MOGU24 Images
+    input: public/media
+    output: /media
+    categories: [image]
+    extensions: [jpg, jpeg, png, webp]
+    rename: safe
+
+settings:
+  commit:
+    identity: app
+    templates:
+      create: "content: create {path}"
+      update: "content: update {path}"
+      delete: "content: delete {path}"
+      rename: "content: rename {oldPath} -> {newPath}"
+
+components:
+  localized_text:
+    type: object
+    fields:
+      - name: ja
+        label: 日本語
+        type: string
+        required: true
+      - name: zh
+        label: 中文（简体）
+        type: string
+        required: true
+      - name: en
+        label: English
+        type: string
+        required: true
+  localized_long_text:
+    type: object
+    fields:
+      - name: ja
+        label: 日本語
+        type: text
+        required: true
+      - name: zh
+        label: 中文（简体）
+        type: text
+        required: true
+      - name: en
+        label: English
+        type: text
+        required: true
+
+content:
+  - name: products
+    label: 商品管理
+    type: file
+    path: content/products.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: 商品ID
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: image
+        label: 商品画像
+        type: image
+        required: true
+        options:
+          media: images
+          path: products
+          rename: safe
+      - name: category
+        label: カテゴリー
+        type: select
+        required: true
+        options:
+          values:
+            - name: noodles
+              label: 麺類
+            - name: dimsum
+              label: 点心・餃子
+            - name: meat
+              label: お肉・惣菜
+            - name: rice
+              label: ご飯もの
+            - name: desserts
+              label: スイーツ
+            - name: drinks
+              label: ドリンク
+      - name: price
+        label: 税込価格（円）
+        type: number
+        required: true
+      - name: isNew
+        label: NEW表示
+        type: boolean
+      - name: recommended
+        label: おすすめ表示
+        type: boolean
+      - name: published
+        label: 公開
+        type: boolean
+      - name: order
+        label: 表示順
+        type: number
+        required: true
+      - name: name
+        label: 商品名（3言語）
+        component: localized_text
+
+  - name: categories
+    label: カテゴリー管理
+    type: file
+    path: content/categories.json
+    format: json
+    list: true
+    fields:
+      - name: key
+        label: キー
+        type: select
+        required: true
+        options:
+          values: [noodles, dimsum, meat, rice, desserts, drinks]
+      - name: image
+        label: カテゴリー画像
+        type: image
+        required: true
+        options:
+          media: images
+          path: categories
+          rename: safe
+      - name: name
+        label: カテゴリー名（3言語）
+        component: localized_text
+      - name: subtitle
+        label: 英字サブタイトル
+        type: string
+      - name: published
+        label: 公開
+        type: boolean
+      - name: order
+        label: 表示順
+        type: number
+        required: true
+
+  - name: news
+    label: お知らせ
+    type: file
+    path: content/news.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: ID
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: date
+        label: 公開日
+        type: date
+        required: true
+      - name: type
+        label: 種別
+        type: select
+        options:
+          values: [NEWS, NEW, RESTOCK, EVENT, LIMITED]
+      - name: published
+        label: 公開
+        type: boolean
+      - name: order
+        label: 表示順
+        type: number
+      - name: title
+        label: タイトル（3言語）
+        component: localized_text
+      - name: body
+        label: 本文（3言語）
+        component: localized_long_text
+
+  - name: faqs
+    label: FAQ
+    type: file
+    path: content/faqs.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: ID
+        type: string
+        required: true
+        pattern: "^[a-z0-9-]+$"
+      - name: published
+        label: 公開
+        type: boolean
+      - name: order
+        label: 表示順
+        type: number
+      - name: question
+        label: 質問（3言語）
+        component: localized_text
+      - name: answer
+        label: 回答（3言語）
+        component: localized_long_text
+
+  - name: site
+    label: 店舗・利用情報
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: store
+        label: 店舗情報
+        type: object
+        fields:
+          - name: name
+            label: 店名
+            type: string
+          - name: phone
+            label: 電話番号
+            type: string
+          - name: instagram
+            label: Instagram URL
+            type: string
+          - name: line
+            label: LINE URL
+            type: string
+          - name: mapUrl
+            label: Google Maps URL
+            type: string
+          - name: address
+            label: 住所（3言語）
+            component: localized_text
+          - name: access
+            label: アクセス（3言語）
+            component: localized_text
+      - name: howToUse
+        label: ご利用方法
+        type: object
+        list:
+          min: 1
+          max: 8
+          collapsible:
+            collapsed: false
+            summary: "STEP {step}: {title.ja}"
+        fields:
+          - name: step
+            label: STEP
+            type: string
+          - name: title
+            label: 説明（3言語）
+            component: localized_text

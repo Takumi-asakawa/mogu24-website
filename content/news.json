@@ -1,0 +1,5 @@
+[
+  {"id":"opening","date":"2026-09-11","type":"NEWS","published":true,"order":1,"title":{"ja":"MOGU24 Webサイトを公開しました","zh":"MOGU24官方网站上线","en":"The MOGU24 website is now live"},"body":{"ja":"MOGU24の最新情報をこちらでお知らせします。","zh":"我们将在这里发布MOGU24的最新消息。","en":"We will share the latest MOGU24 updates here."}},
+  {"id":"new-products","date":"2026-09-10","type":"NEW","published":true,"order":2,"title":{"ja":"新商品入荷のお知らせ","zh":"新品到货通知","en":"New products have arrived"},"body":{"ja":"新しい冷凍食品を入荷しました。","zh":"全新冷冻食品现已到货。","en":"A new selection of frozen foods has arrived."}},
+  {"id":"restock","date":"2026-09-09","type":"RESTOCK","published":true,"order":3,"title":{"ja":"人気商品を再入荷しました","zh":"人气商品补货","en":"Popular items are back in stock"},"body":{"ja":"人気商品を再入荷しました。","zh":"多款人气商品已重新到货。","en":"Several popular items are back in stock."}}
+]

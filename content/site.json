@@ -1,0 +1,17 @@
+{
+  "store": {
+    "name": "MOGU24",
+    "phone": "",
+    "instagram": "#",
+    "line": "#",
+    "mapUrl": "#",
+    "address": {"ja":"東京都八王子市（正式住所を入力）","zh":"东京都八王子市（请输入正式地址）","en":"Hachioji, Tokyo (enter full address)"},
+    "access": {"ja":"京王八王子駅から徒歩圏内","zh":"从京王八王子站步行可达","en":"Walking distance from Keio-Hachioji Station"}
+  },
+  "howToUse": [
+    {"step":"01","title":{"ja":"店舗へ","zh":"前往店铺","en":"Visit the store"}},
+    {"step":"02","title":{"ja":"商品を選ぶ","zh":"选择商品","en":"Choose your items"}},
+    {"step":"03","title":{"ja":"店内の決済機でお支払い","zh":"使用店内支付设备付款","en":"Pay at the in-store terminal"}},
+    {"step":"04","title":{"ja":"商品を持ち帰る","zh":"带走商品","en":"Take your items home"}}
+  ]
+}

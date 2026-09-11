@@ -1,0 +1,8 @@
+[
+  {"key":"noodles","image":"/images/cat-noodles.jpg","published":true,"order":1,"name":{"ja":"麺類","zh":"面类","en":"Noodles"},"subtitle":"NOODLES"},
+  {"key":"dimsum","image":"/images/cat-dimsum.jpg","published":true,"order":2,"name":{"ja":"点心・餃子","zh":"点心・饺子","en":"Dim Sum & Gyoza"},"subtitle":"DIM SUM"},
+  {"key":"meat","image":"/images/cat-meat.jpg","published":true,"order":3,"name":{"ja":"お肉・惣菜","zh":"肉类・熟食","en":"Meat & Deli"},"subtitle":"MEAT & DELI"},
+  {"key":"rice","image":"/images/cat-rice.jpg","published":true,"order":4,"name":{"ja":"ご飯もの","zh":"米饭类","en":"Rice Meals"},"subtitle":"RICE MEALS"},
+  {"key":"desserts","image":"/images/cat-desserts.jpg","published":true,"order":5,"name":{"ja":"スイーツ","zh":"甜点","en":"Desserts"},"subtitle":"DESSERTS"},
+  {"key":"drinks","image":"/images/cat-drinks.jpg","published":true,"order":6,"name":{"ja":"ドリンク","zh":"饮料","en":"Drinks"},"subtitle":"DRINKS"}
+]
