@@ -1,0 +1,33 @@
+/* MOGU24 v8 — production cleanup */
+
+/* Hide About MOGU24 section for now */
+.about-home-v4 {
+  display: none !important;
+}
+
+/* Remove phone-order / delivery card */
+.how-service-card {
+  display: none !important;
+}
+
+/* Remove the fixed mobile CTA bar that overlaps Safari/footer */
+.mobile-visit-bar {
+  display: none !important;
+}
+
+/* Hide placeholder phone links while phone number is unset */
+.footer-social a[href="#"],
+.contact-band a[href="#"] {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+  /* v7 reserved extra bottom space for the fixed CTA; reclaim it now */
+  .hero-panel {
+    padding-bottom: calc(28px + env(safe-area-inset-bottom)) !important;
+  }
+
+  .site-footer {
+    padding-bottom: calc(28px + env(safe-area-inset-bottom)) !important;
+  }
+}
