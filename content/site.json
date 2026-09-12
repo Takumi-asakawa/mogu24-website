@@ -2,13 +2,13 @@
   "store": {
     "name": "MOGU24",
     "phone": "",
-    "instagram": "#",
-    "line": "#",
-    "mapUrl": "#",
+    "instagram": "https://www.instagram.com/mogu24_hachioji?stkn=MWF0b3MxcHF2dm94dQ==",
+    "line": "https://line.me/R/ti/p/@332rubac",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%80%92192-0046%20%E6%9D%B1%E4%BA%AC%E9%83%BD%E5%85%AB%E7%8E%8B%E5%AD%90%E5%B8%82%E6%98%8E%E7%A5%9E%E7%94%BA4-1-11%20%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%87%E5%85%AB%E7%8E%8B%E5%AD%90%E2%85%A2%20101%E5%8F%B7%E5%AE%A4",
     "address": {
-      "ja": "東京都八王子市（詳細住所はOPEN前に公開）",
-      "zh": "东京都八王子市（详细地址将在开业前公布）",
-      "en": "Hachioji, Tokyo (full address will be announced before opening)"
+      "ja": "〒192-0046 東京都八王子市明神町4-1-11 ステージグランデ八王子Ⅲ 101号室",
+      "zh": "〒192-0046 东京都八王子市明神町4-1-11 Stage Grande八王子Ⅲ 101室",
+      "en": "Stage Grande Hachioji III #101, 4-1-11 Myojincho, Hachioji, Tokyo 192-0046, Japan"
     },
     "access": {
       "ja": "京王八王子駅から徒歩圏内",
