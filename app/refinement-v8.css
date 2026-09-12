@@ -21,35 +21,77 @@
   display: none !important;
 }
 
+/* Keep in-page navigation clear of the sticky header */
+#store {
+  scroll-margin-top: 82px;
+}
+
 @media (max-width: 700px) {
-  /* Keep both hero CTAs fully inside the hero before the feature cards begin. */
+  /* Safari: allow the hero to grow naturally so the second CTA cannot be clipped. */
   .hero {
     overflow: visible !important;
   }
 
-  .hero-copy,
-  .hero-panel {
+  .hero-copy {
+    height: auto !important;
+    min-height: auto !important;
+    flex: 0 0 auto !important;
     overflow: visible !important;
   }
 
   .hero-panel {
-    padding-bottom: calc(44px + env(safe-area-inset-bottom)) !important;
+    min-height: 0 !important;
+    overflow: visible !important;
+    padding-bottom: calc(36px + env(safe-area-inset-bottom)) !important;
   }
 
   .hero-actions {
+    position: relative !important;
+    z-index: 6 !important;
+    overflow: visible !important;
     margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
   }
 
   .hero-actions .btn {
+    position: relative;
+    z-index: 7;
     flex-shrink: 0 !important;
   }
 
-  /* Prevent the feature carousel from overlapping the second hero button. */
-  .features {
+  /* Make the store CTA fully tappable. */
+  .hero-actions .btn.outline-light {
+    width: 100%;
+    pointer-events: auto !important;
+    cursor: pointer;
+  }
+
+  /* Replace the location pin with a storefront icon. */
+  .hero-actions .btn.outline-light > svg {
+    display: none !important;
+  }
+
+  .hero-actions .btn.outline-light::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    flex: 0 0 20px;
+    background: currentColor;
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9l1.5-5h15L21 9'/%3E%3Cpath d='M5 13v8h14v-8'/%3E%3Cpath d='M9 21v-6h6v6'/%3E%3Cpath d='M3 9a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0'/%3E%3C/svg%3E") center / contain no-repeat;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M3 9l1.5-5h15L21 9'/%3E%3Cpath d='M5 13v8h14v-8'/%3E%3Cpath d='M9 21v-6h6v6'/%3E%3Cpath d='M3 9a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0'/%3E%3C/svg%3E") center / contain no-repeat;
+  }
+
+  /* Prevent the feature carousel from covering the store CTA. */
+  .features,
+  .features.shell {
     position: relative !important;
     z-index: 1 !important;
     margin-top: 0 !important;
     transform: none !important;
+  }
+
+  #store {
+    scroll-margin-top: 72px;
   }
 
   .site-footer {
