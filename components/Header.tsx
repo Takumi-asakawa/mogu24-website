@@ -9,7 +9,6 @@ export default function Header({ locale, nav }: { locale: Locale; nav: Record<st
     ["home", `/${locale}/#top`],
     ["products", `/${locale}/products`],
     ["new", `/${locale}/products#new`],
-    ["about", `/${locale}/#about`],
     ["how", `/${locale}/#how-to-use`],
     ["store", `/${locale}/#store`],
     ["news", `/${locale}/news`],
