@@ -1,0 +1,28 @@
+MOGU24 Customer Finish v4
+
+About / branding:
+- app/[locale]/page.tsx
+- app/globals.css
+- data/site.ts
+
+SEO / metadata / structured data:
+- app/layout.tsx
+- app/[locale]/layout.tsx
+- app/[locale]/products/page.tsx
+- app/[locale]/[slug]/page.tsx
+- app/admin/page.tsx
+- app/page.tsx
+- data/seo.ts
+- components/StructuredData.tsx
+- content/faqs.json
+- scripts/generate-seo-files.mjs
+- scripts/qa-site.mjs
+- public/robots.txt
+- public/sitemap.xml
+- package.json
+- .env.example
+
+Docs:
+- UPDATE_GUIDE.md
+- SEO_GUIDE.md
+- README.md

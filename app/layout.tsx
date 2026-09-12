@@ -1,17 +1,32 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import LangSetter from "@/components/LangSetter";
+import { SITE_URL } from "@/data/seo";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mogu24.pages.dev";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#061b33"
+};
 
 export const metadata: Metadata = {
-  metadataBase: new URL(siteUrl),
-  title: {
-    default: "MOGU24 | DISCOVER GREAT FOOD",
-    template: "%s | MOGU24"
+  metadataBase: new URL(SITE_URL),
+  title: "MOGU24（モグ24）｜八王子の24時間営業 冷凍食品専門店",
+  description: "MOGU24（モグ24）は東京都八王子市の24時間営業・無人の冷凍食品専門店。日本各地と世界のおいしい冷凍食品を、好きな時間に手軽に選べます。",
+  icons: { icon: "/mogu24-logo.png" },
+  category: "food",
+  creator: "MOGU24",
+  publisher: "MOGU24",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 }
   },
-  description: "24時間、いつでも新しい美味しさに出会える冷凍食品専門店 MOGU24。",
-  icons: { icon: "/mogu24-logo.png" }
+  verification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
+    ? { google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION }
+    : undefined
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

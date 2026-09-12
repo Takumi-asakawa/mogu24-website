@@ -11,11 +11,25 @@ export default function LocaleSwitcher({ locale }: { locale: Locale }) {
 
   return (
     <div className="language-switcher" aria-label="Language switcher">
-      {(["ja", "zh", "en"] as Locale[]).map((code) => (
-        <Link key={code} className={code === locale ? "active" : ""} href={`/${code}${rest}`}>
-          {labels[code]}
-        </Link>
-      ))}
+      {(["ja", "zh", "en"] as Locale[]).map((code) => {
+        const href = `/${code}${rest || "/"}`;
+        return (
+          <Link
+            key={code}
+            className={code === locale ? "active" : ""}
+            href={href}
+            hrefLang={code === "zh" ? "zh-CN" : code}
+            onClick={(event) => {
+              if (typeof window !== "undefined" && window.location.hash) {
+                event.preventDefault();
+                window.location.assign(`${href}${window.location.hash}`);
+              }
+            }}
+          >
+            {labels[code]}
+          </Link>
+        );
+      })}
     </div>
   );
 }

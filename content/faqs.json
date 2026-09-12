@@ -1,8 +1,107 @@
 [
-  {"id":"hours","published":true,"order":1,"question":{"ja":"24時間いつでも購入できますか？","zh":"24小时都可以购买吗？","en":"Can I shop 24 hours a day?"},"answer":{"ja":"はい。MOGU24は24時間営業です。","zh":"可以。MOGU24全天24小时营业。","en":"Yes. MOGU24 is open 24 hours a day."}},
-  {"id":"staff","published":true,"order":2,"question":{"ja":"スタッフはいますか？","zh":"店里有工作人员吗？","en":"Are staff always present?"},"answer":{"ja":"基本は無人営業です。必要なサポート方法は店舗案内をご確認ください。","zh":"店铺原则上为无人运营。需要帮助时请查看店铺说明。","en":"The store is primarily unmanned. Please check the store information for support options."}},
-  {"id":"payment","published":true,"order":3,"question":{"ja":"どのような支払い方法がありますか？","zh":"可以使用哪些支付方式？","en":"Which payment methods are available?"},"answer":{"ja":"対応するキャッシュレス決済は店舗情報で最新内容をご案内します。","zh":"可使用的无现金支付方式将在店铺信息中更新。","en":"Current cashless payment options are listed on the store information page."}},
-  {"id":"heating","published":true,"order":4,"question":{"ja":"商品はどうやって温めますか？","zh":"商品应该如何加热？","en":"How should I heat the products?"},"answer":{"ja":"各商品のパッケージに記載された調理方法に従ってください。","zh":"请按照商品包装上的加热说明操作。","en":"Please follow the heating instructions printed on each product package."}},
-  {"id":"phone","published":true,"order":5,"question":{"ja":"電話注文はできますか？","zh":"可以电话订购吗？","en":"Can I order by phone?"},"answer":{"ja":"電話注文の受付方法は、ご利用方法ページで最新情報をご確認ください。","zh":"电话订购方式请查看“购买方式”页面的最新说明。","en":"Please see the How to Buy page for current phone-order information."}},
-  {"id":"delivery","published":true,"order":6,"question":{"ja":"配送範囲はどこですか？","zh":"配送范围是哪里？","en":"What is the delivery area?"},"answer":{"ja":"配送サービス開始時に対象地域をご案内します。","zh":"配送服务开始后，我们会公布可配送区域。","en":"Eligible delivery areas will be published when delivery service begins."}}
+  {
+    "id": "hours",
+    "published": true,
+    "order": 1,
+    "question": {
+      "ja": "八王子のMOGU24は24時間いつでも購入できますか？",
+      "zh": "八王子的MOGU24可以24小时购买吗？",
+      "en": "Can I shop at MOGU24 in Hachioji 24 hours a day?"
+    },
+    "answer": {
+      "ja": "はい。MOGU24（モグ24）は八王子の24時間営業の冷凍食品専門店です。朝でも深夜でも、好きな時間に冷凍食品をお選びいただけます。",
+      "zh": "可以。MOGU24是位于八王子的24小时冷冻食品专门店，无论早上还是深夜都可以按自己的时间来选购。",
+      "en": "Yes. MOGU24 is a 24-hour frozen food specialty store in Hachioji, so you can shop in the morning, late at night, or whenever it suits you."
+    }
+  },
+  {
+    "id": "staff",
+    "published": true,
+    "order": 2,
+    "question": {
+      "ja": "スタッフはいますか？",
+      "zh": "店里有工作人员吗？",
+      "en": "Are staff always present?"
+    },
+    "answer": {
+      "ja": "基本は無人営業です。必要なサポート方法は店舗案内をご確認ください。",
+      "zh": "店铺原则上为无人运营。需要帮助时请查看店铺说明。",
+      "en": "The store is primarily unmanned. Please check the store information for support options."
+    }
+  },
+  {
+    "id": "payment",
+    "published": true,
+    "order": 3,
+    "question": {
+      "ja": "どのような支払い方法がありますか？",
+      "zh": "可以使用哪些支付方式？",
+      "en": "Which payment methods are available?"
+    },
+    "answer": {
+      "ja": "対応するキャッシュレス決済は、ホームの「店舗情報」で最新内容をご案内します。",
+      "zh": "可使用的无现金支付方式会在首页“店铺信息”中更新。",
+      "en": "Current cashless payment options are kept up to date in the Store Information section on the home page."
+    }
+  },
+  {
+    "id": "heating",
+    "published": true,
+    "order": 4,
+    "question": {
+      "ja": "商品はどうやって温めますか？",
+      "zh": "商品应该如何加热？",
+      "en": "How should I heat the products?"
+    },
+    "answer": {
+      "ja": "各商品のパッケージに記載された調理方法に従ってください。",
+      "zh": "请按照商品包装上的加热说明操作。",
+      "en": "Please follow the heating instructions printed on each product package."
+    }
+  },
+  {
+    "id": "phone",
+    "published": true,
+    "order": 5,
+    "question": {
+      "ja": "電話注文はできますか？",
+      "zh": "可以电话订购吗？",
+      "en": "Can I order by phone?"
+    },
+    "answer": {
+      "ja": "電話注文の受付方法は、ホームの「ご利用方法」で最新情報をご確認ください。",
+      "zh": "电话订购方式请查看首页“购买方式”中的最新说明。",
+      "en": "Please check the How to Buy section on the home page for the latest phone-order information."
+    }
+  },
+  {
+    "id": "delivery",
+    "published": true,
+    "order": 6,
+    "question": {
+      "ja": "配送範囲はどこですか？",
+      "zh": "配送范围是哪里？",
+      "en": "What is the delivery area?"
+    },
+    "answer": {
+      "ja": "配送サービス開始時に対象地域をご案内します。",
+      "zh": "配送服务开始后，我们会公布可配送区域。",
+      "en": "Eligible delivery areas will be published when delivery service begins."
+    }
+  },
+  {
+    "id": "hachioji-access",
+    "published": true,
+    "order": 7,
+    "question": {
+      "ja": "MOGU24は八王子のどこにありますか？",
+      "zh": "MOGU24在八王子的哪里？",
+      "en": "Where is MOGU24 located in Hachioji?"
+    },
+    "answer": {
+      "ja": "MOGU24は東京都八王子市、京王八王子駅から徒歩圏内の冷凍食品専門店です。詳細住所と地図は店舗情報でご案内します。",
+      "zh": "MOGU24位于东京都八王子市，从京王八王子站步行可达。详细地址和地图请查看店铺信息。",
+      "en": "MOGU24 is in Hachioji, Tokyo, within walking distance of Keio-Hachioji Station. See Store Information for the current address and map details."
+    }
+  }
 ]

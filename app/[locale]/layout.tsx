@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { getDictionary, isLocale, locales } from "@/data/site";
+import { absoluteUrl, languageAlternates, seoCopy } from "@/data/seo";
 
 export function generateStaticParams() { return locales.map((locale) => ({ locale })); }
 export const dynamicParams = false;
@@ -10,21 +11,17 @@ export const dynamicParams = false;
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
-  const d = getDictionary(locale);
+  const seo = seoCopy[locale];
   return {
-    title: d.nav.home,
-    description: d.hero.body,
     alternates: {
-      canonical: `/${locale}/`,
-      languages: { "ja-JP": "/ja/", "zh-CN": "/zh/", "en": "/en/", "x-default": "/ja/" }
+      canonical: absoluteUrl(`/${locale}/`),
+      languages: languageAlternates()
     },
     openGraph: {
-      title: "MOGU24 | DISCOVER GREAT FOOD",
-      description: d.hero.body,
-      url: `/${locale}/`,
       siteName: "MOGU24",
       locale: locale === "zh" ? "zh_CN" : locale === "en" ? "en_US" : "ja_JP",
-      type: "website"
+      type: "website",
+      images: [{ url: absoluteUrl("/images/generated/hero-store.webp"), width: 1688, height: 932, alt: seo.ogAlt }]
     }
   };
 }

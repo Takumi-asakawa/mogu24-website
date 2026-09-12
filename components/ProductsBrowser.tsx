@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import ProductCard from "./ProductCard";
 import type { Category, CategoryKey, Locale, Product } from "@/data/site";
 import { localize } from "@/data/site";
@@ -8,24 +8,51 @@ import { localize } from "@/data/site";
 export default function ProductsBrowser({ products, categories, locale, labels }: { products: Product[]; categories: Category[]; locale: Locale; labels: any }) {
   const [category, setCategory] = useState<CategoryKey | "all">("all");
   const [sort, setSort] = useState("recommended");
+  const [newOnly, setNewOnly] = useState(false);
+
+  useEffect(() => {
+    const applyHash = () => {
+      const hash = window.location.hash.replace("#", "");
+      if (hash === "new") {
+        setNewOnly(true);
+        setCategory("all");
+        setSort("newest");
+        return;
+      }
+      if (categories.some((cat) => cat.key === hash)) {
+        setCategory(hash as CategoryKey);
+        setNewOnly(false);
+      }
+    };
+    applyHash();
+    window.addEventListener("hashchange", applyHash);
+    return () => window.removeEventListener("hashchange", applyHash);
+  }, [categories]);
 
   const list = useMemo(() => {
-    const filtered = category === "all" ? [...products] : products.filter((p) => p.category === category);
+    let filtered = category === "all" ? [...products] : products.filter((p) => p.category === category);
+    if (newOnly) filtered = filtered.filter((p) => p.isNew);
     if (sort === "newest") filtered.sort((a, b) => Number(b.isNew) - Number(a.isNew) || a.order - b.order);
     else filtered.sort((a, b) => Number(b.recommended) - Number(a.recommended) || a.order - b.order);
     return filtered;
-  }, [category, sort, products]);
+  }, [category, sort, products, newOnly]);
+
+  const chooseCategory = (value: CategoryKey | "all") => {
+    setCategory(value);
+    setNewOnly(false);
+  };
 
   return (
-    <>
+    <div id="catalog" className="product-browser">
       <div className="filter-pills" aria-label={labels.sort}>
-        <button className={category === "all" ? "active" : ""} onClick={() => setCategory("all")}>{labels.all}</button>
+        <button className={category === "all" && !newOnly ? "active" : ""} onClick={() => chooseCategory("all")}>{labels.all}</button>
         {categories.map((cat) => (
-          <button key={cat.key} className={category === cat.key ? "active" : ""} onClick={() => setCategory(cat.key)}>
+          <button key={cat.key} className={category === cat.key && !newOnly ? "active" : ""} onClick={() => chooseCategory(cat.key)}>
             {localize(cat.name, locale)}
           </button>
         ))}
       </div>
+      {newOnly && <div id="new" className="active-filter-note"><strong>{labels.newLabel}</strong><span>{labels.newOnly}</span></div>}
       <div className="product-toolbar">
         <strong>{list.length} {labels.count}</strong>
         <label>{labels.sort}
@@ -41,6 +68,6 @@ export default function ProductsBrowser({ products, categories, locale, labels }
           return <ProductCard key={product.id} product={product} locale={locale} category={categoryData ? localize(categoryData.name, locale) : product.category} labels={labels} />;
         })}
       </div>
-    </>
+    </div>
   );
 }

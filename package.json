@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run validate && next build",
+    "build": "npm run seo:files && npm run validate && next build",
     "start": "next start",
     "lint": "eslint .",
-    "validate": "node scripts/validate-content.mjs"
+    "validate": "node scripts/validate-content.mjs",
+    "qa": "npm run seo:files && npm run validate && node scripts/qa-site.mjs",
+    "seo:files": "node scripts/generate-seo-files.mjs"
   },
   "dependencies": {
     "lucide-react": "1.44.0",

@@ -1,11 +1,62 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowRight, Clock3, MapPin, Phone, MessageCircle, Camera } from "lucide-react";
 import { faqs, getDictionary, isLocale, localize, news, siteSettings } from "@/data/site";
+import { absoluteUrl, languageAlternates, seoCopy } from "@/data/seo";
 
 const allowed = ["about", "how-to-use", "store", "news", "faq", "privacy", "terms", "legal", "contact"] as const;
 export function generateStaticParams() { return allowed.map((slug) => ({ slug })); }
 export const dynamicParams = false;
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> {
+  const { locale, slug } = await params;
+  if (!isLocale(locale) || !allowed.includes(slug as any)) return {};
+  const d = getDictionary(locale);
+  const seo = seoCopy[locale];
+  const isLegacyHomeSection = ["about", "how-to-use", "store"].includes(slug);
+  const noIndex = isLegacyHomeSection || ["privacy", "terms", "legal", "contact"].includes(slug);
+  const titleMap: Record<string, string> = {
+    about: `${d.nav.about} | MOGU24`,
+    "how-to-use": `${d.nav.how} | MOGU24`,
+    store: locale === "ja" ? "店舗情報｜MOGU24（モグ24）八王子の24時間冷凍食品店" : `${d.nav.store} | MOGU24`,
+    news: seo.newsTitle,
+    faq: seo.faqTitle,
+    privacy: `${d.footer.privacy} | MOGU24`,
+    terms: `${d.footer.terms} | MOGU24`,
+    legal: `${d.footer.legal} | MOGU24`,
+    contact: `${d.footer.contact} | MOGU24`
+  };
+  const descriptionMap: Record<string, string> = {
+    about: d.about.body,
+    "how-to-use": d.howHome.intro,
+    store: locale === "ja" ? "東京都八王子市の24時間営業 冷凍食品専門店MOGU24（モグ24）の店舗情報。アクセス、営業時間、支払い方法をご案内します。" : d.store.body,
+    news: seo.newsDescription,
+    faq: seo.faqDescription,
+    privacy: d.legalPages.privacyBody,
+    terms: d.legalPages.termsBody,
+    legal: d.legalPages.legalBody,
+    contact: d.contact.title
+  };
+  const canonicalPath = isLegacyHomeSection ? `/${locale}/` : `/${locale}/${slug}/`;
+  const alternates = isLegacyHomeSection ? languageAlternates() : languageAlternates(slug);
+  return {
+    title: { absolute: titleMap[slug] },
+    description: descriptionMap[slug],
+    alternates: { canonical: absoluteUrl(canonicalPath), languages: alternates },
+    robots: { index: !noIndex, follow: true },
+    openGraph: {
+      title: titleMap[slug],
+      description: descriptionMap[slug],
+      url: absoluteUrl(canonicalPath),
+      siteName: "MOGU24",
+      locale: locale === "zh" ? "zh_CN" : locale === "en" ? "en_US" : "ja_JP",
+      type: "website",
+      images: [{ url: absoluteUrl("/images/generated/hero-store.webp"), width: 1688, height: 932, alt: seo.ogAlt }]
+    }
+  };
+}
+
 
 export default async function ContentPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params;

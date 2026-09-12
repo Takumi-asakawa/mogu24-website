@@ -80,7 +80,7 @@ Build output directory: out
 Optional environment variable:
 
 ```text
-NEXT_PUBLIC_SITE_URL=https://mogu24.pages.dev
+NEXT_PUBLIC_SITE_URL=https://mogu24-website.pages.dev
 ```
 
 After the custom domain is connected, change it to:
@@ -105,3 +105,16 @@ git push -u origin main
 ## Image quality
 
 The project still contains some temporary low-resolution images under `public/images/` from the first prototype. For production, upload the final high-resolution original product/store images through Pages CMS; new uploads are stored under `public/media/` and served statically through Cloudflare CDN.
+
+## Customer Finish v2
+
+2026-09 のUX改善で、`MOGU24について` / `ご利用方法` / `店舗情報` はホーム内セクションに統合しました。ヘッダーから `#about` / `#how-to-use` / `#store` へ移動します。モバイル表示は横スワイプの商品・カテゴリUIと固定クイックCTAを採用しています。
+
+公開前チェックは `npm run qa`、本番ビルドは `npm run build` を使用してください。
+
+
+## Customer Finish v4 / SEO
+
+About MOGU24を「世界中のおいしさを、もっと手軽に。いつでも。」を軸に刷新し、八王子 / 冷凍食品 / 24時間営業 / MOGU24（モグ24）のローカルSEO基盤を追加しています。
+
+SEO関連ファイルは `npm run seo:files`（`build` / `qa` 内でも自動実行）で生成されます。Search Console・Googleビジネスプロフィールの公開手順は `SEO_GUIDE.md` を参照してください。
