@@ -16,7 +16,6 @@ export default function MobileMenu({ locale, nav }: { locale: Locale; nav: Recor
     ["home", `/${locale}/#top`],
     ["products", `/${locale}/products`],
     ["new", `/${locale}/products#new`],
-    ["about", `/${locale}/#about`],
     ["how", `/${locale}/#how-to-use`],
     ["store", `/${locale}/#store`],
     ["news", `/${locale}/news`],
