@@ -1,0 +1,311 @@
+/* MOGU24 v7 — simplify About and separate store image/copy on mobile */
+
+/* ---------- ABOUT: fewer elements, stronger hierarchy ---------- */
+.about-home-v4 {
+  background: linear-gradient(180deg, #f7fafc 0%, #ffffff 100%);
+}
+
+.about-home-grid-v4 {
+  align-items: center;
+  grid-template-columns: minmax(0, .88fr) minmax(0, 1.12fr);
+  gap: 54px;
+}
+
+.about-copy-v4 {
+  max-width: 480px;
+}
+
+.about-iconic-title {
+  max-width: 9.6em;
+  font-size: clamp(38px, 4vw, 56px) !important;
+  line-height: 1.12 !important;
+  margin-bottom: 18px !important;
+}
+
+.about-seo-line {
+  margin-bottom: 18px !important;
+  background: #fff;
+  box-shadow: none;
+}
+
+.about-copy-v4 > p:not(.section-kicker):not(.about-seo-line) {
+  max-width: 34rem;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.85;
+  color: #596677;
+}
+
+/* Remove information overload from v6 */
+.about-chips,
+.brand-promise-v4,
+.about-origin-label,
+.about-frozen-ribbon,
+.about-food-side {
+  display: none !important;
+}
+
+.about-actions {
+  margin-top: 24px;
+}
+
+.about-visual-v5 {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 190px;
+  grid-template-rows: 1fr;
+  gap: 14px;
+  min-height: 500px;
+}
+
+.about-food-main {
+  grid-column: 1 !important;
+  grid-row: 1 !important;
+  border-radius: 24px !important;
+  box-shadow: 0 24px 60px rgba(7, 31, 58, .14);
+}
+
+.about-store-mini {
+  grid-column: 2 !important;
+  grid-row: 1 !important;
+  border-radius: 24px !important;
+  min-height: 500px;
+  overflow: hidden;
+  box-shadow: 0 24px 60px rgba(7, 31, 58, .14);
+}
+
+.about-store-mini img {
+  object-position: 61% center;
+}
+
+.about-store-mini:before {
+  background: linear-gradient(180deg, rgba(4, 18, 35, .02), rgba(4, 18, 35, .3));
+}
+
+.about-store-mini-badge {
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  padding: 12px;
+  border-radius: 14px;
+}
+
+/* ---------- MOBILE HERO: image first, copy second ---------- */
+@media (max-width: 700px) {
+  .hero {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 0 !important;
+    background: #071f3a;
+    overflow: hidden;
+  }
+
+  .hero-image {
+    order: 0;
+    position: relative !important;
+    inset: auto !important;
+    z-index: 0 !important;
+    width: 100%;
+    height: 43svh !important;
+    min-height: 320px !important;
+    max-height: 430px;
+  }
+
+  .hero-image img {
+    object-position: 58% 25% !important;
+    transform: none !important;
+  }
+
+  .hero-image:after {
+    background: linear-gradient(180deg, rgba(4, 18, 35, .02) 0%, rgba(4, 18, 35, .06) 68%, rgba(4, 18, 35, .28) 100%) !important;
+  }
+
+  .hero-image-note {
+    display: none !important;
+  }
+
+  .hero-copy {
+    order: 1;
+    position: relative !important;
+    z-index: 2 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: -20px 0 0 !important;
+    background: transparent !important;
+  }
+
+  .hero-panel {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 24px 18px calc(92px + env(safe-area-inset-bottom)) !important;
+    border: 0 !important;
+    border-radius: 22px 22px 0 0 !important;
+    background: #071f3a !important;
+    box-shadow: 0 -12px 30px rgba(0, 0, 0, .18) !important;
+    backdrop-filter: none !important;
+  }
+
+  .hero .eyebrow {
+    margin-bottom: 9px !important;
+    font-size: 11px !important;
+    line-height: 1.45 !important;
+    letter-spacing: .04em !important;
+  }
+
+  .hero h1 {
+    max-width: none !important;
+    margin-bottom: 13px !important;
+    font-size: clamp(39px, 11.6vw, 49px) !important;
+    line-height: .93 !important;
+  }
+
+  .hero h2 {
+    margin-bottom: 9px !important;
+    font-size: clamp(18px, 5.1vw, 21px) !important;
+    line-height: 1.4 !important;
+  }
+
+  .hero-panel > p:last-of-type {
+    max-width: 32em !important;
+    margin: 0 !important;
+    color: #d8e2ed !important;
+    font-size: 11.5px !important;
+    line-height: 1.65 !important;
+  }
+
+  .hero-actions {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 9px !important;
+    margin-top: 17px !important;
+  }
+
+  .hero-actions .btn {
+    min-height: 52px !important;
+    border-radius: 12px !important;
+    font-size: 13px !important;
+  }
+
+  .hero-actions .btn.outline-light {
+    background: transparent !important;
+    border-color: rgba(255, 255, 255, .4) !important;
+    backdrop-filter: none !important;
+  }
+
+  /* ---------- ABOUT mobile: image + short message only ---------- */
+  .about-home-v4 {
+    padding-top: 56px !important;
+    padding-bottom: 56px !important;
+  }
+
+  .about-home-grid-v4 {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 22px !important;
+  }
+
+  .about-copy-v4 {
+    max-width: none;
+  }
+
+  .about-iconic-title {
+    max-width: 9em;
+    margin-bottom: 14px !important;
+    font-size: clamp(34px, 10.8vw, 44px) !important;
+    line-height: 1.08 !important;
+  }
+
+  .about-seo-line {
+    display: inline-flex !important;
+    align-self: flex-start;
+    margin-bottom: 14px !important;
+    padding: 7px 11px !important;
+    font-size: 9.5px !important;
+    line-height: 1.4 !important;
+  }
+
+  .about-copy-v4 > p:not(.section-kicker):not(.about-seo-line) {
+    font-size: 12.5px !important;
+    line-height: 1.75 !important;
+  }
+
+  .about-actions {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 9px !important;
+    margin-top: 19px !important;
+  }
+
+  .about-visual-v5 {
+    order: -1;
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) 104px !important;
+    grid-template-rows: 320px !important;
+    gap: 8px !important;
+    min-height: 320px !important;
+  }
+
+  .about-food-main {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    min-height: 320px !important;
+    border-radius: 18px !important;
+  }
+
+  .about-store-mini {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    min-height: 320px !important;
+    border-radius: 18px !important;
+  }
+
+  .about-store-mini img {
+    object-position: 60% center !important;
+  }
+
+  .about-store-mini-badge {
+    left: 7px !important;
+    right: 7px !important;
+    bottom: 7px !important;
+    padding: 8px !important;
+    border-radius: 10px !important;
+  }
+
+  .about-store-mini-badge span {
+    font-size: 18px !important;
+    margin-bottom: 4px !important;
+  }
+
+  .about-store-mini-badge strong {
+    font-size: 7.5px !important;
+    line-height: 1.4 !important;
+  }
+}
+
+@media (max-width: 390px) {
+  .hero-image {
+    height: 40svh !important;
+    min-height: 295px !important;
+  }
+
+  .hero-panel {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-bottom: calc(88px + env(safe-area-inset-bottom)) !important;
+  }
+
+  .hero h1 {
+    font-size: 38px !important;
+  }
+
+  .about-visual-v5 {
+    grid-template-columns: minmax(0, 1fr) 94px !important;
+    grid-template-rows: 292px !important;
+    min-height: 292px !important;
+  }
+
+  .about-food-main,
+  .about-store-mini {
+    min-height: 292px !important;
+  }
+}
