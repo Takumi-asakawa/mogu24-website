@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import "./refinement-v7.css";
 import LangSetter from "@/components/LangSetter";
 import { SITE_URL } from "@/data/seo";
 
