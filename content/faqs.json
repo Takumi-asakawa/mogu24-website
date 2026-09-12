@@ -61,7 +61,7 @@
   },
   {
     "id": "phone",
-    "published": true,
+    "published": false,
     "order": 5,
     "question": {
       "ja": "電話注文はできますか？",
@@ -76,7 +76,7 @@
   },
   {
     "id": "delivery",
-    "published": true,
+    "published": false,
     "order": 6,
     "question": {
       "ja": "配送範囲はどこですか？",
