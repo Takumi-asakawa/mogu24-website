@@ -21,6 +21,7 @@ export default function MobileMenu({ locale, nav }: { locale: Locale; nav: Recor
     ["news", `/${locale}/news`],
     ["faq", `/${locale}/faq`]
   ];
+  const saleLabel = locale === "ja" ? "セール" : locale === "zh" ? "特价" : "Sale";
 
   return (
     <div className="mobile-menu-wrap">
@@ -38,7 +39,7 @@ export default function MobileMenu({ locale, nav }: { locale: Locale; nav: Recor
           <nav className="mobile-menu" aria-label="Mobile navigation">
             <div className="mobile-menu-title"><span>MENU</span><small>MOGU24</small></div>
             {items.map(([key, href]) => (
-              <Link key={key} href={href} onClick={() => setOpen(false)}>{nav[key]}</Link>
+              <Link key={key} href={href} onClick={() => setOpen(false)}>{key === "new" ? saleLabel : nav[key]}</Link>
             ))}
           </nav>
         </>
