@@ -36,11 +36,16 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
     : locale === "zh"
       ? "为您介绍来自世界与日本的严选冷冻食品"
       : "Discover carefully selected frozen foods from Japan and around the world";
+  const productLabels = {
+    ...d.productsPage,
+    newLabel: "SALE",
+    newOnly: locale === "ja" ? "セール商品のみ表示しています" : locale === "zh" ? "当前仅显示特价商品" : "Showing sale items only"
+  };
 
   return (
     <>
       <section className="page-hero"><div className="shell page-hero-inner"><div><h1>{d.productsPage.title}</h1><span>{d.productsPage.subtitle}</span><p>{productLead}</p></div><div className="page-hero-image"><Image src="/images/generated/ramen.webp" alt={heroAlt} fill className="cover" sizes="(max-width:700px) 100vw, 50vw"/></div></div></section>
-      <section className="section shell"><ProductsBrowser products={products} categories={categories} locale={locale} labels={d.productsPage}/></section>
+      <section className="section shell"><ProductsBrowser products={products} categories={categories} locale={locale} labels={productLabels}/></section>
     </>
   );
 }
