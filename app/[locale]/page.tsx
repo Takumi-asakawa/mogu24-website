@@ -37,7 +37,13 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const d = getDictionary(locale);
-  const newProducts = products.filter((product) => product.isNew).slice(0, 3);
+  const saleProducts = products.filter((product) => product.isNew).slice(0, 3);
+  const saleSection = locale === "ja"
+    ? { title: "セール", lead: "お得なセール商品をチェック。", all: "すべてのセール商品を見る" }
+    : locale === "zh"
+      ? { title: "特价", lead: "精选优惠商品，限时查看。", all: "查看全部特价商品" }
+      : { title: "Sale", lead: "Discover selected items on sale.", all: "View All Sale Items" };
+  const saleProductLabels = { ...d.productsPage, newLabel: "SALE" };
 
   const sameAs = [siteSettings.store.instagram, siteSettings.store.line].filter((url) => url && url !== "#");
   const localBusiness = {
@@ -116,15 +122,15 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       </section>
 
       <section id="new" className="section shell home-anchor new-home-section">
-        <SectionHeading title={d.sections.new} sub="NEW ARRIVALS" />
-        <p className="section-intro">{d.sections.newLead}</p>
+        <SectionHeading title={saleSection.title} sub="SALE" />
+        <p className="section-intro">{saleSection.lead}</p>
         <div className="product-grid home-product-grid">
-          {newProducts.map((p) => {
+          {saleProducts.map((p) => {
             const cat = categories.find((item) => item.key === p.category);
-            return <ProductCard key={p.id} product={p} locale={locale} category={cat ? localize(cat.name, locale) : p.category} labels={d.productsPage} />;
+            return <ProductCard key={p.id} product={p} locale={locale} category={cat ? localize(cat.name, locale) : p.category} labels={saleProductLabels} />;
           })}
         </div>
-        <div className="center"><Link className="btn navy" href={`/${locale}/products#new`}>{d.sections.allNew}<ArrowRight size={18}/></Link></div>
+        <div className="center"><Link className="btn navy" href={`/${locale}/products#new`}>{saleSection.all}<ArrowRight size={18}/></Link></div>
       </section>
 
       <section className="weekly shell">
