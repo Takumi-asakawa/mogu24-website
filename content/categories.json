@@ -1,51 +1,51 @@
 [
   {
-    "key": "noodles",
-    "image": "/images/generated/ramen.webp",
+    "key": "rice",
+    "image": "/media/categories/cat-bento.webp",
     "published": true,
     "order": 1,
     "name": {
-      "ja": "麺類",
-      "zh": "面类",
-      "en": "Noodles"
+      "ja": "お弁当",
+      "zh": "便当",
+      "en": "Bento"
     },
-    "subtitle": "NOODLES"
+    "subtitle": "BENTO"
   },
   {
-    "key": "dimsum",
-    "image": "/images/generated/gyoza.webp",
+    "key": "noodles",
+    "image": "/media/categories/cat-pizza.webp",
     "published": true,
     "order": 2,
     "name": {
-      "ja": "点心・餃子",
-      "zh": "点心 / 饺子",
-      "en": "Dim Sum & Gyoza"
+      "ja": "ピザ",
+      "zh": "披萨",
+      "en": "Pizza"
     },
-    "subtitle": "DIM SUM"
+    "subtitle": "PIZZA"
   },
   {
-    "key": "meat",
-    "image": "/images/generated/hamburg.webp",
+    "key": "dimsum",
+    "image": "/media/categories/cat-tianjin.webp",
     "published": true,
     "order": 3,
     "name": {
-      "ja": "お肉・惣菜",
-      "zh": "肉类 / 熟食",
-      "en": "Meat & Deli"
+      "ja": "天津",
+      "zh": "天津",
+      "en": "Tianjin"
     },
-    "subtitle": "MEAT & DELI"
+    "subtitle": "TIANJIN"
   },
   {
-    "key": "rice",
-    "image": "/images/generated/bibimbap.webp",
+    "key": "meat",
+    "image": "/images/generated/cat-meat-hq.webp",
     "published": true,
     "order": 4,
     "name": {
-      "ja": "ご飯もの",
-      "zh": "米饭类",
-      "en": "Rice Meals"
+      "ja": "おつまみ",
+      "zh": "下酒菜",
+      "en": "Snacks"
     },
-    "subtitle": "RICE MEALS"
+    "subtitle": "SNACKS"
   },
   {
     "key": "desserts",
@@ -55,20 +55,8 @@
     "name": {
       "ja": "スイーツ",
       "zh": "甜点",
-      "en": "Desserts"
+      "en": "Sweets"
     },
-    "subtitle": "DESSERTS"
-  },
-  {
-    "key": "drinks",
-    "image": "/images/generated/cat-drinks-hq.webp",
-    "published": true,
-    "order": 6,
-    "name": {
-      "ja": "ドリンク",
-      "zh": "饮料",
-      "en": "Drinks"
-    },
-    "subtitle": "DRINKS"
+    "subtitle": "SWEETS"
   }
 ]

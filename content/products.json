@@ -1,210 +1,30 @@
 [
   {
-    "id": "pasta",
-    "image": "/images/generated/pasta.webp",
-    "category": "noodles",
-    "price": 680,
-    "isNew": true,
-    "recommended": true,
-    "published": true,
-    "order": 1,
-    "name": {
-      "ja": "海老の濃厚トマトクリームパスタ",
-      "zh": "鲜虾浓厚番茄奶油意面",
-      "en": "Shrimp Tomato Cream Pasta"
-    }
-  },
-  {
-    "id": "hamburg",
-    "image": "/images/generated/hamburg.webp",
-    "category": "meat",
-    "price": 780,
-    "isNew": true,
-    "recommended": true,
-    "published": true,
-    "order": 2,
-    "name": {
-      "ja": "デミグラスハンバーグ",
-      "zh": "多蜜酱汉堡排",
-      "en": "Demi-Glace Hamburg Steak"
-    }
-  },
-  {
-    "id": "bibimbap",
-    "image": "/images/generated/bibimbap.webp",
-    "category": "rice",
-    "price": 650,
-    "isNew": true,
-    "recommended": false,
-    "published": true,
-    "order": 3,
-    "name": {
-      "ja": "石焼風ビビンバ",
-      "zh": "石锅风拌饭",
-      "en": "Stone-Bowl Style Bibimbap"
-    }
-  },
-  {
-    "id": "cheesecake",
-    "image": "/images/generated/prod-cheesecake-hq.webp",
-    "category": "desserts",
-    "price": 480,
-    "isNew": true,
-    "recommended": false,
-    "published": true,
-    "order": 4,
-    "name": {
-      "ja": "濃厚チーズケーキ",
-      "zh": "浓厚芝士蛋糕",
-      "en": "Rich Cheesecake"
-    }
-  },
-  {
-    "id": "daifuku",
-    "image": "/images/generated/prod-daifuku-hq.webp",
-    "category": "desserts",
-    "price": 380,
-    "isNew": true,
-    "recommended": true,
-    "published": true,
-    "order": 5,
-    "name": {
-      "ja": "抹茶クリーム大福",
-      "zh": "抹茶奶油大福",
-      "en": "Matcha Cream Daifuku"
-    }
-  },
-  {
-    "id": "ramen",
-    "image": "/images/generated/ramen.webp",
-    "category": "noodles",
-    "price": 680,
-    "isNew": false,
-    "recommended": true,
-    "published": true,
-    "order": 6,
-    "name": {
-      "ja": "札幌味噌ラーメン",
-      "zh": "札幌味噌拉面",
-      "en": "Sapporo Miso Ramen"
-    }
-  },
-  {
-    "id": "gyoza",
-    "image": "/images/generated/gyoza.webp",
-    "category": "dimsum",
-    "price": 580,
-    "isNew": false,
-    "recommended": true,
-    "published": true,
-    "order": 7,
-    "name": {
-      "ja": "黒豚の肉汁餃子",
-      "zh": "黑猪肉汁饺子",
-      "en": "Kurobuta Juicy Gyoza"
-    }
-  },
-  {
-    "id": "shumai",
-    "image": "/images/generated/cat-dimsum-hq.webp",
-    "category": "dimsum",
-    "price": 620,
-    "isNew": true,
-    "recommended": false,
-    "published": true,
-    "order": 8,
-    "name": {
-      "ja": "特製焼売",
-      "zh": "特制烧卖",
-      "en": "Special Shumai"
-    }
-  },
-  {
-    "id": "karaage",
-    "image": "/images/generated/cat-meat-hq.webp",
-    "category": "meat",
-    "price": 680,
-    "isNew": false,
-    "recommended": false,
-    "published": true,
-    "order": 9,
-    "name": {
-      "ja": "若鶏の唐揚げ",
-      "zh": "日式炸鸡",
-      "en": "Japanese Fried Chicken"
-    }
-  },
-  {
-    "id": "friedrice",
-    "image": "/images/generated/cat-rice-hq.webp",
-    "category": "rice",
-    "price": 480,
-    "isNew": false,
-    "recommended": false,
-    "published": true,
-    "order": 10,
-    "name": {
-      "ja": "五目炒飯",
-      "zh": "什锦炒饭",
-      "en": "Mixed Fried Rice"
-    }
-  },
-  {
-    "id": "cake",
-    "image": "/images/generated/cat-desserts-hq.webp",
-    "category": "desserts",
-    "price": 580,
-    "isNew": false,
-    "recommended": true,
-    "published": true,
-    "order": 11,
-    "name": {
-      "ja": "いちごのショートケーキ",
-      "zh": "草莓奶油蛋糕",
-      "en": "Strawberry Shortcake"
-    }
-  },
-  {
-    "id": "coffee",
-    "image": "/images/generated/cat-drinks-hq.webp",
-    "category": "drinks",
-    "price": 320,
-    "isNew": false,
-    "recommended": false,
-    "published": true,
-    "order": 12,
-    "name": {
-      "ja": "アイスコーヒー",
-      "zh": "冰咖啡",
-      "en": "Iced Coffee"
-    }
-  },
-  {
     "id": "tori-meshi",
     "image": "/media/tori-meshi-detail.webp",
     "detailImage": "/media/tori-meshi-detail.webp",
     "category": "rice",
     "price": 900,
-    "isNew": false,
+    "isNew": true,
     "recommended": true,
     "published": true,
-    "order": 13,
+    "order": 1,
     "name": {
       "ja": "鶏めし",
       "zh": "鸡肉饭",
       "en": "Tori-meshi Chicken Rice"
     },
     "description": {
-      "ja": "最新の「プロトン凍結機」を導入し、急速冷凍で美味しさそのまま。花善の味をお楽しみいただけます。第1回「日本全国！ご当地冷凍食品大賞2024-2025」優秀賞受賞。",
-      "zh": "采用最新的“Proton冷冻机”，通过急速冷冻锁住美味，让您在家也能品尝花善的经典风味。荣获首届“日本全国！地方冷冻食品大奖2024-2025”优秀奖。",
-      "en": "Rapidly frozen with the latest Proton freezing technology to preserve Hanazen's signature flavor. Winner of an Excellence Award at the inaugural Japan Local Frozen Food Awards 2024-2025."
+      "ja": "最新の「プロトン凍結機」を導入し、急速冷凍で美味しさそのまま。花善の味をお楽しみいただけます。",
+      "zh": "采用最新的“Proton冷冻机”，通过急速冷冻锁住美味，让您尽享花善的经典风味。",
+      "en": "Rapidly frozen with the latest Proton freezing technology to preserve its flavor, bringing Hanazen's signature taste to your table."
     },
     "award": {
       "enabled": true,
       "title": {
-        "ja": "第1回「日本全国！ご当地冷凍食品大賞2024-2025」優秀賞",
-        "zh": "首届“日本全国！地方冷冻食品大奖2024-2025”优秀奖",
-        "en": "Excellence Award — Japan Local Frozen Food Awards 2024-2025"
+        "ja": "第1回「日本全国！ご当地冷凍食品大賞2024-2025」優秀賞受賞",
+        "zh": "荣获首届“日本全国！地方冷冻食品大奖2024-2025”优秀奖",
+        "en": "Excellence Award — 1st Japan Local Frozen Food Awards 2024-2025"
       }
     },
     "highlights": [
@@ -221,5 +41,72 @@
         "text": { "ja": "手軽に本格の味", "zh": "轻松享受正宗风味", "en": "Authentic flavor with ease" }
       }
     ]
+  },
+  {
+    "id": "akita-to-tori-meshi",
+    "image": "/media/categories/cat-bento.webp",
+    "detailImage": "/media/categories/cat-bento.webp",
+    "category": "rice",
+    "price": 1300,
+    "isNew": true,
+    "recommended": true,
+    "published": true,
+    "order": 2,
+    "name": {
+      "ja": "あきたと鶏めし",
+      "zh": "秋田风味鸡肉饭",
+      "en": "Akita & Tori-meshi"
+    },
+    "description": {
+      "ja": "「鶏めし」を基に、秋田の郷土の味を盛り込み、秋田らしさ満載の一品に仕上げました。",
+      "zh": "以经典“鸡肉饭”为基础，融入多种秋田乡土风味，打造出一份充满秋田特色的料理。",
+      "en": "Built on classic Tori-meshi and filled with traditional Akita flavors, this dish brings the character of Akita together in one satisfying meal."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "第2回「日本全国！ご当地冷凍食品大賞2025-2026」グランプリ受賞",
+        "zh": "荣获第2届“日本全国！地方冷冻食品大奖2025-2026”最高奖",
+        "en": "Grand Prix — 2nd Japan Local Frozen Food Awards 2025-2026"
+      }
+    },
+    "highlights": [
+      {
+        "title": { "ja": "グランプリ受賞", "zh": "大奖获奖", "en": "Grand Prix Winner" },
+        "text": { "ja": "ご当地冷凍食品大賞", "zh": "地方冷冻食品大奖", "en": "Japan Local Frozen Food Awards" }
+      },
+      {
+        "title": { "ja": "秋田の味", "zh": "秋田风味", "en": "Taste of Akita" },
+        "text": { "ja": "郷土の味をひとつに", "zh": "汇集秋田乡土风味", "en": "Local flavors in one meal" }
+      },
+      {
+        "title": { "ja": "手軽に楽しめる", "zh": "轻松享用", "en": "Easy to Enjoy" },
+        "text": { "ja": "ご自宅で本格の味", "zh": "在家享受正宗风味", "en": "Authentic taste at home" }
+      }
+    ]
+  },
+  {
+    "id": "kanaya-kani-meshi",
+    "image": "/images/generated/cat-rice-hq.webp",
+    "detailImage": "/images/generated/cat-rice-hq.webp",
+    "category": "rice",
+    "price": 1480,
+    "isNew": true,
+    "recommended": true,
+    "published": true,
+    "order": 3,
+    "name": {
+      "ja": "かなやのかにめし",
+      "zh": "Kanaya蟹肉饭",
+      "en": "Kanaya Kani-meshi"
+    },
+    "description": {
+      "ja": "昭和25年より愛され続ける、北海道・長万部名物「かなやのかにめし」。急速冷凍・真空パックで、美味しさそのままにお楽しみいただけます。",
+      "zh": "自昭和25年起深受喜爱的北海道长万部名物“Kanaya蟹肉饭”。通过急速冷冻与真空包装，将经典美味完整保留。",
+      "en": "A beloved specialty of Oshamambe, Hokkaido since 1950. Kanaya's Kani-meshi is rapidly frozen and vacuum-packed to preserve its signature flavor."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
