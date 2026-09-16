@@ -149,22 +149,6 @@ content:
           - name: title
             label: 受賞名（3言語）
             component: localized_optional_text
-      - name: highlights
-        label: 受賞商品の特徴（最大3項目・アイコンなし）
-        type: object
-        list:
-          min: 0
-          max: 3
-          collapsible:
-            collapsed: false
-            summary: "{title.ja}"
-        fields:
-          - name: title
-            label: 見出し（3言語）
-            component: localized_optional_text
-          - name: text
-            label: 補足（3言語）
-            component: localized_optional_text
 
   - name: categories
     label: カテゴリー管理
