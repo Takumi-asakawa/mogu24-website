@@ -8,24 +8,13 @@
     "recommended": true,
     "published": true,
     "order": 1,
-    "name": {
-      "ja": "鶏めし",
-      "zh": "鸡肉饭",
-      "en": "Tori-meshi Chicken Rice"
-    },
+    "name": { "ja": "鶏めし", "zh": "鸡肉饭", "en": "Tori-meshi Chicken Rice" },
     "description": {
       "ja": "最新の「プロトン凍結機」を導入し、急速冷凍で美味しさそのまま。花善の味をお楽しみいただけます。",
       "zh": "采用最新的“Proton冷冻机”，通过急速冷冻锁住美味，让您尽享花善的经典风味。",
       "en": "Rapidly frozen with the latest Proton freezing technology to preserve its flavor, bringing Hanazen's signature taste to your table."
     },
-    "award": {
-      "enabled": true,
-      "title": {
-        "ja": "第1回「日本全国！ご当地冷凍食品大賞2024-2025」優秀賞受賞",
-        "zh": "荣获首届“日本全国！地方冷冻食品大奖2024-2025”优秀奖",
-        "en": "Excellence Award — 1st Japan Local Frozen Food Awards 2024-2025"
-      }
-    }
+    "award": { "enabled": true, "title": { "ja": "第1回「日本全国！ご当地冷凍食品大賞2024-2025」優秀賞受賞", "zh": "荣获首届“日本全国！地方冷冻食品大奖2024-2025”优秀奖", "en": "Excellence Award — 1st Japan Local Frozen Food Awards 2024-2025" } }
   },
   {
     "id": "akita-to-tori-meshi",
@@ -36,24 +25,13 @@
     "recommended": true,
     "published": true,
     "order": 2,
-    "name": {
-      "ja": "あきたと鶏めし",
-      "zh": "秋田风味鸡肉饭",
-      "en": "Akita & Tori-meshi"
-    },
+    "name": { "ja": "あきたと鶏めし", "zh": "秋田风味鸡肉饭", "en": "Akita & Tori-meshi" },
     "description": {
       "ja": "「鶏めし」を基に、秋田の郷土の味を盛り込み、秋田らしさ満載の一品に仕上げました。",
       "zh": "以经典“鸡肉饭”为基础，融入多种秋田乡土风味，打造出一份充满秋田特色的料理。",
       "en": "Built on classic Tori-meshi and filled with traditional Akita flavors, this dish brings the character of Akita together in one satisfying meal."
     },
-    "award": {
-      "enabled": true,
-      "title": {
-        "ja": "第2回「日本全国！ご当地冷凍食品大賞2025-2026」グランプリ受賞",
-        "zh": "荣获第2届“日本全国！地方冷冻食品大奖2025-2026”最高奖",
-        "en": "Grand Prix — 2nd Japan Local Frozen Food Awards 2025-2026"
-      }
-    }
+    "award": { "enabled": true, "title": { "ja": "第2回「日本全国！ご当地冷凍食品大賞2025-2026」グランプリ受賞", "zh": "荣获第2届“日本全国！地方冷冻食品大奖2025-2026”最高奖", "en": "Grand Prix — 2nd Japan Local Frozen Food Awards 2025-2026" } }
   },
   {
     "id": "kanaya-kani-meshi",
@@ -64,18 +42,97 @@
     "recommended": true,
     "published": true,
     "order": 3,
-    "name": {
-      "ja": "かなやのかにめし",
-      "zh": "Kanaya蟹肉饭",
-      "en": "Kanaya Kani-meshi"
-    },
+    "name": { "ja": "かなやのかにめし", "zh": "Kanaya蟹肉饭", "en": "Kanaya Kani-meshi" },
     "description": {
       "ja": "昭和25年より愛され続ける、北海道・長万部名物「かなやのかにめし」。急速冷凍・真空パックで、美味しさそのままにお楽しみいただけます。",
       "zh": "自昭和25年起深受喜爱的北海道长万部名物“Kanaya蟹肉饭”。通过急速冷冻与真空包装，将经典美味完整保留。",
       "en": "A beloved specialty of Oshamambe, Hokkaido since 1950. Kanaya's Kani-meshi is rapidly frozen and vacuum-packed to preserve its signature flavor."
     },
-    "award": {
-      "enabled": false
-    }
+    "award": { "enabled": false }
+  },
+  {
+    "id": "dubai-mochi-cookie-choco",
+    "image": "/media/products/dubai-mochi-cookie-choco.svg",
+    "category": "desserts",
+    "price": 0,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 4,
+    "name": { "ja": "ドバイもちクッキー チョコ", "zh": "迪拜麻薯曲奇 巧克力", "en": "Dubai Mochi Cookie Chocolate" },
+    "description": {
+      "ja": "もちっとした新食感と、濃厚なチョコの味わいを楽しめるドバイもちクッキーです。",
+      "zh": "口感软糯新颖，搭配浓郁巧克力风味的迪拜麻薯曲奇。",
+      "en": "A Dubai-style mochi cookie with a satisfyingly chewy texture and rich chocolate flavor."
+    },
+    "award": { "enabled": false }
+  },
+  {
+    "id": "dubai-mochi-cookie-matcha",
+    "image": "/media/products/dubai-mochi-cookie-matcha.svg",
+    "category": "desserts",
+    "price": 0,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 5,
+    "name": { "ja": "ドバイもちクッキー 抹茶", "zh": "迪拜麻薯曲奇 抹茶", "en": "Dubai Mochi Cookie Matcha" },
+    "description": {
+      "ja": "もちっとした新食感と、抹茶の香りを楽しめるドバイもちクッキーです。",
+      "zh": "口感软糯新颖，带有清雅抹茶香气的迪拜麻薯曲奇。",
+      "en": "A chewy Dubai-style mochi cookie with the aromatic flavor of matcha."
+    },
+    "award": { "enabled": false }
+  },
+  {
+    "id": "butter-mochi",
+    "image": "/media/products/butter-mochi.svg",
+    "category": "desserts",
+    "price": 0,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 6,
+    "name": { "ja": "バター餅 プレーン／チョコ", "zh": "黄油麻薯 原味／巧克力", "en": "Butter Mochi Plain / Chocolate" },
+    "description": {
+      "ja": "外は香ばしく、中はもっちり。バターの香りを楽しめるプレーンとチョコのバター餅です。",
+      "zh": "外层香酥、内里软糯，带有浓郁黄油香气的原味与巧克力黄油麻薯。",
+      "en": "Fragrant on the outside and chewy within, available in plain and chocolate with a buttery aroma."
+    },
+    "award": { "enabled": false }
+  },
+  {
+    "id": "chicken-skin-tare",
+    "image": "/media/products/chicken-skin-tare.svg",
+    "category": "meat",
+    "price": 0,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 7,
+    "name": { "ja": "鶏皮 秘伝のタレ味", "zh": "鸡皮 秘制酱汁味", "en": "Chicken Skin – Signature Tare Sauce" },
+    "description": {
+      "ja": "カリッとした食感と、やみつきになる秘伝のタレ味。お酒のおつまみにもぴったりの一品です。",
+      "zh": "酥脆口感搭配令人上瘾的秘制酱汁风味，也很适合作为下酒小食。",
+      "en": "Crispy chicken skin coated in a savory signature tare sauce—an easy snack to enjoy with a drink."
+    },
+    "award": { "enabled": false }
+  },
+  {
+    "id": "red-chicago-pizza",
+    "image": "/media/products/red-chicago-pizza.svg",
+    "category": "noodles",
+    "price": 0,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 8,
+    "name": { "ja": "赤のシカゴピザ トマトソース", "zh": "红色芝加哥披萨 番茄酱", "en": "Red Chicago Pizza – Tomato Sauce" },
+    "description": {
+      "ja": "とろけるチーズと濃厚トマト。深いコクのトマトソースと、たっぷりのチーズが織りなす贅沢な味わいです。",
+      "zh": "融化芝士与浓郁番茄酱交织，带来丰厚而满足的芝加哥披萨风味。",
+      "en": "A rich Chicago-style pizza layered with melting cheese and deeply flavored tomato sauce."
+    },
+    "award": { "enabled": false }
   }
 ]
