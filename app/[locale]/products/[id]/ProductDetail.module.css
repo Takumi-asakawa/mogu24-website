@@ -30,6 +30,20 @@
   object-fit: cover;
 }
 
+/* Desktop: show the complete product artwork without cropping. */
+@media (min-width: 901px) {
+  .imagePanel {
+    min-height: 0;
+    aspect-ratio: 4 / 3;
+    align-self: start;
+  }
+
+  .productImage {
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
 .infoPanel {
   display: flex;
   flex-direction: column;
