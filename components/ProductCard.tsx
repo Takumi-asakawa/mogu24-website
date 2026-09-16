@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Locale, Product } from "@/data/site";
 import { localize } from "@/data/site";
 
@@ -7,7 +8,7 @@ export default function ProductCard({ product, locale, category, labels }: { pro
   const taxText = locale === "ja" ? `（${labels.tax}）` : `(${labels.tax})`;
 
   return (
-    <article className="product-card">
+    <Link className="product-card" href={`/${locale}/products/${product.id}`} aria-label={`${name} - ${product.price.toLocaleString()}円`}>
       <div className="product-image-wrap">
         <Image src={product.image} alt={name} fill sizes="(max-width: 700px) 78vw, (max-width: 1050px) 33vw, 260px" className="cover" />
         <div className="badges">
@@ -20,6 +21,6 @@ export default function ProductCard({ product, locale, category, labels }: { pro
         <h3>{name}</h3>
         <strong>¥{product.price.toLocaleString()} <em>{taxText}</em></strong>
       </div>
-    </article>
+    </Link>
   );
 }

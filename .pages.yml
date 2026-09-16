@@ -47,6 +47,30 @@ components:
         label: English
         type: text
         required: true
+  localized_optional_text:
+    type: object
+    fields:
+      - name: ja
+        label: 日本語
+        type: string
+      - name: zh
+        label: 中文（简体）
+        type: string
+      - name: en
+        label: English
+        type: string
+  localized_optional_long_text:
+    type: object
+    fields:
+      - name: ja
+        label: 日本語
+        type: text
+      - name: zh
+        label: 中文（简体）
+        type: text
+      - name: en
+        label: English
+        type: text
 
 content:
   - name: products
@@ -62,9 +86,16 @@ content:
         required: true
         pattern: "^[a-z0-9-]+$"
       - name: image
-        label: 商品画像
+        label: 商品一覧画像
         type: image
         required: true
+        options:
+          media: images
+          path: products
+          rename: safe
+      - name: detailImage
+        label: 商品詳細画像（未設定の場合は一覧画像を使用）
+        type: image
         options:
           media: images
           path: products
@@ -92,7 +123,7 @@ content:
         type: number
         required: true
       - name: isNew
-        label: NEW表示
+        label: SALE表示
         type: boolean
       - name: recommended
         label: おすすめ表示
@@ -107,6 +138,35 @@ content:
       - name: name
         label: 商品名（3言語）
         component: localized_text
+      - name: description
+        label: 商品紹介文（3言語・任意）
+        component: localized_optional_long_text
+      - name: award
+        label: 受賞歴（受賞商品のみ設定）
+        type: object
+        fields:
+          - name: enabled
+            label: 受賞歴を表示
+            type: boolean
+          - name: title
+            label: 受賞名（3言語）
+            component: localized_optional_text
+      - name: highlights
+        label: 受賞商品の特徴（最大3項目・アイコンなし）
+        type: object
+        list:
+          min: 0
+          max: 3
+          collapsible:
+            collapsed: false
+            summary: "{title.ja}"
+        fields:
+          - name: title
+            label: 見出し（3言語）
+            component: localized_optional_text
+          - name: text
+            label: 補足（3言語）
+            component: localized_optional_text
 
   - name: categories
     label: カテゴリー管理

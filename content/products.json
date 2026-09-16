@@ -178,5 +178,48 @@
       "zh": "冰咖啡",
       "en": "Iced Coffee"
     }
+  },
+  {
+    "id": "tori-meshi",
+    "image": "/media/tori-meshi-detail.webp",
+    "detailImage": "/media/tori-meshi-detail.webp",
+    "category": "rice",
+    "price": 900,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 13,
+    "name": {
+      "ja": "鶏めし",
+      "zh": "鸡肉饭",
+      "en": "Tori-meshi Chicken Rice"
+    },
+    "description": {
+      "ja": "最新の「プロトン凍結機」を導入し、急速冷凍で美味しさそのまま。花善の味をお楽しみいただけます。第1回「日本全国！ご当地冷凍食品大賞2024-2025」優秀賞受賞。",
+      "zh": "采用最新的“Proton冷冻机”，通过急速冷冻锁住美味，让您在家也能品尝花善的经典风味。荣获首届“日本全国！地方冷冻食品大奖2024-2025”优秀奖。",
+      "en": "Rapidly frozen with the latest Proton freezing technology to preserve Hanazen's signature flavor. Winner of an Excellence Award at the inaugural Japan Local Frozen Food Awards 2024-2025."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "第1回「日本全国！ご当地冷凍食品大賞2024-2025」優秀賞",
+        "zh": "首届“日本全国！地方冷冻食品大奖2024-2025”优秀奖",
+        "en": "Excellence Award — Japan Local Frozen Food Awards 2024-2025"
+      }
+    },
+    "highlights": [
+      {
+        "title": { "ja": "急速冷凍", "zh": "急速冷冻", "en": "Rapid Freezing" },
+        "text": { "ja": "美味しさそのまま", "zh": "锁住原有美味", "en": "Flavor preserved" }
+      },
+      {
+        "title": { "ja": "花善の味", "zh": "花善风味", "en": "Hanazen Flavor" },
+        "text": { "ja": "秋田の名店の味", "zh": "秋田名店的经典味道", "en": "A celebrated taste of Akita" }
+      },
+      {
+        "title": { "ja": "レンジで簡単", "zh": "微波炉轻松加热", "en": "Easy to Heat" },
+        "text": { "ja": "手軽に本格の味", "zh": "轻松享受正宗风味", "en": "Authentic flavor with ease" }
+      }
+    ]
   }
 ]
