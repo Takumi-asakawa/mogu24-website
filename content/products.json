@@ -1,7 +1,7 @@
 [
   {
     "id": "tori-meshi",
-    "image": "/media/chatgpt-image-2026916-190628-1.png",
+    "image": "/media/chatgpt-image-2026916-201223-2.png",
     "category": "rice",
     "price": 900,
     "isNew": true,
@@ -29,8 +29,7 @@
   },
   {
     "id": "akita-to-tori-meshi",
-    "image": "/media/categories/cat-bento.webp",
-    "detailImage": "/media/categories/cat-bento.webp",
+    "image": "/media/chatgpt-image-2026916-201222-1.png",
     "category": "rice",
     "price": 1300,
     "isNew": true,
@@ -58,8 +57,7 @@
   },
   {
     "id": "kanaya-kani-meshi",
-    "image": "/images/generated/cat-rice-hq.webp",
-    "detailImage": "/images/generated/cat-rice-hq.webp",
+    "image": "/media/chatgpt-image-2026916-185641-6.png",
     "category": "rice",
     "price": 1480,
     "isNew": true,
