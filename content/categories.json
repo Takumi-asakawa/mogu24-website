@@ -1,62 +1,62 @@
 [
   {
     "key": "rice",
-    "image": "/media/categories/cat-bento.webp",
-    "published": true,
-    "order": 1,
+    "image": "/media/chatgpt-image-2026916-201401-4.png",
     "name": {
       "ja": "お弁当",
       "zh": "便当",
       "en": "Bento"
     },
-    "subtitle": "BENTO"
+    "subtitle": "BENTO",
+    "published": true,
+    "order": 1
   },
   {
     "key": "noodles",
-    "image": "/media/categories/cat-pizza.webp",
-    "published": true,
-    "order": 2,
+    "image": "/media/chatgpt-image-2026916-201401-1.png",
     "name": {
       "ja": "ピザ",
       "zh": "披萨",
       "en": "Pizza"
     },
-    "subtitle": "PIZZA"
+    "subtitle": "PIZZA",
+    "published": true,
+    "order": 2
   },
   {
     "key": "dimsum",
     "image": "/media/categories/cat-tianjin.webp",
-    "published": true,
-    "order": 3,
     "name": {
       "ja": "天津",
       "zh": "天津",
       "en": "Tianjin"
     },
-    "subtitle": "TIANJIN"
+    "subtitle": "TIANJIN",
+    "published": true,
+    "order": 3
   },
   {
     "key": "meat",
-    "image": "/images/generated/cat-meat-hq.webp",
-    "published": true,
-    "order": 4,
+    "image": "/media/chatgpt-image-2026916-201401-2.png",
     "name": {
       "ja": "おつまみ",
       "zh": "下酒菜",
       "en": "Snacks"
     },
-    "subtitle": "SNACKS"
+    "subtitle": "SNACKS",
+    "published": true,
+    "order": 4
   },
   {
     "key": "desserts",
-    "image": "/images/generated/cat-desserts-hq.webp",
-    "published": true,
-    "order": 5,
+    "image": "/media/chatgpt-image-2026916-201401-2-1.png",
     "name": {
       "ja": "スイーツ",
       "zh": "甜点",
       "en": "Sweets"
     },
-    "subtitle": "SWEETS"
+    "subtitle": "SWEETS",
+    "published": true,
+    "order": 5
   }
 ]
