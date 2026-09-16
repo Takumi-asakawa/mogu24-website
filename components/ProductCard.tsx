@@ -13,7 +13,14 @@ export default function ProductCard({ product, locale, category, labels }: { pro
   return (
     <Link className="product-card" href={`/${locale}/products/${product.id}`} aria-label={`${name} - ${ariaPrice}`}>
       <div className="product-image-wrap">
-        <Image src={product.image} alt={name} fill sizes="(max-width: 700px) 78vw, (max-width: 1050px) 33vw, 260px" className="cover" />
+        <Image
+          src={product.image}
+          alt={name}
+          width={1536}
+          height={1024}
+          sizes="(max-width: 700px) 50vw, (max-width: 1050px) 33vw, 260px"
+          className="product-card-image"
+        />
         <div className="badges">
           {product.isNew && <span>{labels.newLabel}</span>}
           {product.recommended && <span>{labels.recommendedLabel}</span>}
