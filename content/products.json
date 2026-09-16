@@ -1,8 +1,7 @@
 [
   {
     "id": "tori-meshi",
-    "image": "/media/tori-meshi-detail.webp",
-    "detailImage": "/media/tori-meshi-detail.webp",
+    "image": "/media/chatgpt-image-2026916-190628-1.png",
     "category": "rice",
     "price": 900,
     "isNew": true,
@@ -29,16 +28,40 @@
     },
     "highlights": [
       {
-        "title": { "ja": "急速冷凍", "zh": "急速冷冻", "en": "Rapid Freezing" },
-        "text": { "ja": "美味しさそのまま", "zh": "锁住原有美味", "en": "Flavor preserved" }
+        "title": {
+          "ja": "急速冷凍",
+          "zh": "急速冷冻",
+          "en": "Rapid Freezing"
+        },
+        "text": {
+          "ja": "美味しさそのまま",
+          "zh": "锁住原有美味",
+          "en": "Flavor preserved"
+        }
       },
       {
-        "title": { "ja": "花善の味", "zh": "花善风味", "en": "Hanazen Flavor" },
-        "text": { "ja": "秋田の名店の味", "zh": "秋田名店的经典味道", "en": "A celebrated taste of Akita" }
+        "title": {
+          "ja": "花善の味",
+          "zh": "花善风味",
+          "en": "Hanazen Flavor"
+        },
+        "text": {
+          "ja": "秋田の名店の味",
+          "zh": "秋田名店的经典味道",
+          "en": "A celebrated taste of Akita"
+        }
       },
       {
-        "title": { "ja": "レンジで簡単", "zh": "微波炉轻松加热", "en": "Easy to Heat" },
-        "text": { "ja": "手軽に本格の味", "zh": "轻松享受正宗风味", "en": "Authentic flavor with ease" }
+        "title": {
+          "ja": "レンジで簡単",
+          "zh": "微波炉轻松加热",
+          "en": "Easy to Heat"
+        },
+        "text": {
+          "ja": "手軽に本格の味",
+          "zh": "轻松享受正宗风味",
+          "en": "Authentic flavor with ease"
+        }
       }
     ]
   },
@@ -72,16 +95,40 @@
     },
     "highlights": [
       {
-        "title": { "ja": "グランプリ受賞", "zh": "大奖获奖", "en": "Grand Prix Winner" },
-        "text": { "ja": "ご当地冷凍食品大賞", "zh": "地方冷冻食品大奖", "en": "Japan Local Frozen Food Awards" }
+        "title": {
+          "ja": "グランプリ受賞",
+          "zh": "大奖获奖",
+          "en": "Grand Prix Winner"
+        },
+        "text": {
+          "ja": "ご当地冷凍食品大賞",
+          "zh": "地方冷冻食品大奖",
+          "en": "Japan Local Frozen Food Awards"
+        }
       },
       {
-        "title": { "ja": "秋田の味", "zh": "秋田风味", "en": "Taste of Akita" },
-        "text": { "ja": "郷土の味をひとつに", "zh": "汇集秋田乡土风味", "en": "Local flavors in one meal" }
+        "title": {
+          "ja": "秋田の味",
+          "zh": "秋田风味",
+          "en": "Taste of Akita"
+        },
+        "text": {
+          "ja": "郷土の味をひとつに",
+          "zh": "汇集秋田乡土风味",
+          "en": "Local flavors in one meal"
+        }
       },
       {
-        "title": { "ja": "手軽に楽しめる", "zh": "轻松享用", "en": "Easy to Enjoy" },
-        "text": { "ja": "ご自宅で本格の味", "zh": "在家享受正宗风味", "en": "Authentic taste at home" }
+        "title": {
+          "ja": "手軽に楽しめる",
+          "zh": "轻松享用",
+          "en": "Easy to Enjoy"
+        },
+        "text": {
+          "ja": "ご自宅で本格の味",
+          "zh": "在家享受正宗风味",
+          "en": "Authentic taste at home"
+        }
       }
     ]
   },
