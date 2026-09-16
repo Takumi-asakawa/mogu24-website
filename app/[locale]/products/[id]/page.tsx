@@ -98,10 +98,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             <Image
               src={image}
               alt={name}
-              fill
+              width={1536}
+              height={1024}
               priority
-              className={styles.productImage}
               sizes="(max-width: 760px) 100vw, 55vw"
+              style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center", display: "block" }}
             />
           </div>
 
