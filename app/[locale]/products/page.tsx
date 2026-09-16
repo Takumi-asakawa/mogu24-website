@@ -5,7 +5,7 @@ import ProductsBrowser from "@/components/ProductsBrowser";
 import { categories, getDictionary, isLocale, products } from "@/data/site";
 import { absoluteUrl, languageAlternates, seoCopy } from "@/data/seo";
 
-const productsHeroImage = "/media/chatgpt-image-2026916-201223-2.png";
+const productsHeroImage = "/media/products/products-hero-selection.svg";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -32,7 +32,11 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const d = getDictionary(locale);
-  const heroAlt = locale === "ja" ? "MOGU24で販売する秋田・花善の鶏めし" : locale === "zh" ? "MOGU24销售的秋田花善鸡肉饭" : "Akita Hanazen Tori-meshi available at MOGU24";
+  const heroAlt = locale === "ja"
+    ? "MOGU24で販売する厳選冷凍食品のラインアップ"
+    : locale === "zh"
+      ? "MOGU24严选冷冻食品商品阵容"
+      : "Selected frozen foods available at MOGU24";
   const productLead = locale === "ja"
     ? "世界と日本の厳選冷凍食品をご紹介"
     : locale === "zh"
@@ -46,7 +50,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
   return (
     <>
-      <section className="page-hero"><div className="shell page-hero-inner"><div><h1>{d.productsPage.title}</h1><span>{d.productsPage.subtitle}</span><p>{productLead}</p></div><div className="page-hero-image"><Image src={productsHeroImage} alt={heroAlt} fill className="cover" sizes="(max-width:700px) 100vw, 50vw"/></div></div></section>
+      <section className="page-hero"><div className="shell page-hero-inner"><div><h1>{d.productsPage.title}</h1><span>{d.productsPage.subtitle}</span><p>{productLead}</p></div><div className="page-hero-image"><Image src={productsHeroImage} alt={heroAlt} fill className="cover" style={{ objectPosition: "72% center" }} sizes="(max-width:700px) 100vw, 50vw"/></div></div></section>
       <section className="section shell"><ProductsBrowser products={products} categories={categories} locale={locale} labels={productLabels}/></section>
     </>
   );
