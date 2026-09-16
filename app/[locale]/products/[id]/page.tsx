@@ -7,11 +7,6 @@ import type { LocalizedText, Product } from "@/data/site";
 import { absoluteUrl } from "@/data/seo";
 import styles from "./ProductDetail.module.css";
 
-type ProductHighlight = {
-  title: LocalizedText;
-  text: LocalizedText;
-};
-
 type ProductDetailFields = {
   detailImage?: string;
   description?: LocalizedText;
@@ -19,7 +14,6 @@ type ProductDetailFields = {
     enabled?: boolean;
     title?: LocalizedText;
   };
-  highlights?: ProductHighlight[];
 };
 
 type DetailProduct = Product & ProductDetailFields;
@@ -93,7 +87,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const category = categoryData ? localize(categoryData.name, locale) : product.category;
   const image = product.detailImage || product.image;
   const showAward = Boolean(product.award?.enabled && product.award.title);
-  const highlights = showAward ? (product.highlights ?? []).slice(0, 3) : [];
 
   return (
     <main className={styles.page}>
@@ -119,16 +112,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             {showAward && (
               <section className={styles.awardSection} aria-label={labels.award}>
                 <p className={styles.awardTitle}>{localize(product.award!.title!, locale)}</p>
-                {highlights.length > 0 && (
-                  <div className={styles.highlights}>
-                    {highlights.map((item, index) => (
-                      <div className={styles.highlight} key={`${product.id}-${index}`}>
-                        <strong>{localize(item.title, locale)}</strong>
-                        <span>{localize(item.text, locale)}</span>
-                      </div>
-                    ))}
-                  </div>
-                )}
               </section>
             )}
 
