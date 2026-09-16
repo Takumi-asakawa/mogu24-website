@@ -19,9 +19,9 @@ type ProductDetailFields = {
 type DetailProduct = Product & ProductDetailFields;
 
 const ui = {
-  ja: { back: "商品一覧に戻る", store: "店舗情報を見る", tax: "税込", award: "受賞歴" },
-  zh: { back: "返回商品一览", store: "查看店铺信息", tax: "含税", award: "获奖经历" },
-  en: { back: "Back to Products", store: "Store Information", tax: "tax incl.", award: "Award" }
+  ja: { back: "商品一覧に戻る", store: "店舗情報を見る", tax: "税込", award: "受賞歴", pricePending: "価格未定" },
+  zh: { back: "返回商品一览", store: "查看店铺信息", tax: "含税", award: "获奖经历", pricePending: "价格未定" },
+  en: { back: "Back to Products", store: "Store Information", tax: "tax incl.", award: "Award", pricePending: "Price TBA" }
 } as const;
 
 function getProduct(id: string) {
@@ -49,6 +49,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
         ? `在八王子MOGU24了解${name}。`
         : `Discover ${name} at MOGU24 in Hachioji.`;
   const image = product.detailImage || product.image;
+  const shareableImage = image.startsWith("data:") ? undefined : [{ url: absoluteUrl(image), alt: name }];
 
   return {
     title: { absolute: `${name}｜MOGU24（モグ24）` },
@@ -69,7 +70,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       siteName: "MOGU24",
       locale: locale === "zh" ? "zh_CN" : locale === "en" ? "en_US" : "ja_JP",
       type: "website",
-      images: [{ url: absoluteUrl(image), alt: name }]
+      ...(shareableImage ? { images: shareableImage } : {})
     }
   };
 }
@@ -87,6 +88,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const category = categoryData ? localize(categoryData.name, locale) : product.category;
   const image = product.detailImage || product.image;
   const showAward = Boolean(product.award?.enabled && product.award.title);
+  const hasPrice = product.price > 0;
 
   return (
     <main className={styles.page}>
@@ -106,7 +108,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           <div className={styles.infoPanel}>
             <p className={styles.category}>{category}</p>
             <h1>{name}</h1>
-            <p className={styles.price}>¥{product.price.toLocaleString()} <span>（{labels.tax}）</span></p>
+            <p className={styles.price}>
+              {hasPrice ? <>¥{product.price.toLocaleString()} <span>（{labels.tax}）</span></> : labels.pricePending}
+            </p>
             {description && <p className={styles.description}>{description}</p>}
 
             {showAward && (
