@@ -4,7 +4,7 @@ media:
     input: public/media
     output: /media
     categories: [image]
-    extensions: [jpg, jpeg, png, webp]
+    extensions: [jpg, jpeg, png, webp, svg]
     rename: safe
 
 settings:
@@ -117,7 +117,7 @@ content:
             - name: desserts
               label: スイーツ
       - name: price
-        label: 税込価格（円）
+        label: 税込価格（円・未定は0）
         type: number
         required: true
       - name: isNew
