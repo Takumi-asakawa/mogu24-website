@@ -5,7 +5,14 @@ import ProductsBrowser from "@/components/ProductsBrowser";
 import { categories, getDictionary, isLocale, products } from "@/data/site";
 import { absoluteUrl, languageAlternates, seoCopy } from "@/data/seo";
 
-const productsHeroImage = "/media/products/products-hero-selection.svg";
+const productsHeroImage = "/media/chatgpt-image-2026916-201223-2.png";
+const productsHeroImages = [
+  "/media/chatgpt-image-2026916-201223-2.png",
+  "/media/chatgpt-image-2026916-201222-1.png",
+  "/media/chatgpt-image-2026916-185641-6.png",
+  "/media/chatgpt-image-2026916-185640-3-1.png",
+  "/media/chatgpt-image-2026916-190629-3-1-1.png"
+];
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -50,7 +57,47 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
   return (
     <>
-      <section className="page-hero"><div className="shell page-hero-inner"><div><h1>{d.productsPage.title}</h1><span>{d.productsPage.subtitle}</span><p>{productLead}</p></div><div className="page-hero-image"><Image src={productsHeroImage} alt={heroAlt} fill className="cover" style={{ objectPosition: "72% center" }} sizes="(max-width:700px) 100vw, 50vw"/></div></div></section>
+      <section className="page-hero">
+        <div className="shell page-hero-inner">
+          <div>
+            <h1>{d.productsPage.title}</h1>
+            <span>{d.productsPage.subtitle}</span>
+            <p>{productLead}</p>
+          </div>
+          <div
+            className="page-hero-image"
+            role="img"
+            aria-label={heroAlt}
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1.25fr 1fr 1fr",
+              gridTemplateRows: "1fr 1fr",
+              background: "#082845"
+            }}
+          >
+            {productsHeroImages.map((src, index) => (
+              <div
+                key={src}
+                style={{
+                  position: "relative",
+                  minWidth: 0,
+                  minHeight: 0,
+                  overflow: "hidden",
+                  gridRow: index === 0 ? "1 / 3" : undefined
+                }}
+              >
+                <Image
+                  src={src}
+                  alt=""
+                  fill
+                  className="cover"
+                  sizes={index === 0 ? "(max-width:700px) 44vw, 24vw" : "(max-width:700px) 28vw, 14vw"}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
       <section className="section shell"><ProductsBrowser products={products} categories={categories} locale={locale} labels={productLabels}/></section>
     </>
   );
