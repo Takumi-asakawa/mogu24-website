@@ -19,7 +19,7 @@ export default function ProductCard({ product, locale, category, labels }: { pro
           width={1536}
           height={1024}
           sizes="(max-width: 700px) 50vw, (max-width: 1050px) 33vw, 260px"
-          className="product-card-image"
+          style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center", background: "#fff" }}
         />
         <div className="badges">
           {product.isNew && <span>{labels.newLabel}</span>}
