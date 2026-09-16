@@ -106,18 +106,16 @@ content:
         required: true
         options:
           values:
-            - name: noodles
-              label: 麺類
-            - name: dimsum
-              label: 点心・餃子
-            - name: meat
-              label: お肉・惣菜
             - name: rice
-              label: ご飯もの
+              label: お弁当
+            - name: noodles
+              label: ピザ
+            - name: dimsum
+              label: 天津
+            - name: meat
+              label: おつまみ
             - name: desserts
               label: スイーツ
-            - name: drinks
-              label: ドリンク
       - name: price
         label: 税込価格（円）
         type: number
@@ -180,7 +178,7 @@ content:
         type: select
         required: true
         options:
-          values: [noodles, dimsum, meat, rice, desserts, drinks]
+          values: [rice, noodles, dimsum, meat, desserts]
       - name: image
         label: カテゴリー画像
         type: image
