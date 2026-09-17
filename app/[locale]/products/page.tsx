@@ -5,7 +5,13 @@ import ProductsBrowser from "@/components/ProductsBrowser";
 import { categories, getDictionary, isLocale, products } from "@/data/site";
 import { absoluteUrl, languageAlternates, seoCopy } from "@/data/seo";
 
-const productsHeroImage = "/media/products-header-all.webp";
+const productsHeroImages = [
+  "/media/chatgpt-image-2026916-201223-2.png",
+  "/media/chatgpt-image-2026916-201222-1.png",
+  "/media/chatgpt-image-2026916-185641-6.png",
+  "/media/chatgpt-image-2026916-190630-4-1-1.png"
+];
+const productsHeroImage = productsHeroImages[0];
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -50,22 +56,41 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
   return (
     <>
-      <section className="page-hero" style={{ position: "relative", minHeight: 280, overflow: "hidden" }}>
-        <Image
-          src={productsHeroImage}
-          alt={heroAlt}
-          fill
-          priority
-          className="cover"
-          style={{ objectPosition: "center" }}
-          sizes="100vw"
-        />
+      <section className="page-hero" style={{ position: "relative", minHeight: 280, overflow: "hidden", background: "#071f3a" }}>
+        <div
+          aria-hidden="true"
+          style={{
+            position: "absolute",
+            top: 0,
+            right: 0,
+            bottom: 0,
+            width: "48%",
+            display: "grid",
+            gridTemplateColumns: "1fr 1fr",
+            gridTemplateRows: "1fr 1fr",
+            gap: 2,
+            background: "#071f3a"
+          }}
+        >
+          {productsHeroImages.map((src, index) => (
+            <div key={src} style={{ position: "relative", minWidth: 0, minHeight: 0, overflow: "hidden" }}>
+              <Image
+                src={src}
+                alt=""
+                fill
+                priority={index === 0}
+                sizes="24vw"
+                style={{ objectFit: "cover", objectPosition: "center" }}
+              />
+            </div>
+          ))}
+        </div>
         <div
           aria-hidden="true"
           style={{
             position: "absolute",
             inset: 0,
-            background: "linear-gradient(90deg, rgba(7,31,58,.98) 0%, rgba(7,31,58,.90) 34%, rgba(7,31,58,.18) 58%, rgba(7,31,58,0) 78%)"
+            background: "linear-gradient(90deg, rgba(7,31,58,1) 0%, rgba(7,31,58,.98) 46%, rgba(7,31,58,.86) 53%, rgba(7,31,58,0) 66%)"
           }}
         />
         <div className="shell" style={{ position: "relative", minHeight: 280, display: "flex", alignItems: "center" }}>
@@ -75,6 +100,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
             <p>{productLead}</p>
           </div>
         </div>
+        <span className="sr-only">{heroAlt}</span>
       </section>
       <section className="section shell"><ProductsBrowser products={products} categories={categories} locale={locale} labels={productLabels}/></section>
     </>
