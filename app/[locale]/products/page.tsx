@@ -38,11 +38,6 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const d = getDictionary(locale);
-  const heroAlt = locale === "ja"
-    ? "MOGU24で販売する厳選冷凍食品のラインアップ"
-    : locale === "zh"
-      ? "MOGU24严选冷冻食品商品阵容"
-      : "Selected frozen foods available at MOGU24";
   const productLead = locale === "ja"
     ? "世界と日本の厳選冷凍食品をご紹介"
     : locale === "zh"
@@ -100,7 +95,6 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
             <p>{productLead}</p>
           </div>
         </div>
-        <span className="sr-only">{heroAlt}</span>
       </section>
       <section className="section shell"><ProductsBrowser products={products} categories={categories} locale={locale} labels={productLabels}/></section>
     </>
