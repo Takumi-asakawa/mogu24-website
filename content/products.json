@@ -80,7 +80,7 @@
   },
   {
     "id": "dubai-mochi-cookie-choco",
-    "image": "/media/chatgpt-image-2026916-185641-4.png",
+    "image": "/media/sweetdubuychocomacha.png",
     "category": "desserts",
     "price": 1300,
     "isNew": false,
@@ -103,7 +103,7 @@
   },
   {
     "id": "dubai-mochi-cookie-matcha",
-    "image": "/media/chatgpt-image-2026916-185640-3-1.png",
+    "image": "/media/sweetdubuychoco.png",
     "category": "desserts",
     "price": 1300,
     "isNew": false,
@@ -119,29 +119,6 @@
       "ja": "話題の「ドバイチョコ餅」を、抹茶フレーバーで。上品な抹茶の苦みとチョコレートの甘みが調和した、新感覚のスイーツです。",
       "zh": "将人气“迪拜巧克力麻薯”演绎成抹茶风味。细腻的抹茶苦韵与巧克力甜香相互平衡，带来新颖而精致的甜点体验。",
       "en": "A matcha twist on the popular Dubai Chocolate Mochi. Refined matcha bitterness balances the sweetness of chocolate in this modern, distinctive dessert."
-    },
-    "award": {
-      "enabled": false
-    }
-  },
-  {
-    "id": "butter-mochi",
-    "image": "/media/products/butter-mochi.svg",
-    "category": "desserts",
-    "price": 0,
-    "isNew": false,
-    "recommended": true,
-    "published": true,
-    "order": 6,
-    "name": {
-      "ja": "バター餅 プレーン／チョコ",
-      "zh": "黄油麻薯 原味／巧克力",
-      "en": "Butter Mochi Plain / Chocolate"
-    },
-    "description": {
-      "ja": "外は香ばしく、中はもっちり。バターの香りを楽しめるプレーンとチョコのバター餅です。",
-      "zh": "外层香酥、内里软糯，带有浓郁黄油香气的原味与巧克力黄油麻薯。",
-      "en": "Fragrant on the outside and chewy within, available in plain and chocolate with a buttery aroma."
     },
     "award": {
       "enabled": false
