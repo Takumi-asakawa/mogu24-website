@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import ProductsBrowser from "@/components/ProductsBrowser";
 import { categories, getDictionary, isLocale, products } from "@/data/site";
 import { absoluteUrl, languageAlternates, seoCopy } from "@/data/seo";
+import styles from "./products.module.css";
 
 const productsHeroImage = "/images/products-header-all.png.png";
 
@@ -46,44 +47,21 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
   return (
     <>
-      <section
-        className="page-hero"
-        style={{
-          position: "relative",
-          minHeight: 360,
-          overflow: "hidden",
-          background: "#071f3a"
-        }}
-      >
-        <Image
-          src={productsHeroImage}
-          alt={heroAlt}
-          fill
-          priority
-          quality={95}
-          sizes="100vw"
-          style={{
-            objectFit: "cover",
-            objectPosition: "center"
-          }}
-        />
+      <section className={`page-hero ${styles.hero}`}>
+        <div className={styles.media}>
+          <Image
+            src={productsHeroImage}
+            alt={heroAlt}
+            fill
+            priority
+            quality={95}
+            sizes="100vw"
+            className={styles.image}
+          />
+        </div>
 
-        <div
-          className="shell"
-          style={{
-            position: "relative",
-            zIndex: 2,
-            minHeight: 360,
-            display: "flex",
-            alignItems: "center"
-          }}
-        >
-          <div
-            style={{
-              padding: "48px 0",
-              maxWidth: 520
-            }}
-          >
+        <div className={`shell ${styles.copyShell}`}>
+          <div className={styles.copy}>
             <h1>{d.productsPage.title}</h1>
             <span>{d.productsPage.subtitle}</span>
             <p>{productLead}</p>
