@@ -1,4 +1,4 @@
-/* Weekly selection: keep copy and product images separate on mobile. */
+/* Weekly selection: desktop keeps two images; mobile becomes one premium recommendation card. */
 @media (max-width: 700px) {
   .weekly.shell {
     width: calc(100% - 32px);
@@ -7,9 +7,10 @@
     min-height: 0 !important;
     margin: 32px auto 56px !important;
     overflow: hidden !important;
-    border-radius: 18px !important;
-    background: #071f3a !important;
-    box-shadow: 0 14px 32px rgba(7, 31, 58, 0.10);
+    border: 1px solid rgba(7, 31, 58, 0.08) !important;
+    border-radius: 20px !important;
+    background: #fffdf8 !important;
+    box-shadow: 0 16px 38px rgba(7, 31, 58, 0.10) !important;
   }
 
   .weekly .weekly-copy {
@@ -18,9 +19,10 @@
     inset: auto !important;
     z-index: auto !important;
     width: 100% !important;
-    padding: 24px 22px 26px !important;
-    background: linear-gradient(135deg, #e3b747, #f1ce72) !important;
+    padding: 24px 22px 22px !important;
+    background: linear-gradient(180deg, #fffdf8 0%, #fff9eb 100%) !important;
     color: #071f3a !important;
+    border-top: 4px solid #d9ad36 !important;
   }
 
   .weekly .weekly-copy::before,
@@ -30,37 +32,43 @@
 
   .weekly .weekly-copy .eyebrow {
     margin: 0 0 8px !important;
-    color: #6d5318 !important;
-    font-size: 12px !important;
-    letter-spacing: 0.08em;
+    color: #a47b18 !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.14em !important;
   }
 
   .weekly .weekly-copy h2 {
     margin: 0 !important;
     color: #071f3a !important;
-    font-size: 28px !important;
+    font-size: 27px !important;
     line-height: 1.25 !important;
+    letter-spacing: -0.02em !important;
   }
 
   .weekly .weekly-copy h3 {
-    margin: 12px 0 8px !important;
+    margin: 12px 0 7px !important;
     color: #071f3a !important;
-    font-size: 18px !important;
+    font-size: 17px !important;
     line-height: 1.55 !important;
   }
 
   .weekly .weekly-copy p {
-    margin: 0 0 18px !important;
-    color: #25384d !important;
-    font-size: 14px !important;
+    margin: 0 0 17px !important;
+    color: #526171 !important;
+    font-size: 13.5px !important;
     line-height: 1.75 !important;
   }
 
   .weekly .weekly-copy .btn {
     position: static !important;
     margin: 0 !important;
+    min-height: 46px !important;
+    padding: 0 20px !important;
+    border-radius: 12px !important;
   }
 
+  /* Mobile: show one featured item only. Desktop remains unchanged with two images. */
   .weekly > .weekly-image {
     display: block !important;
     position: relative !important;
@@ -68,19 +76,18 @@
     order: 2;
     width: 100% !important;
     min-height: 0 !important;
-    aspect-ratio: 3 / 2;
+    aspect-ratio: 3 / 2 !important;
     overflow: hidden !important;
     background: #071f3a !important;
   }
 
   .weekly > .weekly-image:last-child {
-    display: block !important;
-    order: 3;
+    display: none !important;
   }
 
   .weekly > .weekly-image img,
   .weekly > .weekly-image .cover {
-    object-fit: contain !important;
+    object-fit: cover !important;
     object-position: center center !important;
     transform: none !important;
     filter: none !important;
@@ -95,17 +102,22 @@
 @media (max-width: 420px) {
   .weekly.shell {
     width: calc(100% - 24px);
+    border-radius: 18px !important;
   }
 
   .weekly .weekly-copy {
-    padding: 22px 18px 24px !important;
+    padding: 21px 18px 20px !important;
   }
 
   .weekly .weekly-copy h2 {
-    font-size: 26px !important;
+    font-size: 25px !important;
   }
 
   .weekly .weekly-copy h3 {
-    font-size: 17px !important;
+    font-size: 16px !important;
+  }
+
+  .weekly .weekly-copy p {
+    font-size: 13px !important;
   }
 }
