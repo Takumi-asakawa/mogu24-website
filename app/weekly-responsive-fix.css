@@ -1,0 +1,111 @@
+/* Weekly selection: keep copy and product images separate on mobile. */
+@media (max-width: 700px) {
+  .weekly.shell {
+    width: calc(100% - 32px);
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 0 !important;
+    margin: 32px auto 56px !important;
+    overflow: hidden !important;
+    border-radius: 18px !important;
+    background: #071f3a !important;
+    box-shadow: 0 14px 32px rgba(7, 31, 58, 0.10);
+  }
+
+  .weekly .weekly-copy {
+    order: 1;
+    position: static !important;
+    inset: auto !important;
+    z-index: auto !important;
+    width: 100% !important;
+    padding: 24px 22px 26px !important;
+    background: linear-gradient(135deg, #e3b747, #f1ce72) !important;
+    color: #071f3a !important;
+  }
+
+  .weekly .weekly-copy::before,
+  .weekly .weekly-copy::after {
+    display: none !important;
+  }
+
+  .weekly .weekly-copy .eyebrow {
+    margin: 0 0 8px !important;
+    color: #6d5318 !important;
+    font-size: 12px !important;
+    letter-spacing: 0.08em;
+  }
+
+  .weekly .weekly-copy h2 {
+    margin: 0 !important;
+    color: #071f3a !important;
+    font-size: 28px !important;
+    line-height: 1.25 !important;
+  }
+
+  .weekly .weekly-copy h3 {
+    margin: 12px 0 8px !important;
+    color: #071f3a !important;
+    font-size: 18px !important;
+    line-height: 1.55 !important;
+  }
+
+  .weekly .weekly-copy p {
+    margin: 0 0 18px !important;
+    color: #25384d !important;
+    font-size: 14px !important;
+    line-height: 1.75 !important;
+  }
+
+  .weekly .weekly-copy .btn {
+    position: static !important;
+    margin: 0 !important;
+  }
+
+  .weekly > .weekly-image {
+    display: block !important;
+    position: relative !important;
+    inset: auto !important;
+    order: 2;
+    width: 100% !important;
+    min-height: 0 !important;
+    aspect-ratio: 3 / 2;
+    overflow: hidden !important;
+    background: #071f3a !important;
+  }
+
+  .weekly > .weekly-image:last-child {
+    display: block !important;
+    order: 3;
+  }
+
+  .weekly > .weekly-image img,
+  .weekly > .weekly-image .cover {
+    object-fit: contain !important;
+    object-position: center center !important;
+    transform: none !important;
+    filter: none !important;
+  }
+
+  .weekly > .weekly-image::before,
+  .weekly > .weekly-image::after {
+    display: none !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .weekly.shell {
+    width: calc(100% - 24px);
+  }
+
+  .weekly .weekly-copy {
+    padding: 22px 18px 24px !important;
+  }
+
+  .weekly .weekly-copy h2 {
+    font-size: 26px !important;
+  }
+
+  .weekly .weekly-copy h3 {
+    font-size: 17px !important;
+  }
+}
