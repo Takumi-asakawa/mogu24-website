@@ -140,8 +140,8 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           <p>{d.weekly.body}</p>
           <Link className="btn navy" href={`/${locale}/products`}>{d.weekly.cta}<ArrowRight size={18}/></Link>
         </div>
-        <div className="weekly-image"><Image src="/media/products/red-chicago-pizza.svg" alt={locale === "ja" ? "赤のシカゴピザ トマトソース" : locale === "zh" ? "红色芝加哥披萨 番茄酱" : "Red Chicago Pizza with tomato sauce"} fill className="cover" sizes="(max-width:700px) 50vw, 33vw"/></div>
-        <div className="weekly-image"><Image src="/media/products/dubai-mochi-cookie-choco.svg" alt={locale === "ja" ? "ドバイもちクッキー チョコ" : locale === "zh" ? "迪拜麻薯曲奇 巧克力" : "Dubai Mochi Cookie Chocolate"} fill className="cover" sizes="(max-width:700px) 50vw, 33vw"/></div>
+        <div className="weekly-image"><Image src="/media/chatgpt-image-2026916-190630-4-1-1.png" alt={locale === "ja" ? "赤のシカゴピザ トマトソース" : locale === "zh" ? "红色芝加哥披萨 番茄酱" : "Red Chicago Pizza with tomato sauce"} fill className="cover" quality={100} sizes="(max-width:700px) 50vw, 33vw"/></div>
+        <div className="weekly-image"><Image src="/media/chatgpt-image-2026916-185641-4.png" alt={locale === "ja" ? "ドバイもちクッキー チョコ" : locale === "zh" ? "迪拜麻薯曲奇 巧克力" : "Dubai Mochi Cookie Chocolate"} fill className="cover" quality={100} sizes="(max-width:700px) 50vw, 33vw"/></div>
       </section>
 
       <section id="about" className="home-anchor about-home about-home-v4">
