@@ -32,6 +32,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const d = getDictionary(locale);
+  const heroAlt = seoCopy[locale].ogAlt;
   const productLead = locale === "ja"
     ? "世界と日本の厳選冷凍食品をご紹介"
     : locale === "zh"
@@ -45,51 +46,53 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
   return (
     <>
-     <section
-  className="page-hero"
-  style={{
-    position: "relative",
-    minHeight: 360,
-    overflow: "hidden",
-    background: "#071f3a"
-  }}
->
-  <Image
-    src={productsHeroImage}
-    alt={heroAlt}
-    fill
-    priority
-    quality={95}
-    sizes="100vw"
-    style={{
-      objectFit: "cover",
-      objectPosition: "center"
-    }}
-  />
+      <section
+        className="page-hero"
+        style={{
+          position: "relative",
+          minHeight: 360,
+          overflow: "hidden",
+          background: "#071f3a"
+        }}
+      >
+        <Image
+          src={productsHeroImage}
+          alt={heroAlt}
+          fill
+          priority
+          quality={95}
+          sizes="100vw"
+          style={{
+            objectFit: "cover",
+            objectPosition: "center"
+          }}
+        />
 
-  <div
-    className="shell"
-    style={{
-      position: "relative",
-      zIndex: 2,
-      minHeight: 360,
-      display: "flex",
-      alignItems: "center"
-    }}
-  >
-    <div
-      style={{
-        padding: "48px 0",
-        maxWidth: 520
-      }}
-    >
-      <h1>{d.productsPage.title}</h1>
-      <span>{d.productsPage.subtitle}</span>
-      <p>{productLead}</p>
-    </div>
-  </div>
-</section>
-      <section className="section shell"><ProductsBrowser products={products} categories={categories} locale={locale} labels={productLabels}/></section>
+        <div
+          className="shell"
+          style={{
+            position: "relative",
+            zIndex: 2,
+            minHeight: 360,
+            display: "flex",
+            alignItems: "center"
+          }}
+        >
+          <div
+            style={{
+              padding: "48px 0",
+              maxWidth: 520
+            }}
+          >
+            <h1>{d.productsPage.title}</h1>
+            <span>{d.productsPage.subtitle}</span>
+            <p>{productLead}</p>
+          </div>
+        </div>
+      </section>
+      <section className="section shell">
+        <ProductsBrowser products={products} categories={categories} locale={locale} labels={productLabels} />
+      </section>
     </>
   );
 }
