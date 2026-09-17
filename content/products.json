@@ -82,20 +82,20 @@
     "id": "dubai-mochi-cookie-choco",
     "image": "/media/chatgpt-image-2026916-185641-4.png",
     "category": "desserts",
-    "price": 0,
+    "price": 1300,
     "isNew": false,
     "recommended": true,
     "published": true,
     "order": 4,
     "name": {
-      "ja": "ドバイもちクッキー チョコ",
-      "zh": "迪拜麻薯曲奇 巧克力",
-      "en": "Dubai Mochi Cookie Chocolate"
+      "ja": "ドバイチョコもち（2個入り）",
+      "zh": "迪拜巧克力麻薯（2个装）",
+      "en": "Dubai Chocolate Mochi (2 pieces)"
     },
     "description": {
-      "ja": "もちっとした新食感と、濃厚なチョコの味わいを楽しめるドバイもちクッキーです。",
-      "zh": "口感软糯新颖，搭配浓郁巧克力风味的迪拜麻薯曲奇。",
-      "en": "A Dubai-style mochi cookie with a satisfyingly chewy texture and rich chocolate flavor."
+      "ja": "韓国SNSで話題の「ドバイチョコもち」。芳醇なピスタチオペーストを絡めたカダイフを、もちもちの生地で包み、ほろ苦いココアパウダーで仕上げました。ザクザク×もちもちの新食感を楽しめるスイーツです。",
+      "zh": "在韩国社交媒体上广受关注的“迪拜巧克力麻薯”。将裹满浓郁开心果酱的卡达伊夫酥丝包入Q弹麻薯外皮，再撒上微苦可可粉。酥脆与软糯交织，带来全新的口感体验。",
+      "en": "A viral Korean SNS favorite: Dubai Chocolate Mochi. Crunchy kataifi coated in rich pistachio paste is wrapped in chewy mochi and finished with bittersweet cocoa powder for a unique crisp-and-chewy texture."
     },
     "award": {
       "enabled": false
@@ -105,20 +105,20 @@
     "id": "dubai-mochi-cookie-matcha",
     "image": "/media/chatgpt-image-2026916-185640-3-1.png",
     "category": "desserts",
-    "price": 0,
+    "price": 1300,
     "isNew": false,
     "recommended": true,
     "published": true,
     "order": 5,
     "name": {
-      "ja": "ドバイもちクッキー 抹茶",
-      "zh": "迪拜麻薯曲奇 抹茶",
-      "en": "Dubai Mochi Cookie Matcha"
+      "ja": "ドバイチョコもち 抹茶（2個入り）",
+      "zh": "迪拜巧克力麻薯 抹茶（2个装）",
+      "en": "Dubai Chocolate Mochi Matcha (2 pieces)"
     },
     "description": {
-      "ja": "もちっとした新食感と、抹茶の香りを楽しめるドバイもちクッキーです。",
-      "zh": "口感软糯新颖，带有清雅抹茶香气的迪拜麻薯曲奇。",
-      "en": "A chewy Dubai-style mochi cookie with the aromatic flavor of matcha."
+      "ja": "話題の「ドバイチョコ餅」を、抹茶フレーバーで。上品な抹茶の苦みとチョコレートの甘みが調和した、新感覚のスイーツです。",
+      "zh": "将人气“迪拜巧克力麻薯”演绎成抹茶风味。细腻的抹茶苦韵与巧克力甜香相互平衡，带来新颖而精致的甜点体验。",
+      "en": "A matcha twist on the popular Dubai Chocolate Mochi. Refined matcha bitterness balances the sweetness of chocolate in this modern, distinctive dessert."
     },
     "award": {
       "enabled": false
@@ -188,6 +188,121 @@
       "ja": "とろけるチーズと濃厚トマト。深いコクのトマトソースと、たっぷりのチーズが織りなす贅沢な味わいです。",
       "zh": "融化芝士与浓郁番茄酱交织，带来丰厚而满足的芝加哥披萨风味。",
       "en": "A rich Chicago-style pizza layered with melting cheese and deeply flavored tomato sauce."
+    },
+    "award": {
+      "enabled": false
+    }
+  },
+  {
+    "id": "miyazaki-gyoza-yataibone",
+    "image": "/images/generated/gyoza.webp",
+    "category": "dimsum",
+    "price": 580,
+    "isNew": false,
+    "recommended": false,
+    "published": true,
+    "order": 9,
+    "name": {
+      "ja": "宮崎餃子 屋台骨（12個入り）",
+      "zh": "宫崎饺子 屋台骨（12个装）",
+      "en": "Miyazaki Gyoza Yataibone (12 pieces)"
+    },
+    "description": {
+      "ja": "餃子の年間購入頻度6年連続全国1位を誇る宮崎市。その宮崎市中央卸売市場発祥の人気店「屋台骨」の宮崎餃子です。宮崎ブランドポーク認定豚肉をはじめ、宮崎県産の食材にこだわった一品。薄皮でパリッと焼き上がり、もちっとした食感と素材の旨みを楽しめます。",
+      "zh": "宫崎市连续6年位居日本饺子年度购买频率第一。这款宫崎饺子来自发源于宫崎市中央批发市场的人气店“屋台骨”，选用宫崎品牌猪肉等当地食材。薄皮煎制后香脆，入口又带有柔韧口感，可充分品味食材本身的鲜美。",
+      "en": "From Yataibone, a popular shop that began at Miyazaki City's Central Wholesale Market. Made with Miyazaki Brand Pork and other locally sourced ingredients, these thin-skinned gyoza cook up crisp while staying pleasantly chewy and full of savory flavor."
+    },
+    "award": {
+      "enabled": false
+    }
+  },
+  {
+    "id": "hanaitodo-10won-sweet-potato-cheese",
+    "image": "/media/chatgpt-image-2026916-201401-3.png",
+    "category": "desserts",
+    "price": 550,
+    "isNew": false,
+    "recommended": false,
+    "published": true,
+    "order": 10,
+    "name": {
+      "ja": "花井堂 10ウォンパン さつまいもチーズ（120g）",
+      "zh": "花井堂 10韩元面包 红薯芝士（120g）",
+      "en": "Hanaitodo 10-Won Bread Sweet Potato Cheese (120g)"
+    },
+    "description": {
+      "ja": "韓国で人気の10ウォン硬貨をモチーフにした「10ウォンパン」。やさしい甘さのさつまいもムースと、とろ〜りモッツァレラチーズを合わせた甘じょっぱい味わいが魅力。電子レンジで温めるだけで、熱々の美味しさを手軽に楽しめます。",
+      "zh": "以韩国10韩元硬币为造型的人气“10韩元面包”。柔和香甜的红薯慕斯与拉丝马苏里拉芝士组合出迷人的咸甜风味。只需用微波炉加热，即可轻松享用热腾腾的美味。",
+      "en": "Inspired by Korea's 10-won coin, this popular bread combines gently sweet sweet-potato mousse with gooey mozzarella for an irresistible sweet-and-savory flavor. Simply microwave and enjoy it hot."
+    },
+    "award": {
+      "enabled": false
+    }
+  },
+  {
+    "id": "hanaitodo-10won-mozzarella",
+    "image": "/media/chatgpt-image-2026916-201401-3.png",
+    "category": "desserts",
+    "price": 550,
+    "isNew": false,
+    "recommended": false,
+    "published": true,
+    "order": 11,
+    "name": {
+      "ja": "花井堂 10ウォンパン モッツァレラチーズ（120g）",
+      "zh": "花井堂 10韩元面包 马苏里拉芝士（120g）",
+      "en": "Hanaitodo 10-Won Bread Mozzarella Cheese (120g)"
+    },
+    "description": {
+      "ja": "韓国で人気の10ウォン硬貨をモチーフにした「10ウォンパン」。甘くふわふわの生地にモッツァレラチーズを合わせ、温めるとチーズがとろ〜り。甘じょっぱい味わいと、のびるチーズを楽しめる韓国発の人気スイーツです。",
+      "zh": "以韩国10韩元硬币为造型的人气“10韩元面包”。香甜松软的面包体搭配马苏里拉芝士，加热后芝士浓郁拉丝。既能享受咸甜交织的风味，也能体验拉丝芝士的乐趣。",
+      "en": "A popular Korean 10-won coin-shaped bread with a sweet, fluffy base and mozzarella cheese. Warm it up for gooey cheese pull and a delicious sweet-and-savory combination."
+    },
+    "award": {
+      "enabled": false
+    }
+  },
+  {
+    "id": "ibaji-sweet-butter-mochi-plain",
+    "image": "/media/products/butter-mochi.svg",
+    "category": "desserts",
+    "price": 680,
+    "isNew": false,
+    "recommended": false,
+    "published": true,
+    "order": 12,
+    "name": {
+      "ja": "いばじSWEET バターもち プレーン",
+      "zh": "IBAJI SWEET 黄油麻薯 原味",
+      "en": "Ibaji SWEET Butter Mochi Plain"
+    },
+    "description": {
+      "ja": "外はカリッ、中はもちもち。じゅわっと広がるバターの香りとコクを楽しめる新食感のバターもちです。1袋に食べやすいサイズの3個入り。電子レンジやトースターで温めると、さらに美味しく楽しめます。",
+      "zh": "外层酥脆、内里Q弹软糯，咬下去黄油的香气与醇厚滋味在口中散开，是一款新口感黄油麻薯。每袋含3个方便食用的小份量，加热后风味更佳。",
+      "en": "Crisp outside and chewy inside, this butter mochi delivers a rich buttery aroma and satisfying depth of flavor. Each bag contains three bite-sized pieces; warm in a microwave or toaster for an even better texture."
+    },
+    "award": {
+      "enabled": false
+    }
+  },
+  {
+    "id": "ibaji-sweet-butter-mochi-choco",
+    "image": "/media/products/butter-mochi.svg",
+    "category": "desserts",
+    "price": 680,
+    "isNew": false,
+    "recommended": false,
+    "published": true,
+    "order": 13,
+    "name": {
+      "ja": "いばじSWEET バターもち チョコ",
+      "zh": "IBAJI SWEET 黄油麻薯 巧克力",
+      "en": "Ibaji SWEET Butter Mochi Chocolate"
+    },
+    "description": {
+      "ja": "外はカリッ、中はもちもち。じゅわっと広がるバターの香りとチョコのコクを楽しめる新食感のバターもちです。1袋3個入りで、電子レンジやトースターで温めると、さらに美味しく楽しめます。",
+      "zh": "外层酥脆、内里Q弹软糯，黄油香气与巧克力的醇厚滋味一同在口中散开。每袋3个，加热后口感与香气更加出色。",
+      "en": "Crisp outside and chewy within, this chocolate butter mochi combines buttery aroma with rich chocolate flavor. Each bag contains three pieces and tastes even better warmed in a microwave or toaster."
     },
     "award": {
       "enabled": false
