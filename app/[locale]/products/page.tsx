@@ -5,7 +5,7 @@ import ProductsBrowser from "@/components/ProductsBrowser";
 import { categories, getDictionary, isLocale, products } from "@/data/site";
 import { absoluteUrl, languageAlternates, seoCopy } from "@/data/seo";
 
-const productsHeroImage = "/media/products-header-all.png";
+const productsHeroImage = "/images/products-header-all.png.png";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
