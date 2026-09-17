@@ -195,7 +195,7 @@
   },
   {
     "id": "miyazaki-gyoza-yataibone",
-    "image": "/images/generated/gyoza.webp",
+    "image": "/media/tenshinmiyazakigyoza.png",
     "category": "dimsum",
     "price": 580,
     "isNew": false,
@@ -218,7 +218,7 @@
   },
   {
     "id": "hanaitodo-10won-sweet-potato-cheese",
-    "image": "/media/chatgpt-image-2026916-201401-3.png",
+    "image": "/media/sweet10pan.png",
     "category": "desserts",
     "price": 550,
     "isNew": false,
@@ -241,7 +241,7 @@
   },
   {
     "id": "hanaitodo-10won-mozzarella",
-    "image": "/media/chatgpt-image-2026916-201401-3.png",
+    "image": "/media/sweet10panmozarera.png",
     "category": "desserts",
     "price": 550,
     "isNew": false,
@@ -264,7 +264,7 @@
   },
   {
     "id": "ibaji-sweet-butter-mochi-plain",
-    "image": "/media/products/butter-mochi.svg",
+    "image": "/media/sweet1buttermochi.png",
     "category": "desserts",
     "price": 680,
     "isNew": false,
@@ -287,7 +287,7 @@
   },
   {
     "id": "ibaji-sweet-butter-mochi-choco",
-    "image": "/media/products/butter-mochi.svg",
+    "image": "/media/sweet1buttermochichoko.png",
     "category": "desserts",
     "price": 680,
     "isNew": false,
