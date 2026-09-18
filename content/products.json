@@ -312,5 +312,28 @@
         "en": "Gold Award, 2nd Japan Local Frozen Food Awards 2025–2026"
       }
     }
+  },
+  {
+    "id": "niigata-sasadango",
+    "image": "/media/img4270.jpeg",
+    "category": "desserts",
+    "price": 920,
+    "isNew": true,
+    "recommended": true,
+    "published": true,
+    "order": 15,
+    "name": {
+      "ja": "新潟 笹団子（5個入り）",
+      "zh": "新潟笹团子（5个装）",
+      "en": "    Niigata Sasa Dango (5 Pieces)"
+    },
+    "description": {
+      "ja": "新潟を代表する郷土菓「笹団子」。よもぎを練り込んだお団子であんこを包み、笹の葉で包んだ新潟名物です。5個入り。",
+      "zh": "新潟代表性的传统点心“笹团子”。将艾草揉入团子皮中，包入红豆馅，再用竹叶包裹而成。5个装。",
+      "en": "Sasa Dango is atraditional specialty of Niigata,made\nwith mugwort-flavored\nmochi filled with sweet red bean paste and wrapped in bamboo leaves. 5 pieces."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
