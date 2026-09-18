@@ -267,8 +267,8 @@
     "image": "/media/sweet1buttermochichoko.png",
     "category": "desserts",
     "price": 680,
-    "isNew": false,
-    "recommended": false,
+    "isNew": true,
+    "recommended": true,
     "published": true,
     "order": 13,
     "name": {
@@ -283,6 +283,34 @@
     },
     "award": {
       "enabled": false
+    }
+  },
+  {
+    "id": "sanuki-honetsukidori",
+    "image": "/media/img4255.jpeg",
+    "category": "meat",
+    "price": 1480,
+    "isNew": true,
+    "recommended": true,
+    "published": true,
+    "order": 14,
+    "name": {
+      "ja": "さぬき骨付鶏",
+      "zh": "赞岐带骨鸡",
+      "en": "Sanuki Bone-in Chicken"
+    },
+    "description": {
+      "ja": "国産鶏を独自の調味料で味付けし、真空熟成。皮はパリッと、中は肉汁たっぷりでジューシー。香川県産たまねぎの甘さとスパイスの辛さがクセになる、香川名物「さぬき骨付鶏」です。",
+      "zh": "选用日本国产鸡肉，以独家调味料调味并真空熟成。外皮香脆，肉质鲜嫩多汁，香川县产洋葱的甘甜与香辛料的微辣相结合，是香川名物“赞岐带骨鸡”。",
+      "en": "Made with Japanese chicken, seasoned with a special blend of spices and vacuum-aged. Crispy on the outside and juicy inside, with the sweetness of Kagawa-grown onions and a spicy kick. A specialty of Kagawa."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "第2回「日本全国！ご当地冷凍食品大賞2025-2026」金賞",
+        "zh": "第2届“日本全国！当地冷冻食品大奖2025-2026”金奖",
+        "en": "Gold Award, 2nd Japan Local Frozen Food Awards 2025–2026"
+      }
     }
   }
 ]
