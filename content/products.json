@@ -218,11 +218,11 @@
   },
   {
     "id": "hanaitodo-10won-mozzarella",
-    "image": "/media/sweet10panmozarera.png",
+    "image": "/media/c9b3f78c-0a3e-49ac-8d78-a76debf1305c-2.png",
     "category": "desserts",
     "price": 550,
-    "isNew": false,
-    "recommended": false,
+    "isNew": true,
+    "recommended": true,
     "published": true,
     "order": 11,
     "name": {
