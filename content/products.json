@@ -175,8 +175,8 @@
     "image": "/media/a9f7c414-71eb-4271-a05b-36ac1d7e3003.png",
     "category": "dimsum",
     "price": 580,
-    "isNew": false,
-    "recommended": false,
+    "isNew": true,
+    "recommended": true,
     "published": true,
     "order": 9,
     "name": {
