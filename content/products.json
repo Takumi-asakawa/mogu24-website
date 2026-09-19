@@ -198,8 +198,8 @@
     "image": "/media/7224b319-8c19-4aed-b1a7-cd7f5f1d2a4a-2.png",
     "category": "desserts",
     "price": 550,
-    "isNew": false,
-    "recommended": false,
+    "isNew": true,
+    "recommended": true,
     "published": true,
     "order": 10,
     "name": {
