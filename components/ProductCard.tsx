@@ -7,8 +7,16 @@ export default function ProductCard({ product, locale, category, labels }: { pro
   const name = localize(product.name, locale);
   const taxText = locale === "ja" ? `（${labels.tax}）` : `(${labels.tax})`;
   const hasPrice = product.price > 0;
+  const salePrice = product.salePrice ?? 0;
+  const hasSale = Boolean(product.isNew && hasPrice && salePrice > 0);
   const pricePending = locale === "ja" ? "価格未定" : locale === "zh" ? "价格未定" : "Price TBA";
-  const ariaPrice = hasPrice ? `${product.price.toLocaleString()}円` : pricePending;
+  const regularPriceLabel = locale === "ja" ? "通常価格" : locale === "zh" ? "原价" : "Regular";
+  const salePriceLabel = locale === "ja" ? "セール価格" : locale === "zh" ? "特价" : "Sale";
+  const ariaPrice = hasSale
+    ? `${regularPriceLabel} ${product.price.toLocaleString()}円、${salePriceLabel} ${salePrice.toLocaleString()}円`
+    : hasPrice
+      ? `${product.price.toLocaleString()}円`
+      : pricePending;
 
   return (
     <Link className="product-card" href={`/${locale}/products/${product.id}`} aria-label={`${name} - ${ariaPrice}`}>
@@ -29,9 +37,26 @@ export default function ProductCard({ product, locale, category, labels }: { pro
       <div className="product-meta">
         <small>{category}</small>
         <h3>{name}</h3>
-        <strong>
-          {hasPrice ? <>¥{product.price.toLocaleString()} <em>{taxText}</em></> : pricePending}
-        </strong>
+        {hasPrice ? (
+          hasSale ? (
+            <div className="product-price-stack">
+              <div className="product-regular-price">
+                <span>{regularPriceLabel}</span>
+                <del>¥{product.price.toLocaleString()}</del>
+                <em>{taxText}</em>
+              </div>
+              <div className="product-sale-price">
+                <b>{salePriceLabel}</b>
+                <strong>¥{salePrice.toLocaleString()}</strong>
+                <em>{taxText}</em>
+              </div>
+            </div>
+          ) : (
+            <strong>¥{product.price.toLocaleString()} <em>{taxText}</em></strong>
+          )
+        ) : (
+          <strong>{pricePending}</strong>
+        )}
       </div>
     </Link>
   );
