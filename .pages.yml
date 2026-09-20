@@ -117,12 +117,15 @@ content:
             - name: desserts
               label: スイーツ
       - name: price
-        label: 税込価格（円・未定は0）
+        label: 通常価格（税込・円／未定は0）
         type: number
         required: true
       - name: isNew
-        label: SALE表示
+        label: セール表示
         type: boolean
+      - name: salePrice
+        label: セール価格（税込・円／セール表示ON時のみ入力・未設定は0）
+        type: number
       - name: recommended
         label: おすすめ表示
         type: boolean
