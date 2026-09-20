@@ -19,9 +19,9 @@ type ProductDetailFields = {
 type DetailProduct = Product & ProductDetailFields;
 
 const ui = {
-  ja: { back: "商品一覧に戻る", store: "店舗情報を見る", tax: "税込", award: "受賞歴", pricePending: "価格未定" },
-  zh: { back: "返回商品一览", store: "查看店铺信息", tax: "含税", award: "获奖经历", pricePending: "价格未定" },
-  en: { back: "Back to Products", store: "Store Information", tax: "tax incl.", award: "Award", pricePending: "Price TBA" }
+  ja: { back: "商品一覧に戻る", store: "店舗情報を見る", tax: "税込", award: "受賞歴", pricePending: "価格未定", regularPrice: "通常価格", salePrice: "セール価格" },
+  zh: { back: "返回商品一览", store: "查看店铺信息", tax: "含税", award: "获奖经历", pricePending: "价格未定", regularPrice: "原价", salePrice: "特价" },
+  en: { back: "Back to Products", store: "Store Information", tax: "tax incl.", award: "Award", pricePending: "Price TBA", regularPrice: "Regular", salePrice: "Sale" }
 } as const;
 
 function getProduct(id: string) {
@@ -89,6 +89,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const image = product.detailImage || product.image;
   const showAward = Boolean(product.award?.enabled && product.award.title);
   const hasPrice = product.price > 0;
+  const salePrice = product.salePrice ?? 0;
+  const hasSale = Boolean(product.isNew && hasPrice && salePrice > 0);
 
   return (
     <main className={styles.page}>
@@ -109,9 +111,26 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           <div className={styles.infoPanel}>
             <p className={styles.category}>{category}</p>
             <h1>{name}</h1>
-            <p className={styles.price}>
-              {hasPrice ? <>¥{product.price.toLocaleString()} <span>（{labels.tax}）</span></> : labels.pricePending}
-            </p>
+            {hasPrice ? (
+              hasSale ? (
+                <div className={styles.salePricing}>
+                  <div className={styles.regularPriceLine}>
+                    <span>{labels.regularPrice}</span>
+                    <del>¥{product.price.toLocaleString()}</del>
+                    <small>（{labels.tax}）</small>
+                  </div>
+                  <div className={styles.salePriceLine}>
+                    <span>{labels.salePrice}</span>
+                    <strong>¥{salePrice.toLocaleString()}</strong>
+                    <small>（{labels.tax}）</small>
+                  </div>
+                </div>
+              ) : (
+                <p className={styles.price}>¥{product.price.toLocaleString()} <span>（{labels.tax}）</span></p>
+              )
+            ) : (
+              <p className={styles.price}>{labels.pricePending}</p>
+            )}
             {description && <p className={styles.description}>{description}</p>}
 
             {showAward && (
