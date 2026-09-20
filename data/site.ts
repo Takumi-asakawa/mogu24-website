@@ -14,6 +14,7 @@ export type Product = {
   image: string;
   category: CategoryKey;
   price: number;
+  salePrice?: number;
   isNew: boolean;
   recommended: boolean;
   published: boolean;
