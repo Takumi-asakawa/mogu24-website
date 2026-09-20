@@ -218,7 +218,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
               <Link className="btn gold" href={`/${locale}/#store`}>{d.howHome.storeCta}<ArrowRight size={18}/></Link>
             </div>
             <div className="how-brand-image">
-              <Image src="/images/generated/kawara-soba.webp" alt={locale === "ja" ? "熱々の瓦そば" : locale === "zh" ? "热腾腾的瓦荞麦面" : "Steaming kawara soba"} fill className="cover" sizes="(max-width:700px) 100vw, 42vw"/>
+              <Image src="/media/kawara-soba.webp" alt={locale === "ja" ? "熱々の瓦そば" : locale === "zh" ? "热腾腾的瓦荞麦面" : "Steaming kawara soba"} fill className="cover" sizes="(max-width:700px) 100vw, 42vw"/>
               <div className="how-image-stamp"><strong>24H</strong><span>{d.howHome.easyBadge}</span></div>
             </div>
           </div>
