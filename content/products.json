@@ -378,5 +378,34 @@
         "en": "Grand Prix, 65th Japan Food Selection (2023) / Grand Prix, Venture Innovation Category, Frozen of Future Awards 2023"
       }
     }
+  },
+  {
+    "id": "shirik-hangen-mabo-tofu",
+    "image": "/media/901cf6a2-e930-4209-a8d7-26a9f4fc6e6f.png",
+    "category": "meat",
+    "price": 820,
+    "isNew": true,
+    "salePrice": 720,
+    "recommended": true,
+    "published": true,
+    "order": 17,
+    "name": {
+      "ja": "四陸 漢源花椒の麻婆豆腐",
+      "zh": "四陆 汉源花椒麻婆豆腐",
+      "en": "Shiriku Mapo Tofu with Hanyuan Sichuan Pepper"
+    },
+    "description": {
+      "ja": "四陸FROZENの社内人気No.1商品。四川省漢源地方の花椒を使用し、しびれる辛さと華やかな香りが特徴の麻婆豆腐です。粗挽きの国産豚肉の旨みとたっぷりの薬味が合わさり、白ご飯とも相性抜群。内容量180g。",
+      "zh": "四陆FROZEN公司内部人气 No.1 商品。采用四川汉源花椒，带来独特的麻辣口感与浓郁香气。搭配日本国产粗绞猪肉和丰富的香辛配料，鲜香浓郁，非常适合搭配米饭。净含量180g。",
+      "en": "四陆FROZEN公司内部人气 No.1 商品。采用四川汉源花椒，带来独特的麻辣口感与浓郁香气。搭配日本国产粗绞猪肉和丰富的香辛配料，鲜香浓郁，非常适合搭配米饭。净含量180g。"
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "日本経済新聞「NIKKEIプラス1」何でもランキング「麻婆豆腐で暑さ吹き飛ばせ！ 手軽な冷凍品10選」第9位（2024年8月3日掲載）",
+        "zh": "2024年8月3日《日本经济新闻》NIKKEI PLUS 1“便捷冷冻麻婆豆腐10选”评选第9名",
+        "en": "Ranked 9th in Nikkei Plus 1's Top 10 Convenient Frozen Mapo Tofu Selection (August 3, 2024)"
+      }
+    }
   }
 ]
