@@ -523,5 +523,33 @@
         "en": "Featured on Japanese TV programs including MBS Chichin Puipui, ABC Cast, and Kansai TV Yo-i Don!"
       }
     }
+  },
+  {
+    "id": "yaki-shoronpo",
+    "image": "/media/27ec0e32-8c9e-423b-ba78-2456356568bf.png",
+    "category": "dimsum",
+    "price": 0,
+    "isNew": false,
+    "recommended": true,
+    "published": false,
+    "order": 22,
+    "name": {
+      "ja": "焼き小籠包（6個入）",
+      "zh": "煎小笼包（6个装）",
+      "en": "Pan-Fried Soup Dumplings (6 Pieces)"
+    },
+    "description": {
+      "ja": "肉汁がジュワッとあふれる焼き小籠包。信州ポークを使用した、6個入りの商品です。金曜日販売予定。",
+      "zh": "使用信州猪肉制作的煎小笼包，一口咬下鲜美汤汁四溢。每盒6个。预计周五开售。",
+      "en": "Pan-fried soup dumplings made with Shinshu pork, filled with savory, juicy goodness. 6 pieces per pack. Scheduled to go on sale Friday."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "「満天☆青空レストラン」で、ぱおず屋陽太の小籠包が紹介されました。",
+        "zh": "小笼包专门店「ぱおず屋陽太」的小笼包曾在日本电视节目《満天☆青空レストラン》中亮相。",
+        "en": "Soup dumplings from Paozuya Hinata were featured on the Japanese TV program “Manten Aozora Restaurant.”"
+      }
+    }
   }
 ]
