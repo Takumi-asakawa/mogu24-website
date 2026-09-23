@@ -349,5 +349,34 @@
     "award": {
       "enabled": false
     }
+  },
+  {
+    "id": "fouru-ebi-chili",
+    "image": "/media/3e6495e9-ec2b-415d-8a32-6800ec3fa99a.png",
+    "category": "meat",
+    "price": 900,
+    "isNew": true,
+    "salePrice": 800,
+    "recommended": true,
+    "published": true,
+    "order": 16,
+    "name": {
+      "ja": "四陸 海老のチリソース（150g）",
+      "zh": "四陸 香辣茄汁虾（150克）",
+      "en": "Fouru Shrimp in Chili Sauce (150g)"
+    },
+    "description": {
+      "ja": "薄衣で仕上げたプリプリの海老に、白葱や生姜、にんにくなどの薬味の旨みを生かしたチリソースを絡めました。甘酸っぱさと辛味の絶妙なバランスが楽しめる、四陸の人気商品です。内容量150g。",
+      "zh": "鲜虾裹上薄薄的面衣，保留弹嫩口感，搭配融入葱、姜、蒜等香味的特制辣酱。酸甜与微辣相互平衡，是四陸的人气中式料理。净含量150克。",
+      "en": "Plump shrimp coated in a light batter and tossed in a flavorful chili sauce with white onion, ginger, and garlic. Enjoy the balance of sweet, tangy, and spicy flavors in this popular dish from Fouru. Net weight: 150g."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "第65回ジャパン・フード・セレクション グランプリ受賞／フローズン オブ フューチャーアワード2023 ベンチャー・イノベーション部門 グランプリ受賞",
+        "zh": "第65届日本食品评选大奖（Japan Food Selection）最高奖／2023年 Frozen of Future Awards 创新部门大奖",
+        "en": "Grand Prix, 65th Japan Food Selection (2023) / Grand Prix, Venture Innovation Category, Frozen of Future Awards 2023"
+      }
+    }
   }
 ]
