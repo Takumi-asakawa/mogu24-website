@@ -407,5 +407,34 @@
         "en": "Ranked 9th in Nikkei Plus 1's Top 10 Convenient Frozen Mapo Tofu Selection (August 3, 2024)"
       }
     }
+  },
+  {
+    "id": "tiramissimo-plain-1",
+    "image": "/media/c037d1b4-249c-4155-bfe1-757f2a40f39e-1.png",
+    "category": "desserts",
+    "price": 790,
+    "isNew": true,
+    "salePrice": 890,
+    "recommended": true,
+    "published": true,
+    "order": 18,
+    "name": {
+      "ja": "日本一なめらかティラミス プレーン味（1個入り）",
+      "zh": "日本第一顺滑提拉米苏 原味（1个装）",
+      "en": "Tiramissimo Smooth Tiramisu – Plain (1 Piece)"
+    },
+    "description": {
+      "ja": "大阪・泉佐野のティラミス専門店「ティラミッシモ」が手がける、なめらかな瓶入りティラミス。イタリアから直輸入した高級マスカルポーネチーズ、大阪産純正生クリーム、シチリア産エスプレッソを使用。芳醇な香りと濃厚でとろける口どけを楽しめるプレーン味です。1個入り。",
+      "zh": "来自大阪泉佐野提拉米苏专门店 Tiramissimo 的瓶装提拉米苏。采用意大利进口马斯卡彭奶酪、大阪产纯生奶油及西西里产意式浓缩咖啡，口感浓郁细腻，入口即化。经典原味，1个装。",
+      "en": "A smooth, jarred tiramisu from Tiramissimo, a specialty shop in Izumisano, Osaka. Made with imported Italian mascarpone, fresh cream from Osaka, and Sicilian espresso, this classic plain flavor offers a rich aroma and a delicate, melt-in-your-mouth texture. 1 piece."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "テレビ紹介：MBS毎日放送「ちちんぷいぷい」、朝日放送「キャスト」、関西テレビ「よ～いドン！」など",
+        "zh": "电视媒体介绍：MBS每日放送《ちちんぷいぷい》、朝日放送《キャスト》、关西电视台《よ～いドン！》等",
+        "en": "Featured on Japanese TV programs including MBS Chichin Puipui, ABC Cast, and Kansai TV Yo-i Don!"
+      }
+    }
   }
 ]
