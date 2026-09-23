@@ -465,5 +465,34 @@
         "en": "Featured on Japanese TV programs including MBS Chichin Puipui, ABC Cast, and Kansai TV Yo-i Don!"
       }
     }
+  },
+  {
+    "id": "tiramissimo-matcha-1",
+    "image": "/media/bd2c89dc-256f-4202-974d-3a128dfb6159-1.png",
+    "category": "desserts",
+    "price": 790,
+    "isNew": true,
+    "salePrice": 690,
+    "recommended": true,
+    "published": true,
+    "order": 20,
+    "name": {
+      "ja": "日本一なめらかティラミス 抹茶味（1個入り）",
+      "zh": "日本第一顺滑提拉米苏 抹茶味（1个装）",
+      "en": "Tiramissimo Smooth Tiramisu – Matcha (1 Piece)"
+    },
+    "description": {
+      "ja": "大阪・泉佐野のティラミス専門店「ティラミッシモ」が手がける瓶入りティラミス。なめらかな口どけと抹茶の風味を楽しめる抹茶味です。1個入り。",
+      "zh": "来自大阪泉佐野提拉米苏专门店 Tiramissimo 的瓶装提拉米苏。口感细腻顺滑，融合抹茶的清香与醇厚风味。抹茶味，1个装。",
+      "en": "A jarred tiramisu from Tiramissimo, a specialty shop in Izumisano, Osaka. This matcha flavor combines a smooth, creamy texture with the rich aroma of Japanese green tea. 1 piece."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "テレビ紹介：MBS毎日放送「ちちんぷいぷい」、朝日放送「キャスト」、関西テレビ「よ～いドン！」など",
+        "zh": "电视媒体介绍：MBS每日放送《ちちんぷいぷい》、朝日放送《キャスト》、关西电视台《よ～いドン！》等",
+        "en": "Featured on Japanese TV programs including MBS Chichin Puipui, ABC Cast, and Kansai TV Yo-i Don!"
+      }
+    }
   }
 ]
