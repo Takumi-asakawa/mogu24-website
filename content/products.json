@@ -581,5 +581,34 @@
         "en": "Hakata Karaage Hibiki – Gold Award, 12th Karaage Grand Prix, Western Japan Soy Sauce Category"
       }
     }
+  },
+  {
+    "id": "hibiki-torikawa-shio",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-8.png",
+    "category": "meat",
+    "price": 980,
+    "isNew": true,
+    "salePrice": 880,
+    "recommended": true,
+    "published": true,
+    "order": 24,
+    "name": {
+      "ja": "おつまみ鶏皮 あっさり塩",
+      "zh": "博多响 冰吃鸡皮 清爽盐味",
+      "en": "Hakata Hibiki Chilled Chicken Skin – Light Salt"
+    },
+    "description": {
+      "ja": "「博多からあげ響」が作った、冷やして食べるおつまみ鶏皮。冷凍のまま食べられ、フランス産の塩を使用した、ほのかな甘さのあるあっさり塩味です。内容量58g。",
+      "zh": "由「博多からあげ響」推出的冰吃鸡皮，无需加热，冷冻状态即可食用。使用法国产盐调味，清爽的咸香中带有淡淡甘味。净含量58g。",
+      "en": "Frozen chicken skin from Hakata Karaage Hibiki, designed to be enjoyed chilled without heating. Seasoned with French salt for a light, savory flavor with a subtle sweetness. Net weight: 58g."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "第12回からあげグランプリ 西日本しょうゆダレ部門 金賞受賞店「博多からあげ響」",
+        "zh": "「博多からあげ響」荣获第12届炸鸡大奖 西日本酱油汁部门金奖",
+        "en": "Hakata Karaage Hibiki – Gold Award, 12th Karaage Grand Prix, Western Japan Soy Sauce Category"
+      }
+    }
   }
 ]
