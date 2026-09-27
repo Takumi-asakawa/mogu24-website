@@ -587,7 +587,7 @@
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-8.png",
     "category": "meat",
     "price": 980,
-    "isNew": true,
+    "isNew": false,
     "salePrice": 880,
     "recommended": true,
     "published": true,
@@ -598,9 +598,9 @@
       "en": "Hakata Hibiki Chilled Chicken Skin – Light Salt"
     },
     "description": {
-      "ja": "「博多からあげ響」が作った、冷やして食べるおつまみ鶏皮。冷凍のまま食べられ、フランス産の塩を使用した、ほのかな甘さのあるあっさり塩味です。内容量58g。",
-      "zh": "由「博多からあげ響」推出的冰吃鸡皮，无需加热，冷冻状态即可食用。使用法国产盐调味，清爽的咸香中带有淡淡甘味。净含量58g。",
-      "en": "Frozen chicken skin from Hakata Karaage Hibiki, designed to be enjoyed chilled without heating. Seasoned with French salt for a light, savory flavor with a subtle sweetness. Net weight: 58g."
+      "ja": "【10月販売予定】\n「博多からあげ響」が作った、冷やして食べるおつまみ鶏皮。冷凍のまま食べられ、フランス産の塩を使用した、ほのかな甘さのあるあっさり塩味です。内容量58g。",
+      "zh": "【预计10月开售】\n由「博多からあげ響」推出的冰吃鸡皮，无需加热，冷冻状态即可食用。使用法国产盐调味，清爽的咸香中带有淡淡甘味。净含量58g。",
+      "en": "【Coming in October】\nFrozen chicken skin from Hakata Karaage Hibiki, designed to be enjoyed chilled without heating. Seasoned with French salt for a light, savory flavor with a subtle sweetness. Net weight: 58g."
     },
     "award": {
       "enabled": true,
