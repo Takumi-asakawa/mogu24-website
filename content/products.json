@@ -552,5 +552,34 @@
         "en": "Soup dumplings from Paozuya Hinata were featured on the Japanese TV program “Manten Aozora Restaurant.”"
       }
     }
+  },
+  {
+    "id": "hibiki-torikawa-umakara",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-7.png",
+    "category": "meat",
+    "price": 980,
+    "isNew": true,
+    "salePrice": 880,
+    "recommended": true,
+    "published": true,
+    "order": 23,
+    "name": {
+      "ja": "おつまみ鶏皮 こってり旨辛",
+      "zh": "博多响 冰吃鸡皮 浓郁香辣味",
+      "en": "Hakata Hibiki Chilled Chicken Skin – Rich & Spicy"
+    },
+    "description": {
+      "ja": "「博多からあげ響」が作った、冷やして食べるおつまみ鶏皮。冷凍のまま食べられ、香り豊かな味わいとピリッとした辛さが特徴の「こってり旨辛」味です。内容量58g。",
+      "zh": "由博多炸鸡专门店「博多からあげ響」推出的冰吃鸡皮。无需加热，冷冻状态即可食用。「浓郁香辣味」香味十足，并带有微辣口感。净含量58g。",
+      "en": "Frozen chicken skin produced by Hakata Karaage Hibiki, designed to be enjoyed chilled without heating. The Rich & Spicy flavor combines a savory taste with a spicy kick. Net weight: 58g."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "第12回からあげグランプリ 西日本しょうゆダレ部門 金賞受賞店「博多からあげ響」",
+        "zh": "「博多からあげ響」荣获第12届炸鸡大奖 西日本酱油汁部门金奖",
+        "en": "Hakata Karaage Hibiki – Gold Award, 12th Karaage Grand Prix, Western Japan Soy Sauce Category"
+      }
+    }
   }
 ]
