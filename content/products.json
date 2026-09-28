@@ -154,8 +154,8 @@
     }
   },
   {
-    "id": "red-chicago-pizza",
-    "image": "/media/5eac975a-2dc9-4637-ab06-2de1e7687788.png",
+    "id": "aka-chicago-pizza",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-9.png",
     "category": "noodles",
     "price": 2880,
     "isNew": true,
@@ -164,17 +164,22 @@
     "published": true,
     "order": 8,
     "name": {
-      "ja": "赤のシカゴピザ トマトソース",
-      "zh": "红色芝加哥披萨 番茄酱",
-      "en": "Red Chicago Pizza – Tomato Sauce"
+      "ja": "赤のシカゴピザ（トマトソース）",
+      "zh": "红色芝加哥深盘披萨（番茄酱）",
+      "en": "Red Chicago Pizza (Tomato Sauce)"
     },
     "description": {
-      "ja": "とろけるチーズと濃厚トマト。深いコクのトマトソースと、たっぷりのチーズが織りなす贅沢な味わいです。",
-      "zh": "融化芝士与浓郁番茄酱交织，带来丰厚而满足的芝加哥披萨风味。",
-      "en": "A rich Chicago-style pizza layered with melting cheese and deeply flavored tomato sauce."
+      "ja": "竹炭パウダーを練り込んだ自家製の黒生地に、たっぷりのチーズと具沢山のオリジナルトマトソースを合わせた「赤のシカゴピザ」。とろける濃厚チーズがあふれ出す、見た目もインパクト抜群の完全オリジナルシカゴピザです。日本テレビ系「DayDay.」で紹介・スタジオ実食されるなど、各種メディアでも多数取り上げられている話題の商品です。",
+      "zh": "在加入竹炭粉制作的自制黑色饼皮中，加入大量浓郁芝士与配料丰富的原创番茄酱。切开后融化的芝士满满流出，视觉冲击力十足。这款人气“红色芝加哥深盘披萨”曾登上日本电视台《DayDay.》并在演播室现场试吃，还曾被多家媒体报道。",
+      "en": "An original Chicago-style pizza made with house-made black dough blended with bamboo charcoal powder, plenty of melted cheese, and a flavorful original tomato sauce packed with ingredients. Known for its dramatic, overflowing cheese, it was featured and tasted in the studio on Nippon TV’s “DayDay.” and has also received coverage from various media outlets."
     },
     "award": {
-      "enabled": false
+      "enabled": true,
+      "title": {
+        "ja": "日本テレビ系「DayDay.」で紹介・スタジオ実食／各種メディアで多数紹介",
+        "zh": "日本电视台《DayDay.》节目介绍并现场试吃／多家媒体报道",
+        "en": "Featured and tasted on Nippon TV’s “DayDay.” / Featured by various media outlets"
+      }
     }
   },
   {
