@@ -189,7 +189,7 @@
   },
   {
     "id": "miyazaki-gyoza-yataibone",
-    "image": "/media/a9f7c414-71eb-4271-a05b-36ac1d7e3003.png",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-11.png",
     "category": "dimsum",
     "price": 580,
     "isNew": true,
@@ -203,12 +203,17 @@
       "en": "Miyazaki Gyoza Yataibone (12 pieces)"
     },
     "description": {
-      "ja": "餃子の年間購入頻度6年連続全国1位を誇る宮崎市。その宮崎市中央卸売市場発祥の人気店「屋台骨」の宮崎餃子です。宮崎ブランドポーク認定豚肉をはじめ、宮崎県産の食材にこだわった一品。薄皮でパリッと焼き上がり、もちっとした食感と素材の旨みを楽しめます。",
-      "zh": "宫崎市连续6年位居日本饺子年度购买频率第一。这款宫崎饺子来自发源于宫崎市中央批发市场的人气店“屋台骨”，选用宫崎品牌猪肉等当地食材。薄皮煎制后香脆，入口又带有柔韧口感，可充分品味食材本身的鲜美。",
-      "en": "From Yataibone, a popular shop that began at Miyazaki City's Central Wholesale Market. Made with Miyazaki Brand Pork and other locally sourced ingredients, these thin-skinned gyoza cook up crisp while staying pleasantly chewy and full of savory flavor."
+      "ja": "宮崎市中央卸売市場発祥の「屋台骨」が手がける宮崎餃子。宮崎ブランドポーク認定豚肉をはじめ、西都産のニラ・ニンニクなど、宮崎県産食材にこだわって作られています。薄皮は焼けばパリッと、口に入れるとモチッとした食感。野菜の甘みと豚肉の旨み、ジューシーな肉汁が口いっぱいに広がります。宮崎市は、総務省家計調査の「ぎょうざ年間購入頻度」で2020年から2025年まで6年連続全国1位を達成。そんな“餃子のまち宮崎”の味を楽しめる一品です。12個入り・たれ付き。",
+      "zh": "来自宫崎市中央批发市场的「屋台骨」宫崎饺子。严选宫崎品牌认证猪肉，并使用宫崎县西都产韭菜、大蒜等当地食材制作。薄皮煎制后外脆内韧，一口咬下，蔬菜的自然甘甜、猪肉的鲜香与丰富肉汁在口中散开。根据日本总务省家计调查，宫崎市在“饺子年度购买频率”项目中，从2020年至2025年连续6年位居全国第1。12个装，附酱汁。",
+      "en": "Miyazaki gyoza from Yataibone, originating at the Miyazaki City Central Wholesale Market. Made with certified Miyazaki Brand Pork and locally sourced ingredients including chives and garlic from Saito, Miyazaki. The thin wrappers cook up crisp on the outside while remaining pleasantly chewy, with juicy pork and the natural sweetness of vegetables in every bite. According to Japan’s Family Income and Expenditure Survey, Miyazaki City ranked No. 1 nationwide in annual gyoza purchase frequency for six consecutive years, from 2020 through 2025. 12 pieces with sauce."
     },
     "award": {
-      "enabled": false
+      "enabled": true,
+      "title": {
+        "ja": "テレビ・マスコミでも注目。フジテレビ系「超熱烈！グルメ王国（キングダム）」で宮崎餃子を紹介。",
+        "zh": "电视及媒体关注！宫崎饺子曾在富士电视台《超熱烈！グルメ王国（キングダム）》中介绍。",
+        "en": "Miyazaki Gyoza featured on Fuji TV’s “Cho Netsuretsu! Gourmet Kingdom” and covered by TV and other media."
+      }
     }
   },
   {
