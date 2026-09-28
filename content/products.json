@@ -140,17 +140,22 @@
     "published": true,
     "order": 7,
     "name": {
-      "ja": "鶏皮 秘伝のタレ味",
-      "zh": "鸡皮 秘制酱汁味",
-      "en": "Chicken Skin – Signature Tare Sauce"
+      "ja": "おつまみ鶏皮 秘伝の甘タレ味",
+      "zh": "博多响 冰吃鸡皮 秘制甜酱味",
+      "en": "Hakata Hibiki Chilled Chicken Skin – Secret Sweet Sauce"
     },
     "description": {
-      "ja": "カリッとした食感と、やみつきになる秘伝のタレ味。お酒のおつまみにもぴったりの一品です。",
-      "zh": "酥脆口感搭配令人上瘾的秘制酱汁风味，也很适合作为下酒小食。",
-      "en": "Crispy chicken skin coated in a savory signature tare sauce—an easy snack to enjoy with a drink."
+      "ja": "第12回からあげグランプリ 西日本しょうゆダレ部門金賞受賞店「博多からあげ響」が作った、冷やして食べるおつまみ鶏皮。冷凍のまま食べられ、秘伝の甘だれの味わいが口いっぱいに広がります。お酒のおつまみはもちろん、おやつにもおすすめ。内容量58g。",
+      "zh": "由荣获第12届炸鸡大奖“西日本酱油汁部门金奖”的「博多からあげ響」推出。无需解冻或加热，冷冻状态即可直接享用。秘制甜酱的香甜滋味在口中散开，既适合作为下酒小食，也适合作为日常零食。净含量58g。",
+      "en": "Chilled chicken skin from Hakata Karaage Hibiki, a Gold Award winner in the Western Japan Soy Sauce Category of the 12th Karaage Grand Prix. Enjoy it straight from the freezer without heating. The Secret Sweet Sauce flavor delivers a rich, sweet-savory taste, perfect as a snack or with drinks. Net weight: 58g."
     },
     "award": {
-      "enabled": false
+      "enabled": true,
+      "title": {
+        "ja": "第12回からあげグランプリ 西日本しょうゆダレ部門 金賞受賞店「博多からあげ響」",
+        "zh": "「博多からあげ響」荣获第12届炸鸡大奖 西日本酱油汁部门金奖",
+        "en": "Hakata Karaage Hibiki – Gold Award, 12th Karaage Grand Prix, Western Japan Soy Sauce Category"
+      }
     }
   },
   {
