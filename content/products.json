@@ -266,7 +266,7 @@
   },
   {
     "id": "ibaji-sweet-butter-mochi-plain",
-    "image": "/media/2c8c3f04-ec8b-437b-a1de-079a36637f54-1.png",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-14.png",
     "category": "desserts",
     "price": 680,
     "isNew": true,
@@ -275,14 +275,14 @@
     "published": true,
     "order": 9,
     "name": {
-      "ja": "いばじSWEET バターもち プレーン",
-      "zh": "IBAJI SWEET 黄油麻薯 原味",
-      "en": "Ibaji SWEET Butter Mochi Plain"
+      "ja": "いばじSWEET バターもち（プレーン）",
+      "zh": "いばじSWEET 黄油麻薯（原味）",
+      "en": "Ibaji SWEET Butter Mochi (Plain)"
     },
     "description": {
-      "ja": "外はカリッ、中はもちもち。じゅわっと広がるバターの香りとコクを楽しめる新食感のバターもちです。1袋に食べやすいサイズの3個入り。電子レンジやトースターで温めると、さらに美味しく楽しめます。",
-      "zh": "外层酥脆、内里Q弹软糯，咬下去黄油的香气与醇厚滋味在口中散开，是一款新口感黄油麻薯。每袋含3个方便食用的小份量，加热后风味更佳。",
-      "en": "Crisp outside and chewy inside, this butter mochi delivers a rich buttery aroma and satisfying depth of flavor. Each bag contains three bite-sized pieces; warm in a microwave or toaster for an even better texture."
+      "ja": "SNSや韓国モッパン・ASMRで話題の新感覚スイーツ「バターもち（バタートック）」。香ばしく焼き上がった外側はカリッと、中はもっちりとした食感で、ひと口で2つの食感を楽しめます。バターの豊かな香りとやさしい甘さが広がるプレーン味。温めることで、外側の香ばしさと中のもちもち感をより楽しめる、いま注目のスイーツです。",
+      "zh": "最近在韩国吃播和ASMR中备受关注的新感觉甜点“黄油麻薯（Butter Tteok）”。外层烘烤后香脆，里面却保持软糯Q弹，一口就能体验“外脆内糯”的双重口感。原味散发浓郁黄油香气，甜度柔和，加热后外层更加香脆、内部更加软糯，是近期在SNS上颇具话题度的人气甜点。",
+      "en": "A trendy new-style dessert gaining attention through Korean mukbang and ASMR videos. Butter Mochi, also known as Butter Tteok, combines a crisp, fragrant exterior with a soft and chewy center for two contrasting textures in every bite. The Original flavor features a rich buttery aroma and gentle sweetness. Warm it up to enjoy an even crispier outside and satisfyingly chewy center."
     },
     "award": {
       "enabled": false
