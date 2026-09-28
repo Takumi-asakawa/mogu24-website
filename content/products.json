@@ -343,7 +343,7 @@
   },
   {
     "id": "niigata-sasadango",
-    "image": "/media/3681ca98-29e7-4401-98b7-ec027c4803c5.png",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-16.png",
     "category": "desserts",
     "price": 920,
     "isNew": true,
@@ -352,14 +352,14 @@
     "published": true,
     "order": 23,
     "name": {
-      "ja": "新潟 笹団子（5個入り）",
-      "zh": "新潟笹团子（5个装）",
-      "en": "    Niigata Sasa Dango (5 Pieces)"
+      "ja": "港製菓 新潟名物 笹だんご（粒あん）5個入",
+      "zh": "港製菓 新潟名物 笹团子（红豆粒馅）5个装",
+      "en": "Minato Seika Niigata Sasadango – Red Bean (5 Pieces)"
     },
     "description": {
-      "ja": "新潟を代表する郷土菓「笹団子」。よもぎを練り込んだお団子であんこを包み、笹の葉で包んだ新潟名物です。5個入り。",
-      "zh": "新潟代表性的传统点心“笹团子”。将艾草揉入团子皮中，包入红豆馅，再用竹叶包裹而成。5个装。",
-      "en": "Sasa Dango is atraditional specialty of Niigata,made\nwith mugwort-flavored\nmochi filled with sweet red bean paste and wrapped in bamboo leaves. 5 pieces."
+      "ja": "新潟を代表する伝統和菓子「笹だんご」。昭和11年（1936年）創業の新潟の老舗和菓子メーカー「港製菓」が手がける、新潟土産の定番です。よもぎを練り込んだもちもちのお団子生地で、やさしい甘さの自家製粒あんを包み、新潟県内で採取した生笹で一つひとつ丁寧に巻き上げています。笹のほのかな香り、よもぎの風味、小豆のやさしい甘みが調和した昔ながらの味わい。独自の製法により、冷凍から自然解凍しても柔らかく、もちもちとした食感を楽しめます。5個入り（250g）。",
+      "zh": "新潟极具代表性的传统和果子“笹团子”。由创立于1936年的新潟老字号和果子制造商「港製菓」制作，是当地经典的新潟名物。将艾草揉入软糯Q弹的团子皮中，包入港製菓自家制作、甜度柔和的红豆粒馅，再使用新潟县内采摘的新鲜竹叶，一个一个细心包裹而成。竹叶淡淡的清香、艾草特有的风味与红豆馅的自然甘甜相互融合，呈现出传统朴实的新潟味道。采用独特制作工艺，即使冷冻后自然解冻，也能保持柔软Q弹的口感。5个装（250g）。",
+      "en": "Sasadango is one of Niigata’s best-known traditional Japanese sweets. Made by Minato Seika, a long-established Niigata confectionery maker founded in 1936, each dumpling features a soft and chewy mugwort-infused rice dough filled with gently sweetened, house-made chunky red bean paste. The dumplings are individually wrapped in fresh bamboo leaves harvested in Niigata, bringing together the subtle aroma of bamboo leaves, fragrant mugwort and the natural sweetness of azuki beans. Minato Seika’s special production method helps preserve the soft, pleasantly chewy texture even after frozen storage and natural thawing. 5 pieces (250g)."
     },
     "award": {
       "enabled": false
