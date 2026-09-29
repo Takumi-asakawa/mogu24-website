@@ -653,5 +653,33 @@
         "en": "Grand Prix – 70th Japan Food Selection / Three Stars – FOOD PROFESSIONAL AWARD 2024"
       }
     }
+  },
+  {
+    "id": "shoeidoh-zunda-mochi",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-18.png",
+    "category": "desserts",
+    "price": 0,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 25,
+    "name": {
+      "ja": "菓匠 松栄堂 ずんだ餅（5個入）",
+      "zh": "菓匠 松栄堂 毛豆泥麻薯（5个装）",
+      "en": "Shoueido Zunda Mochi (5 Pieces)"
+    },
+    "description": {
+      "ja": "岩手・一関の老舗「菓匠 松栄堂」が手がける名物ずんだ餅。岩手県一関産の厳選されたもち米「こがねもち」を丹念につき上げ、枝豆の豊かな風味を生かした、甘さ控えめのずんだ餡をたっぷりとからめています。もち米ならではのしっかりとした食感と、枝豆の香りや自然な味わいを楽しめる一品。「広島菓子大博覧会」では売上第3位を獲得しました。冷凍商品で、常温で2～3時間ほど自然解凍すると食べ頃です。5個入り。",
+      "zh": "来自岩手县一关市老字号「菓匠 松栄堂」的人气毛豆泥麻薯。严选岩手县一关产糯米「こがねもち」，经过细心捣制后，裹上满满的毛豆泥馅。毛豆泥甜度适中，充分保留枝豆特有的清香与自然风味，与富有嚼劲的糯米麻薯相互搭配。曾在“广岛菓子大博览会”中取得销售额第3名。冷冻保存，食用前在常温下自然解冻约2～3小时即可。5个装。",
+      "en": "A popular zunda mochi from Shoueido, a long-established confectionery maker in Ichinoseki, Iwate. Carefully selected Koganemochi glutinous rice grown in Ichinoseki is thoroughly pounded and generously coated with mildly sweet zunda bean paste, highlighting the rich, natural flavor of edamame. The pleasantly chewy mochi and fragrant edamame make for a classic regional Japanese sweet. It ranked No. 3 in sales at the Hiroshima National Confectionery Exposition. Frozen product; naturally thaw at room temperature for approximately 2–3 hours before serving. 5 pieces. "
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "広島菓子大博覧会 売上第3位",
+        "zh": "广岛菓子大博览会 销售额第3名",
+        "en": "No. 3 in Sales – Hiroshima National Confectionery Exposition"
+      }
+    }
   }
 ]
