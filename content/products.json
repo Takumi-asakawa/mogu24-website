@@ -683,5 +683,29 @@
         "en": "No. 3 in Sales – Hiroshima National Confectionery Exposition"
       }
     }
+  },
+  {
+    "id": "26",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1.png",
+    "category": "rice",
+    "price": 320,
+    "isNew": true,
+    "salePrice": 220,
+    "recommended": true,
+    "published": true,
+    "order": 26,
+    "name": {
+      "ja": "花善 冷凍鶏めしおにぎり",
+      "zh": "花善 冷冻鸡肉饭团",
+      "en": "Hanazen Frozen Chicken Rice Onigiri"
+    },
+    "description": {
+      "ja": "秋田・大館で1899年に創業した老舗駅弁店「花善」の名物「鶏めし」が、手軽に楽しめる冷凍おにぎりになりました。秋田県産「あきたこまち」を100％使用し、長年受け継がれてきた秘伝の鶏の煮汁で炊き上げた、ほんのり甘い味付けご飯。そこに甘辛く煮込んだ鶏もも肉を合わせ、花善ならではの懐かしく奥深い味わいに仕上げています。秋田・大館の名物駅弁の美味しさを、おやつや夜食、小腹がすいた時にも気軽に楽しめる一品です。",
+      "zh": "来自秋田县大馆市、创立于1899年的老字号车站便当店「花善」，将经典招牌“鸡肉饭”制作成了方便享用的冷冻饭团。严选100%秋田县产“秋田小町”大米，使用花善传承多年的秘制鸡肉汤汁炊煮，米饭带有淡淡的甘甜，再搭配经过甜咸酱汁慢煮、鲜香入味的鸡腿肉。将传统鸡肉饭的浓郁香气与独特风味浓缩在一个饭团之中。无论是早餐、夜宵，还是肚子有点饿的时候，都能轻松品尝秋田大馆的经典车站便当风味。",
+      "en": "The famous chicken rice from Hanazen, a historic ekiben maker founded in 1899 in Odate, Akita, is now available as a convenient frozen rice ball. Made with 100% Akita-grown Akitakomachi rice, gently cooked in Hanazen’s secret chicken broth for a subtly sweet and savory flavor, and combined with tender chicken thigh simmered in a rich sweet-savory sauce. This onigiri captures the traditional taste of Hanazen’s beloved chicken rice ekiben in an easy-to-enjoy format. Perfect for a light meal, snack, or late-night bite, bringing a taste of Odate, Akita, to your table."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
