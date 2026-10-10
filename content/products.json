@@ -808,5 +808,33 @@
     "award": {
       "enabled": false
     }
+  },
+  {
+    "id": "aomori-hotate-kaiyaki-miso",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-39.png",
+    "category": "meat",
+    "price": 720,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 31,
+    "name": {
+      "ja": "青森名物 ほたて貝焼きみそ",
+      "zh": "青森名物 扇贝味噌烧",
+      "en": "Aomori Scallop Miso Hot Pot"
+    },
+    "description": {
+      "ja": "青森県の郷土料理「貝焼きみそ」を、ご家庭で手軽に楽しめる冷凍食品。青森県陸奥湾産のベビーホタテを使用し、津軽味噌と煮干しだしで仕上げました。丸ごとのベビーホタテ6粒に加え、カットしたホタテも入っており、豊かな旨みと食感が楽しめます。化学調味料は不使用。電子レンジで温め、卵1個を加えて再加熱するだけで、青森の懐かしい郷土の味が完成します。ご飯のお供やお酒のおつまみにもおすすめ。内容量100g（1～2人前）。",
+      "zh": "来自日本青森县的传统乡土料理“扇贝味噌烧”，将当地渔民世代相传的家乡风味制作成方便烹调的冷冻食品。严选青森县陆奥湾产的小扇贝，搭配津轻味噌与沙丁鱼干熬制的高汤，鲜香浓郁。每份含有6颗完整的小扇贝，并加入切碎的扇贝肉，充分展现海鲜的鲜甜与口感。不使用化学调味料。只需微波加热，加入一颗鸡蛋搅拌后再次加热，即可享用地道的青森风味。搭配热米饭或作为下酒菜都很适合。每份100克，约1～2人份。",
+      "en": "Experience Kaiyaki Miso, a traditional regional specialty from Aomori Prefecture. Made with baby scallops harvested from Mutsu Bay, local Tsugaru miso, and savory dried sardine broth, this frozen dish captures the rich flavors of northern Japan. Each serving contains six whole baby scallops plus additional chopped scallop pieces, with no added chemical seasonings. Simply heat in the microwave, add one egg, mix, and heat again to enjoy this comforting local delicacy. Delicious served over hot rice or as a savory side dish. Net weight: 100g (1–2 servings)."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "令和6年度 青森県特産品コンクール 青森県知事賞／令和6年度 優良ふるさと食品中央コンクール 新製品開発部門 農林水産省大臣官房長賞",
+        "zh": "2024年度 青森县特产品大赛 县知事奖／2024年度 优良故乡食品中央大赛 新产品开发部门 农林水产省大臣官房长奖",
+        "en": "2024 Aomori Prefecture Governor's Award / 2024 MAFF Minister's Secretariat Director-General Award – New Product Development"
+      }
+    }
   }
 ]
