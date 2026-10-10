@@ -685,7 +685,7 @@
     }
   },
   {
-    "id": "26",
+    "id": "hanazen-torimeshi-onigiri",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1.png",
     "category": "rice",
     "price": 300,
@@ -706,6 +706,35 @@
     },
     "award": {
       "enabled": false
+    }
+  },
+  {
+    "id": "yamaguchi-kawara-soba",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-28-1.png",
+    "category": "meat",
+    "price": 1280,
+    "isNew": true,
+    "salePrice": 1180,
+    "recommended": true,
+    "published": true,
+    "order": 27,
+    "name": {
+      "ja": "はしもと商店 冷凍瓦そば",
+      "zh": "はしもと商店 山口名物 冷冻瓦片荞麦面",
+      "en": "Hashimoto Shoten Frozen Kawara Soba"
+    },
+    "description": {
+      "ja": "山口県の郷土料理「瓦そば」を、ご家庭で手軽に楽しめる冷凍商品。株式会社はしもと商店が、熱した瓦の上で焼き上げる瓦そばならではの、茶そばのパリパリとした香ばしさと、もっちりした食感を急速冷凍で再現しました。具材付きの茶そばに、大根おろし、レモン、つゆがセットになっており、山口名物の味わいを楽しめます。第2回「日本全国！ご当地冷凍食品大賞2025-2026」で最高金賞を受賞した注目の一品です。内容量280g。",
+      "zh": "来自日本山口县的特色乡土料理“瓦片荞麦面”，由「はしもと商店」制作成方便在家享用的冷冻食品。传统瓦片荞麦面以烧热的瓦片烘烤茶荞麦面，形成部分香脆、部分软糯的独特口感。这款产品通过急速冷冻技术，尽可能保留茶荞麦面的香气与口感。套装包含配菜荞麦面、萝卜泥、柠檬及特制蘸汁，让人在家也能体验山口县的经典地方美食。荣获第2届“日本全国！当地冷冻食品大奖2025-2026”最高金奖。净含量280g。",
+      "en": "Discover Kawara Soba, a traditional regional specialty from Yamaguchi Prefecture, prepared as a convenient frozen meal by Hashimoto Shoten. Traditionally served on a heated roof tile, this distinctive dish features green tea soba noodles with a combination of crispy, toasted edges and pleasantly chewy textures. Rapid freezing helps preserve the characteristic flavor and texture. The set includes noodles with toppings, grated daikon, lemon, and dipping sauce. Winner of the Highest Gold Award at the 2nd Japan Local Frozen Food Awards 2025–2026. Net weight: 280g."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "第2回「日本全国！ご当地冷凍食品大賞2025-2026」最高金賞",
+        "zh": "第2届“日本全国！当地冷冻食品大奖2025-2026”最高金奖",
+        "en": "Highest Gold Award – 2nd Japan Local Frozen Food Awards 2025–2026"
+      }
     }
   }
 ]
