@@ -760,5 +760,29 @@
     "award": {
       "enabled": false
     }
+  },
+  {
+    "id": "tokuno-rare-cheesecake",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-30.png",
+    "category": "desserts",
+    "price": 1180,
+    "isNew": true,
+    "salePrice": 1080,
+    "recommended": true,
+    "published": true,
+    "order": 29,
+    "name": {
+      "ja": "特濃レアチーズケーキ",
+      "zh": "特浓芝士慕斯蛋糕",
+      "en": "Extra Rich No-Bake Cheesecake"
+    },
+    "description": {
+      "ja": "ひとくち食べれば、口の中でなめらかにとろける特濃レアチーズケーキ。乳脂肪分35％の生クリームを使用し、クリーミーでコクのある味わいに仕上げました。レアチーズケーキならではのやさしい酸味と、濃厚なミルクの風味が調和した贅沢なスイーツです。しっとりとした口どけと上品な味わいで、食後のデザートやティータイムにもぴったり。いつものひとときを、少し特別な時間にしてくれる一品です。",
+      "zh": "一入口便细腻融化的特浓芝士慕斯蛋糕，选用乳脂肪含量35%的鲜奶油，带来浓郁醇厚的奶香与柔滑绵密的口感。芝士特有的微酸与奶油的香甜巧妙融合，浓郁却不失细腻。每一口都能感受到柔软顺滑的质地与层次丰富的乳香，无论是饭后甜点、下午茶，还是想给自己一点小奖励的时候，都很适合。让平凡的日常，也能多一份精致的甜蜜享受。",
+      "en": "Indulge in the smooth, melt-in-your-mouth texture of this extra-rich no-bake cheesecake. Made with fresh cream containing 35% milk fat, it offers a luxurious creamy richness balanced by the delicate tang of cheesecake. Its silky texture and full-bodied dairy flavor make every bite a delightful treat. Perfect for dessert, afternoon tea, or a little everyday indulgence, this elegant cheesecake brings a touch of sweetness to any occasion."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
