@@ -784,5 +784,29 @@
     "award": {
       "enabled": false
     }
+  },
+  {
+    "id": "premium-mousse-chocolat",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-31.png",
+    "category": "desserts",
+    "price": 1180,
+    "isNew": true,
+    "salePrice": 1080,
+    "recommended": true,
+    "published": true,
+    "order": 30,
+    "name": {
+      "ja": "高級ムースショコラ",
+      "zh": "高级巧克力慕斯蛋糕",
+      "en": "Premium Chocolate Mousse Cake"
+    },
+    "description": {
+      "ja": "カカオ70％のクーベルチュールチョコレートを使用した、贅沢な味わいの高級ムースショコラ。濃厚なチョコレートムースにバニラソースを合わせ、カカオの深いコクとバニラのやさしい甘さが楽しめる一品です。直径約11cm、高さ約3cmのホールタイプで、内容量は180g。冷蔵庫で約6時間解凍するだけで、ご家庭でも本格的なチョコレートスイーツをお楽しみいただけます。特別な日のデザートや、自分へのご褒美にもおすすめです。",
+      "zh": "采用可可含量70%的Couverture调温巧克力制作，浓郁的巧克力慕斯搭配香醇的香草酱，让深厚的可可香气与柔和的香草甜味巧妙融合。蛋糕口感细腻柔滑，巧克力风味浓厚，适合喜欢浓郁巧克力甜点的人。整颗蛋糕直径约11厘米、高约3厘米，净含量180克。只需放入冰箱冷藏解冻约6小时，即可在家享受精致的巧克力甜点。无论是下午茶、饭后甜品，还是犒赏自己的小小仪式，都很适合。",
+      "en": "An indulgent premium chocolate mousse cake made with 70% cacao couverture chocolate. Rich chocolate mousse is paired with creamy vanilla sauce, bringing together deep cocoa flavor and gentle vanilla sweetness. Smooth and satisfying, this elegant dessert is perfect for chocolate lovers. The whole cake measures approximately 11 cm in diameter and 3 cm in height, with a net weight of 180 g. Simply thaw in the refrigerator for approximately 6 hours before serving. Ideal for afternoon tea, special occasions, or a little everyday indulgence."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
