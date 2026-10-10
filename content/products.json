@@ -819,9 +819,9 @@
     "published": true,
     "order": 31,
     "name": {
-      "ja": "青森名物 ほたて貝焼きみそ",
-      "zh": "青森名物 扇贝味噌烧",
-      "en": "Aomori Scallop Miso Hot Pot"
+      "ja": "青森名物 ほたて貝焼きみそ（煮干し出汁）",
+      "zh": "青森名物 扇贝味噌烧（沙丁鱼干高汤味）",
+      "en": "Aomori Scallop Miso Hot Pot – Dried Sardine Broth"
     },
     "description": {
       "ja": "青森県の郷土料理「貝焼きみそ」を、ご家庭で手軽に楽しめる冷凍食品。青森県陸奥湾産のベビーホタテを使用し、津軽味噌と煮干しだしで仕上げました。丸ごとのベビーホタテ6粒に加え、カットしたホタテも入っており、豊かな旨みと食感が楽しめます。化学調味料は不使用。電子レンジで温め、卵1個を加えて再加熱するだけで、青森の懐かしい郷土の味が完成します。ご飯のお供やお酒のおつまみにもおすすめ。内容量100g（1～2人前）。",
@@ -835,6 +835,29 @@
         "zh": "2024年度 青森县特产品大赛 县知事奖／2024年度 优良故乡食品中央大赛 新产品开发部门 农林水产省大臣官房长奖",
         "en": "2024 Aomori Prefecture Governor's Award / 2024 MAFF Minister's Secretariat Director-General Award – New Product Development"
       }
+    }
+  },
+  {
+    "id": "aomori-hotate-kaiyaki-miso-katsuo",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-40-3.png",
+    "category": "meat",
+    "price": 720,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 32,
+    "name": {
+      "ja": "青森名物 ほたて貝焼きみそ（かつお出汁）",
+      "zh": "青森名物 扇贝味噌烧（鲣鱼高汤味）",
+      "en": "Aomori Scallop Miso Hot Pot – Bonito Broth"
+    },
+    "description": {
+      "ja": "青森県の伝統的な郷土料理「貝焼きみそ」を手軽に楽しめる冷凍食品。ホタテの旨みと味噌のコクに、かつお出汁の風味を合わせた味わいが特徴です。貝焼きみそは、かつて漁師たちがホタテの貝殻を鍋代わりにして作ったとされる青森の家庭料理。卵を加えて仕上げることで、まろやかで風味豊かな一品になります。温かいご飯のお供や、お酒のおつまみにもおすすめです。内容量100g（1～2人前）。",
+      "zh": "来自日本青森县的传统乡土料理“扇贝味噌烧”，这次带来的是鲣鱼高汤口味。扇贝的鲜甜与味噌的醇厚滋味相结合，再融入鲣鱼高汤的鲜香，呈现出层次丰富的日式风味。相传过去青森的渔民会直接使用扇贝壳当作小锅，加入味噌、高汤和当地食材烹煮，逐渐成为流传至今的家乡料理。食用时加入鸡蛋烹调，口感更加柔和鲜美。无论搭配热米饭，还是作为下酒小菜，都很适合。每份100克，约1～2人份。",
+      "en": "Discover Kaiyaki Miso, a traditional regional specialty from Aomori Prefecture, in a bonito broth variation. The savory richness of scallops and miso is complemented by the delicate umami of bonito dashi. This beloved local dish traces its roots to fishermen who used scallop shells as small cooking vessels. Add an egg during preparation to create a comforting, flavorful dish. Delicious with steamed rice or as a savory side dish. Net weight: 100g (approximately 1–2 servings)."
+    },
+    "award": {
+      "enabled": false
     }
   }
 ]
