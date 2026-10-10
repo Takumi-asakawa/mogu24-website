@@ -736,5 +736,29 @@
         "en": "Highest Gold Award – 2nd Japan Local Frozen Food Awards 2025–2026"
       }
     }
+  },
+  {
+    "id": "taiwan-chimaki-3pcs",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-29-1.png",
+    "category": "rice",
+    "price": 1450,
+    "isNew": true,
+    "salePrice": 1350,
+    "recommended": true,
+    "published": true,
+    "order": 28,
+    "name": {
+      "ja": "台湾ちまき（3個入り）",
+      "zh": "台湾风味手工肉粽（3个装）",
+      "en": "Taiwanese Pork Sticky Rice Dumplings (3 Pieces)"
+    },
+    "description": {
+      "ja": "台湾の伝統的な味わいを楽しめる、本格的な手作り台湾ちまき。もちもちとしたもち米に、こだわりの豚肉の旨みが染み込み、食べ応えのある一品に仕上がっています。竹の葉で丁寧に包むことで、開いた瞬間に広がる豊かな香りも魅力。もち米のやさしい甘みと豚肉のコクが調和した、台湾ならではの味わいをご家庭でも楽しめます。3個入り。",
+      "zh": "充满台湾传统风味的手工肉粽，将软糯有嚼劲的糯米与精心挑选的猪肉相结合，让肉香与浓郁的鲜味融入每一粒米饭。使用竹叶细心包裹，打开时便能感受到淡淡的竹叶清香。糯米的软糯口感、猪肉的醇厚香味相互融合，呈现出令人怀念的台湾家乡味道。无论作为正餐还是解馋的小食，都能轻松享用。每袋3个装。",
+      "en": "Enjoy the authentic taste of Taiwan with these handmade sticky rice dumplings. Tender, chewy glutinous rice is combined with flavorful pork, allowing the rich, savory taste to infuse every bite. Carefully wrapped in bamboo leaves, each dumpling releases a delicate aroma when opened. The satisfying texture of sticky rice and the delicious richness of pork come together in a traditional Taiwanese specialty, perfect as a meal or hearty snack. Pack of 3."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
