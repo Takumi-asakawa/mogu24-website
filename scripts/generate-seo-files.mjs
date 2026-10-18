@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = process.cwd();
-const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://mogu24-website.pages.dev").replace(/\\/$/, "");
+const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://mogu24-website.pages.dev").replace(/\/$/, "");
 const locales = ["ja", "zh", "en"];
 // Only canonical, indexable routes. Legacy routes /about and /how-to-use
 // and policy/contact pages are intentionally excluded because they are noindex.
