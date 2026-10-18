@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   if (!isLocale(locale) || !allowed.includes(slug as any)) return {};
   const d = getDictionary(locale);
   const seo = seoCopy[locale];
-  const isLegacyHomeSection = ["about", "how-to-use", "store"].includes(slug);
+  const isLegacyHomeSection = ["about", "how-to-use"].includes(slug);
   const noIndex = isLegacyHomeSection || ["privacy", "terms", "legal", "contact"].includes(slug);
   const titleMap: Record<string, string> = {
     about: `${d.nav.about} | MOGU24`,
