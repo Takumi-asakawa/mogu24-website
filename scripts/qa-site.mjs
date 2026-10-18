@@ -48,6 +48,22 @@ pass(fs.existsSync(path.join(root, "public", "robots.txt")), "robots.txt is miss
 pass(fs.existsSync(path.join(root, "public", "sitemap.xml")), "sitemap.xml is missing.");
 pass(read("public/robots.txt").includes("Disallow: /admin/"), "robots.txt does not block /admin/.");
 pass(read("public/sitemap.xml").includes("/ja/products/"), "sitemap.xml does not include Japanese products page.");
+const expectedPublishedProducts = json("content/products.json").filter((item) => item.published === true);
+const sitemap = read("public/sitemap.xml");
+const sitemapLocations = [...sitemap.matchAll(/<loc>([^<]+)<\\/loc>/g)].map((match) => match[1]);
+const expectedSitemapCount = 3 * (5 + expectedPublishedProducts.length);
+pass(sitemapLocations.length === expectedSitemapCount,
+  `sitemap.xml contains ${sitemapLocations.length} URLs, expected ${expectedSitemapCount}; the build may have overwritten the full sitemap.`);
+for (const locale of ["ja", "zh", "en"]) {
+  for (const slug of ["", "products/", "store/", "news/", "faq/"]) {
+    pass(sitemapLocations.includes(`https://mogu24-website.pages.dev/${locale}/${slug}`),
+      `sitemap.xml missing ${locale}/${slug}`);
+  }
+  for (const product of expectedPublishedProducts) {
+    pass(sitemapLocations.some((url) => url.endsWith(`/${locale}/products/${encodeURIComponent(product.id)}/`)),
+      `sitemap.xml missing published product ${locale}/${product.id}`);
+  }
+}
 const faqContent = read("content/faqs.json");
 pass(faqContent.includes("八王子のMOGU24は24時間いつでも購入できますか？"), "Local-intent FAQ copy is missing.");
 
