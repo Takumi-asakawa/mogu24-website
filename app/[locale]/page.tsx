@@ -55,7 +55,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     logo: absoluteUrl("/mogu24-logo.png"),
     image: absoluteUrl("/images/generated/hero-store.webp"),
     description: seoCopy[locale].homeDescription,
-    address: { "@type": "PostalAddress", addressLocality: "八王子市", addressRegion: "東京都", addressCountry: "JP" },
+    address: { "@type": "PostalAddress", streetAddress: "明神町4-1-11 ステージグランデ八王子Ⅲ 101号室", postalCode: "192-0046", addressLocality: "八王子市", addressRegion: "東京都", addressCountry: "JP" },
     areaServed: { "@type": "City", name: "八王子市" },
     openingHoursSpecification: [{
       "@type": "OpeningHoursSpecification",
