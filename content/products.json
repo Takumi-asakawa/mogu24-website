@@ -859,5 +859,18 @@
     "award": {
       "enabled": false
     }
+  },
+  {
+    "id": "fukushima-pancake-sand-ufuretto",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1-1.png",
+    "category": "desserts",
+    "price": 1980,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 33,
+    "award": {
+      "enabled": false
+    }
   }
 ]
