@@ -869,8 +869,23 @@
     "recommended": true,
     "published": true,
     "order": 33,
+    "name": {
+      "ja": "福島発 パンケーキサンド うふれっと（4個セット）",
+      "zh": "福岛名物 松软松饼夹心甜点（4个装）",
+      "en": "Fukushima Ufuretto Pancake Sandwiches (4-Piece Set)"
+    },
+    "description": {
+      "ja": "福島県の老舗菓子店「お菓子のさかい」が手がける、ふわふわ食感のパンケーキサンド「うふれっと」。\n\n卵と牛乳の配合や焼き方にこだわり、冷やしてもふんわりとした食感を楽しめるように仕上げたスイーツです。直径約6.5cmの食べやすいサイズで、パンケーキ生地にクリームやソースをサンドしています。\n\nフジテレビ系「めざましテレビ」でも紹介された話題のスイーツ。\n\nMOGU24では、カスタード・いちご・チョコレート・白桃の4種類を各1個ずつ楽しめるセットをご用意しました。\n\n冷蔵庫で約4〜5時間解凍するだけで、手軽にお召し上がりいただけます。\n\n内容量：4個入り（4種類×各1個）",
+      "zh": "来自日本福岛县百年老字号糕点店「お菓子のさかい」的人气甜点——松软松饼夹心「うふれっと」。\n\n这款甜点特别讲究鸡蛋与牛奶的配比，并采用独特的烘烤工艺，让松饼即使冷藏后也能保持柔软蓬松的口感。每个直径约6.5厘米，中间夹入香甜的奶油与酱料，口感轻盈细腻。\n\n这款甜点系列还曾在日本富士电视台的晨间节目《めざましテレビ》中获得介绍。\n\nMOGU24推出4种口味组合：卡仕达、草莓、巧克力、白桃，每种各1个，共4个。\n\n只需放入冰箱冷藏解冻约4～5小时，即可享用。\n\n规格：4个装（4种口味各1个）。",
+      "en": "Discover Ufuretto, a delightfully fluffy pancake sandwich created by Okashi no Sakai, a long-established confectionery maker in Fukushima Prefecture, Japan.\n\nMade with a carefully balanced blend of eggs and milk and a special baking technique, these soft pancake sandwiches are designed to maintain their light, fluffy texture even when chilled. Each pancake measures approximately 6.5 cm in diameter and is filled with cream and flavorful sauces.\n\nThe Ufuretto series has also been featured on the Japanese morning television program Mezamashi TV.\n\nMOGU24 offers a four-flavor assortment featuring Custard, Strawberry, Chocolate, and White Peach, with one piece of each flavor.\n\nSimply thaw in the refrigerator for approximately 4–5 hours before serving.\n\nContents: 4 pieces (1 of each flavor)."
+    },
     "award": {
-      "enabled": false
+      "enabled": true,
+      "title": {
+        "ja": "フジテレビ系「めざましテレビ」で紹介！",
+        "zh": "日本富士电视台《めざましテレビ》节目介绍！",
+        "en": "Featured on Fuji TV’s Mezamashi TV!"
+      }
     }
   }
 ]
