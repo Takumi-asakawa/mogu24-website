@@ -25,9 +25,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       siteName: "MOGU24",
       locale: locale === "zh" ? "zh_CN" : locale === "en" ? "en_US" : "ja_JP",
       type: "website",
-      images: [{ url: absoluteUrl("/images/generated/hero-store.webp"), width: 1688, height: 932, alt: seo.ogAlt }]
+      images: [{ url: absoluteUrl("/images/store/mogu24-storefront-retouched.webp"), width: 1448, height: 1086, alt: seo.ogAlt }]
     },
-    twitter: { card: "summary_large_image", title: seo.homeTitle, description: seo.homeDescription, images: [absoluteUrl("/images/generated/hero-store.webp")] },
+    twitter: { card: "summary_large_image", title: seo.homeTitle, description: seo.homeDescription, images: [absoluteUrl("/images/store/mogu24-storefront-retouched.webp")] },
     robots: { index: true, follow: true }
   };
 }
@@ -53,7 +53,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     alternateName: locale === "ja" ? "モグ24" : "MOGU24",
     url: absoluteUrl(`/${locale}/`),
     logo: absoluteUrl("/mogu24-logo.png"),
-    image: absoluteUrl("/images/generated/hero-store.webp"),
+    image: absoluteUrl("/images/store/mogu24-storefront-retouched.webp"),
     description: seoCopy[locale].homeDescription,
     address: { "@type": "PostalAddress", streetAddress: "明神町4-1-11 ステージグランデ八王子Ⅲ 101号室", postalCode: "192-0046", addressLocality: "八王子市", addressRegion: "東京都", addressCountry: "JP" },
     areaServed: { "@type": "City", name: "八王子市" },
@@ -77,7 +77,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
   return (
     <>
       <StructuredData data={[localBusiness, websiteSchema]} />
-      <section id="top" className="hero home-anchor">
+      <section id="top" className="hero home-anchor storefront-hero">
         <div className="hero-copy">
           <div className="hero-panel">
             <p className="eyebrow">{d.hero.eyebrow}</p>
@@ -91,7 +91,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
         <div className="hero-image">
-          <Image src="/images/generated/hero-store.webp" alt="MOGU24 frozen food store" fill priority className="cover" sizes="(max-width:700px) 100vw, 58vw" />
+          <Image src="/images/store/mogu24-storefront-retouched.webp" alt="MOGU24 frozen food store" fill priority className="cover" sizes="(max-width:700px) 100vw, 58vw" />
           <div className="hero-image-note">
             <span>24H OPEN</span>
             <strong>MOGU24</strong>
@@ -167,7 +167,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
             <div className="about-origin-label"><Globe2 size={16}/><span>{d.about.visualLabel}</span></div>
             <div className="about-image about-food-main"><Image src="/images/generated/gyoza.webp" alt={locale === "ja" ? "MOGU24で楽しめる焼き餃子の冷凍食品イメージ" : locale === "zh" ? "MOGU24冷冻煎饺美食示意图" : "Frozen gyoza food available at MOGU24"} fill className="cover" sizes="(max-width:700px) 100vw, 34vw" /></div>
             <div className="about-image about-food-side"><Image src="/images/generated/ramen.webp" alt={locale === "ja" ? "MOGU24で楽しめるラーメンの冷凍食品イメージ" : locale === "zh" ? "MOGU24冷冻拉面美食示意图" : "Frozen ramen food available at MOGU24"} fill className="cover" sizes="(max-width:700px) 44vw, 17vw" /></div>
-            <div className="about-image about-store-mini"><Image src="/images/generated/hero-store.webp" alt={locale === "ja" ? "MOGU24店舗外観" : locale === "zh" ? "MOGU24店铺外观" : "MOGU24 store exterior"} fill className="cover" sizes="(max-width:700px) 44vw, 17vw" /><div className="about-store-mini-badge"><span>24H</span><strong>{d.about.badge}</strong></div></div>
+            <div className="about-image about-store-mini"><Image src="/images/store/mogu24-storefront-retouched.webp" alt={locale === "ja" ? "MOGU24店舗外観" : locale === "zh" ? "MOGU24店铺外观" : "MOGU24 store exterior"} fill className="cover" sizes="(max-width:700px) 44vw, 17vw" /><div className="about-store-mini-badge"><span>24H</span><strong>{d.about.badge}</strong></div></div>
             <div className="about-frozen-ribbon"><Snowflake size={17}/><span>{d.about.visualMessage}</span></div>
           </div>
         </div>
@@ -239,7 +239,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
       <section id="store" className="home-anchor store-home">
         <div className="shell store-home-grid">
-          <div className="store-photo"><Image src="/images/generated/hero-store.webp" alt="MOGU24 store exterior" fill className="cover" sizes="(max-width:700px) 100vw, 52vw" /></div>
+          <div className="store-photo"><Image src="/images/store/mogu24-storefront-retouched.webp" alt="MOGU24 store exterior" fill className="cover" sizes="(max-width:700px) 100vw, 52vw" /></div>
           <div className="store-copy">
             <p className="section-kicker light">STORE INFORMATION</p>
             <h2>{d.sections.store}</h2>

@@ -681,3 +681,66 @@ main{min-height:70vh}
 @media(prefers-reduced-motion:reduce){
   .features.shell,.category-grid,.home-product-grid,.how-pills,.about-chips{scroll-behavior:auto}
 }
+
+/* Real storefront: preserve the sign and entrance instead of filling a tall crop. */
+.storefront-hero .hero-image{
+  min-height:0;
+  width:100%;
+  aspect-ratio:4 / 3;
+  align-self:center;
+  background:#071f3a;
+}
+.storefront-hero .hero-image img{object-fit:contain;object-position:center;transform:none}
+.storefront-hero .hero-image:after{display:none}
+.storefront-hero .hero-image-note{display:none}
+.store-photo{background:#061d37}
+.store-photo img{object-fit:contain;object-position:center}
+.store-photo:after{display:none}
+.about-store-mini img{object-position:center}
+
+@media(max-width:700px){
+  .storefront-hero{
+    display:flex;
+    flex-direction:column;
+    height:auto;
+    min-height:0;
+    max-height:none;
+    background:#061b33;
+  }
+  .storefront-hero .hero-image{
+    position:relative;
+    inset:auto;
+    order:0;
+    z-index:auto;
+    height:auto;
+    flex:none;
+    aspect-ratio:4 / 3;
+  }
+  .storefront-hero .hero-copy{
+    position:relative;
+    order:1;
+    height:auto;
+    min-height:0;
+    padding:26px 20px 30px;
+    display:block;
+    background:linear-gradient(135deg,#061b33,#0c3157);
+  }
+  .storefront-hero .hero-panel{
+    width:100%;
+    max-width:none;
+    margin:0;
+    padding:0;
+    background:none;
+    border:0;
+    border-radius:0;
+    box-shadow:none;
+    backdrop-filter:none;
+    text-shadow:none;
+  }
+  .storefront-hero h1{font-size:clamp(36px,10vw,48px);max-width:none;line-height:1.05}
+  .storefront-hero h2{font-size:clamp(19px,5.2vw,22px);line-height:1.45}
+  .storefront-hero .hero-panel>p:last-of-type{font-size:13px;line-height:1.75}
+  .storefront-hero .hero-actions{margin-top:20px}
+  .store-photo{width:100%;height:auto;min-height:0;aspect-ratio:4 / 3}
+  .store-copy{padding-top:28px}
+}

@@ -25,7 +25,7 @@ for (const anchor of ["#about", "#how-to-use", "#store"]) {
   pass(header.includes(anchor), `Desktop header does not link to ${anchor}.`);
   pass(mobile.includes(anchor), `Mobile menu does not link to ${anchor}.`);
 }
-pass(home.includes("/images/generated/hero-store.webp"), "High-resolution generated hero image is not used.");
+pass(home.includes("/images/store/mogu24-storefront-retouched.webp"), "Approved retouched storefront photo is not used.");
 pass(home.includes("how-flow"), "Iconic HOW TO USE flow is missing.");
 pass(home.includes("how-brand-panel"), "HOW TO USE 24-hour brand panel is missing.");
 pass(home.includes("HowStepIcon"), "HOW TO USE custom step icons are missing.");
