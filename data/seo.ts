@@ -2,6 +2,17 @@ import type { Locale } from "@/data/site";
 
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://mogu24-website.pages.dev").replace(/\/$/, "");
 
+// One site identity shared by the root entry and all language homepages.
+export const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": `${SITE_URL}/#website`,
+  name: "MOGU24",
+  alternateName: ["モグ24", "MOGU24（モグ24）"],
+  url: `${SITE_URL}/`,
+  inLanguage: ["ja-JP", "zh-CN", "en"]
+};
+
 export const seoCopy: Record<Locale, {
   homeTitle: string;
   homeDescription: string;

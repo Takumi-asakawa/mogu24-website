@@ -7,7 +7,7 @@ import ProductCard from "@/components/ProductCard";
 import StructuredData from "@/components/StructuredData";
 import { categories, getDictionary, isLocale, localize, products, siteSettings } from "@/data/site";
 import { notFound } from "next/navigation";
-import { absoluteUrl, languageAlternates, seoCopy } from "@/data/seo";
+import { absoluteUrl, languageAlternates, seoCopy, websiteSchema } from "@/data/seo";
 
 const featureIcons = [Clock3, Globe2, Snowflake, CreditCard];
 
@@ -65,14 +65,6 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
     }],
     ...(siteSettings.store.phone ? { telephone: siteSettings.store.phone } : {}),
     ...(sameAs.length ? { sameAs } : {})
-  };
-  const websiteSchema = {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    name: "MOGU24",
-    alternateName: "モグ24",
-    url: absoluteUrl(`/${locale}/`),
-    inLanguage: locale === "ja" ? "ja-JP" : locale === "zh" ? "zh-CN" : "en"
   };
 
   return (
