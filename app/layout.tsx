@@ -3,6 +3,7 @@ import "./globals.css";
 import "./refinement-v7.css";
 import "./refinement-v8.css";
 import "./weekly-responsive-fix.css";
+import "./storefront-responsive.css";
 import LangSetter from "@/components/LangSetter";
 import { SITE_URL } from "@/data/seo";
 

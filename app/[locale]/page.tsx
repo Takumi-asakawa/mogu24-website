@@ -91,7 +91,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
           </div>
         </div>
         <div className="hero-image">
-          <Image src="/images/store/mogu24-storefront-retouched.webp" alt="MOGU24 frozen food store" fill priority className="cover" sizes="(max-width:700px) 100vw, 58vw" />
+          <Image src="/images/store/mogu24-storefront-retouched.webp" alt="MOGU24 frozen food store" width={1448} height={1086} priority className="cover" sizes="(max-width:700px) 100vw, 58vw" />
           <div className="hero-image-note">
             <span>24H OPEN</span>
             <strong>MOGU24</strong>

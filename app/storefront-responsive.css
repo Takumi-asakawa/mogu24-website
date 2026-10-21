@@ -1,0 +1,91 @@
+/* Final storefront rules: override legacy v7/v8 viewport sizing and overlap. */
+.storefront-hero .hero-image > img { width:100%; height:100%; object-fit:contain; }
+@media (max-width:700px) {
+  .storefront-hero .hero-image {
+    position:relative !important;
+    width:100% !important;
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    aspect-ratio:auto;
+    padding:0;
+    margin:0;
+    line-height:0;
+    flex:0 0 auto !important;
+  }
+  .storefront-hero .hero-image > img {
+    position:static !important;
+    display:block;
+    width:100% !important;
+    height:auto !important;
+    max-width:100%;
+    aspect-ratio:1448 / 1086;
+    object-fit:contain !important;
+    object-position:center !important;
+    transform:none !important;
+  }
+  .storefront-hero .hero-copy {
+    margin:0 !important;
+    padding:0 !important;
+    border-radius:0 !important;
+    min-width:0;
+  }
+  .storefront-hero .hero-panel {
+    padding:20px 18px 24px !important;
+    border-radius:0 !important;
+    box-shadow:none !important;
+    text-shadow:none;
+    min-width:0;
+  }
+  .storefront-hero .eyebrow {
+    font-size:11px !important;
+    line-height:1.6 !important;
+    letter-spacing:0 !important;
+    margin:0 0 10px !important;
+    overflow-wrap:anywhere;
+  }
+  .storefront-hero h1 {
+    font-size:clamp(27px,8vw,34px) !important;
+    line-height:1.08 !important;
+    letter-spacing:-.03em;
+    margin:0 0 12px !important;
+    max-width:100% !important;
+    overflow-wrap:break-word;
+  }
+  .storefront-hero h2 {
+    font-size:clamp(17px,4.6vw,20px) !important;
+    line-height:1.5 !important;
+    margin:0 0 10px !important;
+    max-width:100%;
+    overflow-wrap:break-word;
+  }
+  .storefront-hero .hero-panel > p:last-of-type {
+    font-size:12px !important;
+    line-height:1.7 !important;
+    max-width:none !important;
+    overflow-wrap:anywhere;
+  }
+  .storefront-hero .hero-actions {
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    gap:8px !important;
+    margin:16px 0 0 !important;
+  }
+  .storefront-hero .hero-actions .btn {
+    min-width:0;
+    min-height:48px !important;
+    height:auto;
+    padding:10px 8px;
+    font-size:12px !important;
+    line-height:1.45;
+    gap:5px;
+    border-radius:8px !important;
+    white-space:normal;
+    overflow-wrap:anywhere;
+  }
+  .storefront-hero .hero-actions .btn svg,
+  .storefront-hero .hero-actions .btn.outline-light::before {width:16px;height:16px;flex:0 0 16px}
+}
+@media (max-width:359px) {
+  .storefront-hero .hero-panel {padding:18px 14px 22px !important}
+  .storefront-hero .hero-actions {grid-template-columns:1fr !important}
+}
