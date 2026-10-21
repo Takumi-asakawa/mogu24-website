@@ -89,3 +89,10 @@
   .storefront-hero .hero-panel {padding:18px 14px 22px !important}
   .storefront-hero .hero-actions {grid-template-columns:1fr !important}
 }
+
+/* On the mobile homepage, the header scrolls with the photo, never over it. */
+@media(max-width:700px) {
+  body:has(.storefront-hero) .site-header {position:relative;top:auto}
+  .storefront-hero {scroll-margin-top:0}
+  .storefront-hero h1 {text-wrap:balance}
+}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Clock3, Globe2, Snowflake, CreditCard, MapPin, ArrowRight, Camera, MessageCircle, Phone, Sparkles } from "lucide-react";
+import HomeEntryPosition from "@/components/HomeEntryPosition";
 import ProductCard from "@/components/ProductCard";
 import StructuredData from "@/components/StructuredData";
 import { categories, getDictionary, isLocale, localize, products, siteSettings } from "@/data/site";
@@ -76,6 +77,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
 
   return (
     <>
+      <HomeEntryPosition />
       <StructuredData data={[localBusiness, websiteSchema]} />
       <section id="top" className="hero home-anchor storefront-hero">
         <div className="hero-copy">
