@@ -6,7 +6,7 @@ import siteJson from "@/content/site.json";
 
 export const locales = ["ja", "zh", "en"] as const;
 export type Locale = (typeof locales)[number];
-export type CategoryKey = "noodles" | "dimsum" | "meat" | "rice" | "desserts" | "drinks";
+export type CategoryKey = "noodles" | "dimsum" | "meat" | "rice" | "desserts" | "drinks" | "deli" | "pizza";
 export type LocalizedText = Record<Locale, string>;
 
 export type Product = {

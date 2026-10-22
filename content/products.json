@@ -161,7 +161,7 @@
   {
     "id": "aka-chicago-pizza",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-9.png",
-    "category": "noodles",
+    "category": "pizza",
     "price": 2880,
     "isNew": false,
     "salePrice": 2780,
@@ -219,7 +219,7 @@
   {
     "id": "hanaitodo-10won-sweet-potato-cheese",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-24.png",
-    "category": "desserts",
+    "category": "pizza",
     "price": 550,
     "isNew": false,
     "salePrice": 440,
@@ -243,7 +243,7 @@
   {
     "id": "hanaitodo-10won-mozzarella",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-25.png",
-    "category": "desserts",
+    "category": "pizza",
     "price": 550,
     "isNew": false,
     "salePrice": 450,
@@ -315,7 +315,7 @@
   {
     "id": "sanuki-honetsukidori",
     "image": "/media/img4694.jpeg",
-    "category": "meat",
+    "category": "deli",
     "price": 1300,
     "isNew": false,
     "salePrice": 1200,
@@ -368,7 +368,7 @@
   {
     "id": "fouru-ebi-chili",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-37.png",
-    "category": "meat",
+    "category": "deli",
     "price": 900,
     "isNew": false,
     "salePrice": 800,
@@ -397,7 +397,7 @@
   {
     "id": "shirik-hangen-mabo-tofu",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-36.png",
-    "category": "meat",
+    "category": "deli",
     "price": 820,
     "isNew": false,
     "salePrice": 720,
@@ -629,7 +629,7 @@
   {
     "id": "yamanakaya-morioka-reimen",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-17.png",
-    "category": "rice",
+    "category": "noodles",
     "price": 550,
     "isNew": false,
     "salePrice": 450,
@@ -711,7 +711,7 @@
   {
     "id": "yamaguchi-kawara-soba",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-28-1.png",
-    "category": "meat",
+    "category": "noodles",
     "price": 1280,
     "isNew": false,
     "salePrice": 1180,
@@ -812,7 +812,7 @@
   {
     "id": "aomori-hotate-kaiyaki-miso",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-39.png",
-    "category": "meat",
+    "category": "deli",
     "price": 720,
     "isNew": false,
     "recommended": true,
@@ -840,7 +840,7 @@
   {
     "id": "aomori-hotate-kaiyaki-miso-katsuo",
     "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-40-3.png",
-    "category": "meat",
+    "category": "deli",
     "price": 720,
     "isNew": false,
     "recommended": true,

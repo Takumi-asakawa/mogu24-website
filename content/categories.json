@@ -3,23 +3,23 @@
     "key": "rice",
     "image": "/media/chatgpt-image-2026916-201401-4.png",
     "name": {
-      "ja": "お弁当",
-      "zh": "便当",
-      "en": "Bento"
+      "ja": "お弁当・ご飯もの",
+      "zh": "便当与米饭料理",
+      "en": "Bento & Rice Dishes"
     },
-    "subtitle": "BENTO",
+    "subtitle": "BENTO & RICE",
     "published": true,
     "order": 1
   },
   {
     "key": "noodles",
-    "image": "/media/chatgpt-image-2026916-201401-1.png",
+    "image": "/images/generated/cat-noodles-hq.webp",
     "name": {
-      "ja": "ピザ",
-      "zh": "披萨",
-      "en": "Pizza"
+      "ja": "麺類",
+      "zh": "面食",
+      "en": "Noodles"
     },
-    "subtitle": "PIZZA",
+    "subtitle": "NOODLES",
     "published": true,
     "order": 2
   },
@@ -27,13 +27,25 @@
     "key": "dimsum",
     "image": "/media/categories/cat-tianjin.webp",
     "name": {
-      "ja": "点心",
-      "zh": "点心",
-      "en": "Dim sum"
+      "ja": "餃子・点心",
+      "zh": "饺子与点心",
+      "en": "Gyoza & Dim Sum"
     },
-    "subtitle": "DIM SUM",
+    "subtitle": "GYOZA & DIM SUM",
     "published": true,
     "order": 3
+  },
+  {
+    "key": "deli",
+    "image": "/images/generated/cat-meat-hq.webp",
+    "name": {
+      "ja": "おかず・お惣菜",
+      "zh": "家常菜与熟食",
+      "en": "Side Dishes & Deli"
+    },
+    "subtitle": "SIDE DISHES & DELI",
+    "published": true,
+    "order": 4
   },
   {
     "key": "meat",
@@ -45,18 +57,30 @@
     },
     "subtitle": "SNACKS",
     "published": true,
-    "order": 4
+    "order": 5
+  },
+  {
+    "key": "pizza",
+    "image": "/media/chatgpt-image-2026916-201401-1.png",
+    "name": {
+      "ja": "ピザ・軽食",
+      "zh": "披萨与轻食",
+      "en": "Pizza & Light Bites"
+    },
+    "subtitle": "PIZZA & LIGHT BITES",
+    "published": true,
+    "order": 6
   },
   {
     "key": "desserts",
     "image": "/media/chatgpt-image-2026916-201401-3.png",
     "name": {
-      "ja": "スイーツ",
-      "zh": "甜点",
-      "en": "Sweets"
+      "ja": "スイーツ・和菓子",
+      "zh": "甜点与日式点心",
+      "en": "Sweets & Wagashi"
     },
-    "subtitle": "SWEETS",
+    "subtitle": "SWEETS & WAGASHI",
     "published": true,
-    "order": 5
+    "order": 7
   }
 ]

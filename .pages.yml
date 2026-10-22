@@ -107,15 +107,19 @@ content:
         options:
           values:
             - name: rice
-              label: お弁当
+              label: お弁当・ご飯もの
             - name: noodles
-              label: ピザ
+              label: 麺類
             - name: dimsum
-              label: 天津
+              label: 餃子・点心
+            - name: deli
+              label: おかず・お惣菜
             - name: meat
               label: おつまみ
+            - name: pizza
+              label: ピザ・軽食
             - name: desserts
-              label: スイーツ
+              label: スイーツ・和菓子
       - name: price
         label: 通常価格（税込・円／未定は0）
         type: number
