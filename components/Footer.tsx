@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Camera, MessageCircle, Phone } from "lucide-react";
+import { MessageCircle, Phone } from "lucide-react";
+import InstagramIcon from "@/components/InstagramIcon";
 import type { Locale } from "@/data/site";
 import { siteSettings } from "@/data/site";
 
@@ -10,7 +11,7 @@ export default function Footer({ locale, dict }: { locale: Locale; dict: any }) 
       <div className="footer-inner">
         <div className="footer-brand"><Image src="/mogu24-logo.png" alt="MOGU24" width={150} height={52} /><p>{dict.hero.body}</p></div>
         <div className="footer-social">
-          <a href={siteSettings.store.instagram}><Camera size={16}/>{dict.contact.instagram}</a>
+          <a href={siteSettings.store.instagram}><InstagramIcon size={16}/>{dict.contact.instagram}</a>
           <a href={siteSettings.store.line}><MessageCircle size={16}/>{dict.contact.line}</a>
           <a href={siteSettings.store.phone ? `tel:${siteSettings.store.phone}` : "#"}><Phone size={16}/>{dict.contact.phone}</a>
         </div>

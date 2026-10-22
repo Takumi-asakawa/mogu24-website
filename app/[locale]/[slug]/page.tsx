@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowRight, Clock3, MapPin, Phone, MessageCircle, Camera } from "lucide-react";
+import { ArrowRight, Clock3, MapPin, Phone, MessageCircle } from "lucide-react";
+import InstagramIcon from "@/components/InstagramIcon";
 import { faqs, getDictionary, isLocale, localize, news, siteSettings } from "@/data/site";
 import { absoluteUrl, languageAlternates, seoCopy } from "@/data/seo";
 
@@ -82,7 +83,7 @@ function renderBody(slug: string, d: any, locale: "ja" | "zh" | "en") {
   if (slug === "store") return <div className="store-details"><div><Clock3/><h2>{d.store.hours}</h2></div><div><MapPin/><h2>{localize(siteSettings.store.access, locale)}</h2></div><p><strong>{d.store.addressLabel}:</strong> {localize(siteSettings.store.address, locale)}</p><p>{d.store.body}</p><div className="map-placeholder">MOGU24 MAP<br/><small>{d.store.mapNote}</small></div></div>;
   if (slug === "news") return <div className="news-list">{news.map((item)=><article key={item.id}><time>{item.date.replaceAll("-", ".")}</time><span>{item.type}</span><div><h2>{localize(item.title, locale)}</h2><p>{localize(item.body, locale)}</p></div><ArrowRight/></article>)}</div>;
   if (slug === "faq") return <div className="faq-list">{faqs.map((item)=><details key={item.id}><summary>{localize(item.question, locale)}</summary><p>{localize(item.answer, locale)}</p></details>)}</div>;
-  if (slug === "contact") return <div className="contact-cards"><a href={siteSettings.store.instagram}><Camera/>{d.contact.instagram}</a><a href={siteSettings.store.line}><MessageCircle/>{d.contact.line}</a><a href={siteSettings.store.phone ? `tel:${siteSettings.store.phone}` : "#"}><Phone/>{d.contact.phone}</a></div>;
+  if (slug === "contact") return <div className="contact-cards"><a href={siteSettings.store.instagram}><InstagramIcon/>{d.contact.instagram}</a><a href={siteSettings.store.line}><MessageCircle/>{d.contact.line}</a><a href={siteSettings.store.phone ? `tel:${siteSettings.store.phone}` : "#"}><Phone/>{d.contact.phone}</a></div>;
   const body = slug === "privacy" ? d.legalPages.privacyBody : slug === "terms" ? d.legalPages.termsBody : d.legalPages.legalBody;
   return <div className="prose"><h2>{d.footer[slug === "privacy" ? "privacy" : slug === "terms" ? "terms" : "legal"]}</h2><p>{body}</p><Link className="text-link" href={`/${locale}`}>MOGU24 HOME <ArrowRight size={16}/></Link></div>;
 }

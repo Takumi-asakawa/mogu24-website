@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Clock3, Globe2, Snowflake, CreditCard, MapPin, ArrowRight, Camera, MessageCircle, Phone, Sparkles } from "lucide-react";
+import { Clock3, Globe2, Snowflake, CreditCard, MapPin, ArrowRight, MessageCircle, Phone, Sparkles } from "lucide-react";
+import InstagramIcon from "@/components/InstagramIcon";
 import HomeEntryPosition from "@/components/HomeEntryPosition";
 import ProductCard from "@/components/ProductCard";
 import StructuredData from "@/components/StructuredData";
@@ -257,7 +258,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       </section>
 
       <section className="contact-band"><div className="shell"><h2>{d.contact.title}</h2><div>
-        <a href={siteSettings.store.instagram}><Camera/>{d.contact.instagram}</a>
+        <a href={siteSettings.store.instagram}><InstagramIcon/>{d.contact.instagram}</a>
         <a href={siteSettings.store.line}><MessageCircle/>{d.contact.line}</a>
         <a href={siteSettings.store.phone ? `tel:${siteSettings.store.phone}` : "#"}><Phone/>{d.contact.phone}</a>
       </div></div></section>
