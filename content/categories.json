@@ -13,7 +13,7 @@
   },
   {
     "key": "noodles",
-    "image": "/images/generated/cat-noodles-hq.webp",
+    "image": "/media/categories/cat-noodles-20261022.webp",
     "name": {
       "ja": "麺類",
       "zh": "面食",
@@ -37,7 +37,7 @@
   },
   {
     "key": "deli",
-    "image": "/images/generated/cat-meat-hq.webp",
+    "image": "/media/categories/cat-deli-20261022.webp",
     "name": {
       "ja": "おかず・お惣菜",
       "zh": "家常菜与熟食",
