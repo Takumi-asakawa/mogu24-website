@@ -19,7 +19,16 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "MOGU24（モグ24）｜八王子の24時間営業 冷凍食品専門店",
   description: "MOGU24（モグ24）は東京都八王子市の24時間営業・無人の冷凍食品専門店。日本各地と世界のおいしい冷凍食品を、好きな時間に手軽に選べます。",
-  icons: { icon: "/mogu24-logo.png" },
+  applicationName: "MOGU24",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "16x16 32x32 48x48", type: "image/x-icon" },
+      { url: "/favicon-96.png", sizes: "96x96", type: "image/png" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon-512.png", sizes: "512x512", type: "image/png" }
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }]
+  },
   category: "food",
   creator: "MOGU24",
   publisher: "MOGU24",
