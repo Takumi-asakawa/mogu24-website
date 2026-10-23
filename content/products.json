@@ -897,8 +897,18 @@
     "recommended": true,
     "published": true,
     "order": 34,
+    "description": {
+      "ja": "第2回「日本全国！ご当地冷凍食品大賞2025-2026」金賞受賞！全115品のエントリー商品の中からTOP10に選出！\n\n愛知県あま市の焼きとんかつ・手羽先専門店「とんかつみわ」が手がける、骨なし手羽先の辛口タイプ。\n\n40年以上受け継がれてきた秘伝の甘辛濃厚ダレに、コショウを効かせた味付けが特徴です。\n\n国産手羽先を使用し、一本一本丁寧に骨を取り除いているため、骨を気にせず手軽に楽しめます。\n\n内容量：100g（4〜6個程度）\n辛口（コショウあり）",
+      "zh": "荣获第2届「日本全国！地方特色冷冻食品大奖2025-2026」金奖！从115款参赛商品中入选前10名！\n\n来自日本爱知县的炸猪排与鸡翅专门店「とんかつみわ」。\n\n这款无骨鸡翅采用传承40多年的秘制浓郁甜咸酱汁，并加入胡椒调味，口味香浓，带有辛香感。\n\n使用日本国产鸡翅，由工作人员逐只去骨，吃起来不用吐骨头，方便享用。\n\n净含量：100g（约4～6块）\n口味：香辣味（含胡椒）",
+      "en": "Gold Award Winner at the 2nd Japan Regional Frozen Food Awards 2025–2026! Selected among the Top 10 out of 115 entries.\n\nThese boneless chicken wings come from Tonkatsu Miwa, a specialty restaurant in Ama City, Aichi Prefecture, Japan.\n\nMade with Japanese chicken wings, they feature a rich, sweet-savory sauce based on a secret recipe passed down for over 40 years, with added black pepper for a spicy kick.\n\nEach wing is carefully deboned by hand, making it easy to enjoy without dealing with bones.\n\nNet weight: 100g (approximately 4–6 pieces)\nFlavor: Spicy (with pepper)"
+    },
     "award": {
-      "enabled": false
+      "enabled": true,
+      "title": {
+        "ja": "第2回「日本全国！ご当地冷凍食品大賞2025-2026」金賞（TOP10入賞）",
+        "zh": "第2届日本全国地方特色冷冻食品大奖2025-2026 金奖（前10名）",
+        "en": "Japan Regional Frozen Food Awards 2025–2026 – Gold Award (Top 10)"
+      }
     }
   }
 ]
