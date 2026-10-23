@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       siteName: "MOGU24",
       locale: locale === "zh" ? "zh_CN" : locale === "en" ? "en_US" : "ja_JP",
       type: "website",
-      images: [{ url: absoluteUrl("/images/store/mogu24-storefront-retouched.webp"), width: 1448, height: 1086, alt: seo.ogAlt }]
+      images: [{ url: absoluteUrl("/images/store/mogu24-storefront-20261024.webp"), width: 1448, height: 1086, alt: seo.ogAlt }]
     }
   };
 }
