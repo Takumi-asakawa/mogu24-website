@@ -887,5 +887,18 @@
         "en": "Featured on Fuji TV’s Mezamashi TV!"
       }
     }
+  },
+  {
+    "id": "tonkatsu-miwa-boneless-tebasaki-spicy",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-2.png",
+    "category": "meat",
+    "price": 830,
+    "isNew": false,
+    "recommended": true,
+    "published": true,
+    "order": 34,
+    "award": {
+      "enabled": false
+    }
   }
 ]
