@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import ProductBadges from "@/components/ProductBadges";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { categories, isLocale, locales, localize, products } from "@/data/site";
@@ -111,6 +112,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           <div className={styles.infoPanel}>
             <p className={styles.category}>{category}</p>
             <h1>{name}</h1>
+            <ProductBadges product={product} locale={locale} />
             {hasPrice ? (
               hasSale ? (
                 <div className={styles.salePricing}>

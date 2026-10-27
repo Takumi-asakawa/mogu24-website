@@ -125,13 +125,22 @@ content:
         type: number
         required: true
       - name: isNew
-        label: セール表示
+        label: SALE
         type: boolean
       - name: salePrice
         label: セール価格（税込・円／セール表示ON時のみ入力・未設定は0）
         type: number
       - name: recommended
         label: おすすめ表示
+        type: boolean
+      - name: newArrival
+        label: NEW
+        type: boolean
+      - name: restocked
+        label: 再入荷
+        type: boolean
+      - name: restockPending
+        label: 再入荷待ち
         type: boolean
       - name: published
         label: 公開

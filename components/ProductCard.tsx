@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ProductBadges from "./ProductBadges";
 import Link from "next/link";
 import type { Locale, Product } from "@/data/site";
 import { localize } from "@/data/site";
@@ -29,10 +30,7 @@ export default function ProductCard({ product, locale, category, labels }: { pro
           sizes="(max-width: 700px) 50vw, (max-width: 1050px) 33vw, 260px"
           style={{ width: "100%", height: "100%", objectFit: "contain", objectPosition: "center", background: "#fff" }}
         />
-        <div className="badges">
-          {product.isNew && <span>{labels.newLabel}</span>}
-          {product.recommended && <span>{labels.recommendedLabel}</span>}
-        </div>
+        <ProductBadges product={product} locale={locale} overlay />
       </div>
       <div className="product-meta">
         <small>{category}</small>

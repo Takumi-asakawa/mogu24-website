@@ -15,7 +15,11 @@ export type Product = {
   category: CategoryKey;
   price: number;
   salePrice?: number;
+  /** Legacy field: SALE flag, retained for existing CMS content. */
   isNew: boolean;
+  newArrival?: boolean;
+  restocked?: boolean;
+  restockPending?: boolean;
   recommended: boolean;
   published: boolean;
   order: number;
