@@ -7,6 +7,9 @@
     "isNew": false,
     "salePrice": 800,
     "recommended": true,
+    "newArrival": true,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 2,
     "name": {
@@ -36,6 +39,9 @@
     "isNew": false,
     "salePrice": 1200,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 1,
     "name": {
@@ -65,6 +71,9 @@
     "isNew": false,
     "salePrice": 1380,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 3,
     "name": {
@@ -89,6 +98,9 @@
     "isNew": false,
     "salePrice": 1080,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 5,
     "name": {
@@ -113,6 +125,9 @@
     "isNew": false,
     "salePrice": 1080,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 6,
     "name": {
@@ -137,6 +152,9 @@
     "isNew": false,
     "salePrice": 880,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 20,
     "name": {
@@ -166,6 +184,9 @@
     "isNew": false,
     "salePrice": 2780,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 4,
     "name": {
@@ -195,6 +216,9 @@
     "isNew": false,
     "salePrice": 480,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 11,
     "name": {
@@ -224,6 +248,9 @@
     "isNew": false,
     "salePrice": 440,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 7,
     "name": {
@@ -248,6 +275,9 @@
     "isNew": false,
     "salePrice": 450,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 8,
     "name": {
@@ -272,6 +302,9 @@
     "isNew": false,
     "salePrice": 550,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 9,
     "name": {
@@ -296,6 +329,9 @@
     "isNew": false,
     "salePrice": 550,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 10,
     "name": {
@@ -320,6 +356,9 @@
     "isNew": false,
     "salePrice": 1200,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 19,
     "name": {
@@ -349,6 +388,9 @@
     "isNew": false,
     "salePrice": 820,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 23,
     "name": {
@@ -373,6 +415,9 @@
     "isNew": false,
     "salePrice": 800,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 14,
     "name": {
@@ -402,6 +447,9 @@
     "isNew": false,
     "salePrice": 720,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 13,
     "name": {
@@ -431,6 +479,9 @@
     "isNew": false,
     "salePrice": 550,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 15,
     "name": {
@@ -460,6 +511,9 @@
     "isNew": false,
     "salePrice": 550,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 16,
     "name": {
@@ -489,6 +543,9 @@
     "isNew": false,
     "salePrice": 550,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 17,
     "name": {
@@ -518,6 +575,9 @@
     "isNew": false,
     "salePrice": 550,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 18,
     "name": {
@@ -547,6 +607,9 @@
     "isNew": false,
     "salePrice": 850,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 12,
     "name": {
@@ -576,6 +639,9 @@
     "isNew": false,
     "salePrice": 880,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 21,
     "name": {
@@ -605,6 +671,9 @@
     "isNew": false,
     "salePrice": 880,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 22,
     "name": {
@@ -634,6 +703,9 @@
     "isNew": false,
     "salePrice": 450,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 24,
     "name": {
@@ -663,6 +735,9 @@
     "isNew": false,
     "salePrice": 750,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 25,
     "name": {
@@ -692,6 +767,9 @@
     "isNew": false,
     "salePrice": 200,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 26,
     "name": {
@@ -716,6 +794,9 @@
     "isNew": false,
     "salePrice": 1180,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 27,
     "name": {
@@ -745,6 +826,9 @@
     "isNew": false,
     "salePrice": 1350,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 28,
     "name": {
@@ -769,6 +853,9 @@
     "isNew": false,
     "salePrice": 1080,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 29,
     "name": {
@@ -793,6 +880,9 @@
     "isNew": false,
     "salePrice": 1080,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 30,
     "name": {
@@ -816,6 +906,9 @@
     "price": 720,
     "isNew": false,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 31,
     "name": {
@@ -844,6 +937,9 @@
     "price": 720,
     "isNew": false,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 32,
     "name": {
@@ -867,6 +963,9 @@
     "price": 1980,
     "isNew": false,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 33,
     "name": {
@@ -895,6 +994,9 @@
     "price": 830,
     "isNew": false,
     "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
     "published": true,
     "order": 34,
     "name": {
