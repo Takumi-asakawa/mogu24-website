@@ -8,7 +8,7 @@
     "salePrice": 800,
     "recommended": true,
     "newArrival": true,
-    "restocked": true,
+    "restocked": false,
     "restockPending": false,
     "published": true,
     "order": 2,
