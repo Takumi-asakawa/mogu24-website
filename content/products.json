@@ -1017,5 +1017,31 @@
         "en": "Japan Regional Frozen Food Awards 2025–2026 – Gold Award (Top 10)"
       }
     }
+  },
+  {
+    "id": "gorotto-mango-cheesecake",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-41.png",
+    "category": "desserts",
+    "price": 1180,
+    "isNew": false,
+    "recommended": false,
+    "newArrival": true,
+    "restocked": false,
+    "restockPending": false,
+    "published": true,
+    "order": 35,
+    "name": {
+      "ja": "ごろっとマンゴーのチーズケーキ",
+      "zh": "大颗芒果芝士蛋糕",
+      "en": "Chunky Mango Cheesecake"
+    },
+    "description": {
+      "ja": "ごろっとマンゴーのチーズケーキ\n\nゴロゴロ入ったマンゴーとチーズケーキがベストマッチ！\n\nマンゴーの果肉をたっぷり楽しめる、フルーティーなチーズケーキです。\n\nマンゴーの甘みとチーズケーキの味わいを一緒にお楽しみください。",
+      "zh": "大颗芒果芝士蛋糕\n\n大块芒果果肉与芝士蛋糕的美味组合！\n\n可以品尝到芒果果肉的香甜，以及芝士蛋糕的浓郁风味。\n\n喜欢芒果和芝士蛋糕的朋友，不妨试试这款水果甜点。",
+      "en": "Chunky Mango Cheesecake\n\nA delicious combination of generous mango chunks and cheesecake.\n\nEnjoy the fruity sweetness of mango paired with the rich flavor of cheesecake.\n\nA delightful dessert for mango and cheesecake lovers."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
