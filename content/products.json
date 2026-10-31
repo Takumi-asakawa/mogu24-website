@@ -1043,5 +1043,31 @@
     "award": {
       "enabled": false
     }
+  },
+  {
+    "id": "zeitaku-ichigo-mousse-cake",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-42.png",
+    "category": "desserts",
+    "price": 1180,
+    "isNew": false,
+    "recommended": false,
+    "newArrival": true,
+    "restocked": false,
+    "restockPending": false,
+    "published": true,
+    "order": 36,
+    "name": {
+      "ja": "贅沢いちごのムースケーキ",
+      "zh": "奢享草莓慕斯蛋糕",
+      "en": "Premium Strawberry Mousse Cake"
+    },
+    "description": {
+      "ja": "フレッシュないちごをたっぷり使用した、甘酸っぱい「贅沢いちごのムースケーキ」。\n\nいちごの風味と、ムースのなめらかな口当たりを楽しめるスイーツです。\n\n内容量：240g\nサイズ：約11cm × 11cm、高さ約3cm\nお召し上がり方：冷蔵庫で約6時間解凍してください。",
+      "zh": "奢享草莓慕斯蛋糕\n\n使用大量新鲜草莓制作，带有草莓特有的酸甜风味，搭配细腻柔滑的慕斯口感。\n\n净含量：240g\n尺寸：约11cm × 11cm，高约3cm\n食用方法：放入冰箱冷藏解冻约6小时后享用。",
+      "en": "Premium Strawberry Mousse Cake\n\nA sweet and tangy strawberry mousse cake made with plenty of fresh strawberries. Enjoy the fruity strawberry flavor and smooth mousse texture.\n\nNet weight: 240g\nDimensions: Approx. 11 × 11cm, 3cm high\nServing instructions: Thaw in the refrigerator for approximately 6 hours before serving."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
