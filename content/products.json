@@ -825,10 +825,10 @@
     "price": 1450,
     "isNew": false,
     "salePrice": 1350,
-    "recommended": true,
+    "recommended": false,
     "newArrival": false,
     "restocked": false,
-    "restockPending": false,
+    "restockPending": true,
     "published": true,
     "order": 28,
     "name": {
