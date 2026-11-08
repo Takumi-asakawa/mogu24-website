@@ -1069,5 +1069,31 @@
     "award": {
       "enabled": false
     }
+  },
+  {
+    "id": "tiramissimo-black-sesame-1",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-43.png",
+    "category": "desserts",
+    "price": 650,
+    "isNew": false,
+    "recommended": false,
+    "newArrival": true,
+    "restocked": false,
+    "restockPending": false,
+    "published": true,
+    "order": 37,
+    "name": {
+      "ja": "日本一なめらかティラミス 黒ごま味（1個入り）",
+      "zh": "日本第一顺滑提拉米苏 黑芝麻味（1个装）",
+      "en": "Tiramissimo Smooth Tiramisu – Black Sesame (1 Piece)"
+    },
+    "description": {
+      "ja": "大阪・泉佐野発のティラミス専門店「ティラミッシモ」が手がける、日本一なめらかティラミス。\n\n国産黒ごまとマスカルポーネチーズを使用。黒ごまの香ばしさとチーズのコクが楽しめる、和と洋が融合したなめらかなティラミスです。\n\n内容量：60g（1個）\nお召し上がり方：冷蔵庫で6時間以上解凍してください。",
+      "zh": "来自大阪泉佐野提拉米苏专门店「Tiramissimo」的日本第一顺滑提拉米苏。\n\n选用日本国产黑芝麻与马斯卡彭芝士制作，黑芝麻的浓郁香气与芝士的醇厚口感相结合，是一款融合日式与西式风味的细腻提拉米苏。\n\n净含量：60g（1个）\n食用方法：放入冰箱冷藏解冻6小时以上后享用。",
+      "en": "A smooth and creamy tiramisu from Tiramissimo, a specialty tiramisu shop in Izumisano, Osaka, Japan.\n\nMade with Japanese black sesame and mascarpone cheese, this dessert combines the nutty aroma of black sesame with the rich, creamy flavor of mascarpone for a smooth Japanese-Italian fusion treat.\n\nNet weight: 60g (1 piece)\nServing instructions: Thaw in the refrigerator for at least 6 hours before serving."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
