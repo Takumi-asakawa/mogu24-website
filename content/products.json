@@ -1101,5 +1101,31 @@
         "en": "Featured on Japanese TV programs including MBS Chichin Puipui, ABC Cast, and Kansai TV Yo-i Don!"
       }
     }
+  },
+  {
+    "id": "taiwan-chimaki-2pcs",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-44-1.png",
+    "category": "rice",
+    "price": 1000,
+    "isNew": false,
+    "recommended": true,
+    "newArrival": false,
+    "restocked": false,
+    "restockPending": false,
+    "published": false,
+    "order": 29,
+    "name": {
+      "ja": "台湾ちまき（2個入り）",
+      "zh": "台湾风味手工肉粽（2个装）",
+      "en": "Taiwanese Pork Sticky Rice Dumplings (2 Pieces)"
+    },
+    "description": {
+      "ja": "台湾の伝統的な味わいを楽しめる、本格的な手作り台湾ちまき。もちもちとした国産もち米に、国産豚肉の旨みが染み込み、食べ応えのある一品に仕上がっています。中国から取り寄せた葉で一つひとつ手作業で包み、台湾ならではの味わいを楽しめます。1個約150g。2個入り。",
+      "zh": "充满台湾传统风味的纯手工肉粽，选用日本国产糯米和日本国产猪肉制作，软糯有嚼劲的糯米与醇厚的肉香相互融合。粽叶从中国进口，每一颗粽子都由我们亲手包制，呈现地道的台湾家乡味道。每个约150g，每袋2个装。",
+      "en": "Authentic handmade Taiwanese sticky rice dumplings, made with Japanese-grown glutinous rice and domestically raised Japanese pork. The chewy rice and savory pork come together to create a traditional Taiwanese flavor. Each dumpling is carefully handmade using wrapping leaves imported from China. Approximately 150g per piece. Pack of 2."
+    },
+    "award": {
+      "enabled": false
+    }
   }
 ]
