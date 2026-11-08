@@ -1112,7 +1112,7 @@
     "newArrival": false,
     "restocked": false,
     "restockPending": false,
-    "published": false,
+    "published": true,
     "order": 29,
     "name": {
       "ja": "台湾ちまき（2個入り）",
