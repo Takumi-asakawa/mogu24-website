@@ -1081,7 +1081,7 @@
     "restocked": false,
     "restockPending": false,
     "published": true,
-    "order": 37,
+    "order": 18,
     "name": {
       "ja": "日本一なめらかティラミス 黒ごま味（1個入り）",
       "zh": "日本第一顺滑提拉米苏 黑芝麻味（1个装）",
@@ -1093,7 +1093,12 @@
       "en": "A smooth and creamy tiramisu from Tiramissimo, a specialty tiramisu shop in Izumisano, Osaka, Japan.\n\nMade with Japanese black sesame and mascarpone cheese, this dessert combines the nutty aroma of black sesame with the rich, creamy flavor of mascarpone for a smooth Japanese-Italian fusion treat.\n\nNet weight: 60g (1 piece)\nServing instructions: Thaw in the refrigerator for at least 6 hours before serving."
     },
     "award": {
-      "enabled": false
+      "enabled": false,
+      "title": {
+        "ja": "テレビ紹介：MBS毎日放送「ちちんぷいぷい」、朝日放送「キャスト」、関西テレビ「よ〜いドン！」",
+        "zh": "电视媒体介绍：MBS每日放送《ちちんぷいぷい》、朝日放送《キャスト》、关西电视台《よ〜いドン！》",
+        "en": "Featured on Japanese TV programs including MBS Chichin Puipui, ABC Cast, and Kansai TV Yo-i Don!"
+      }
     }
   }
 ]
