@@ -1138,7 +1138,7 @@
     "newArrival": true,
     "restocked": false,
     "restockPending": false,
-    "published": false,
+    "published": true,
     "order": 39,
     "name": {
       "ja": "宮崎・馬渡のもっちり餃子（10個入り）",
