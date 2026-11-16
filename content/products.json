@@ -1127,5 +1127,36 @@
     "award": {
       "enabled": false
     }
+  },
+  {
+    "id": "mawatari-mocchiri-gyoza-10pcs",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-46.png",
+    "category": "dimsum",
+    "price": 690,
+    "isNew": false,
+    "recommended": false,
+    "newArrival": true,
+    "restocked": false,
+    "restockPending": false,
+    "published": false,
+    "order": 39,
+    "name": {
+      "ja": "宮崎・馬渡のもっちり餃子（10個入り）",
+      "zh": "宫崎马渡手工劲道饺子（10个装）",
+      "en": "Miyazaki Mawatari Chewy Gyoza (10 Pieces)"
+    },
+    "description": {
+      "ja": "宮崎県高鍋町で昭和42年に創業した餃子専門店「餃子の馬渡」の看板商品。\n\n九州産小麦を使用した、独特のもっちり食感が特徴の皮に、国産の豚肉・牛肉と野菜の旨みを包み込んだ餃子です。付属の専用ラードで香ばしく焼き上げれば、ご家庭でも本場宮崎の味を楽しめます。\n\nJAPAN餃子大賞2026 通販餃子部門 最高金賞受賞。\n\n内容量：240g（10個入り）\n付属品：餃子のタレ・ラード各1袋\n保存方法：-18℃以下で冷凍保存\n調理方法：解凍せず、冷凍のままフライパンで加熱調理してください。",
+      "zh": "来自宫崎县高锅町、创立于1967年的老字号饺子专门店「餃子の馬渡」的招牌商品。\n\n使用九州产小麦制作独特的软糯有嚼劲的饺子皮，内馅选用日本国产猪肉、牛肉及蔬菜，充分融合食材的鲜美。搭配附赠的专用猪油煎制，在家也能享受正宗的宫崎饺子风味。\n\n荣获 JAPAN 饺子大奖2026 通信销售饺子部门最高金奖。\n\n净含量：240g（10个装）\n附赠：饺子酱汁、专用猪油各1袋\n保存方法：-18℃以下冷冻保存\n烹饪方法：无需解冻，直接从冷冻状态放入平底锅加热煎熟。",
+      "en": "A signature product from Gyoza no Mawatari, a long-established gyoza specialty shop founded in 1967 in Takanabe, Miyazaki Prefecture.\n\nMade with a uniquely chewy wrapper using wheat from Kyushu, these dumplings are filled with Japanese pork, beef, and vegetables. Pan-fry with the included special lard to enjoy authentic Miyazaki-style gyoza at home.\n\nWinner of the Highest Gold Award in the Mail-Order Gyoza Category at the JAPAN Gyoza Awards 2026.\n\nNet weight: 240g (10 pieces)\nIncludes: 1 packet of gyoza sauce and 1 packet of lard\nStorage: Keep frozen at -18°C or below\nCooking: Pan-fry directly from frozen without thawing, until thoroughly cooked."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "JAPAN餃子大賞2026 通販餃子部門 最高金賞",
+        "zh": "JAPAN饺子大奖2026 通信销售饺子部门 最高金奖",
+        "en": "JAPAN Gyoza Awards 2026 – Highest Gold Award, Mail-Order Gyoza Category"
+      }
+    }
   }
 ]
