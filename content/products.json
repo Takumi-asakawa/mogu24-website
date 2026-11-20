@@ -1158,5 +1158,36 @@
         "en": "JAPAN Gyoza Awards 2026 – Highest Gold Award, Mail-Order Gyoza Category"
       }
     }
+  },
+  {
+    "id": "nagoya-cochin-hakkin-hamburg-1pc",
+    "image": "/media/mogu24-instagram-product-cover-720-x-720-1204-x-576-1200-x-1200-2-1.png",
+    "category": "deli",
+    "price": 650,
+    "isNew": false,
+    "recommended": false,
+    "newArrival": true,
+    "restocked": false,
+    "restockPending": false,
+    "published": true,
+    "order": 40,
+    "name": {
+      "ja": "純系名古屋コーチン 白金ハンバーグ（1個入り）",
+      "zh": "日本名古屋纯种交趾鸡白金汉堡肉饼（1个装）",
+      "en": "Purebred Nagoya Cochin Hakkin Chicken Hamburg Steak (1 Piece)"
+    },
+    "description": {
+      "ja": "愛知県産の純系名古屋コーチンを鶏肉部分に100％使用した、贅沢な「白金ハンバーグ」。モモ・ムネ・ササミに加え、希少部位のせせりを使用し、弾力のある食感とジューシーな旨みが楽しめます。\n\n2026年10月、第104回ジャパン・フード・セレクション食品・飲料部門で最高賞のグランプリを受賞。テレビ番組「土曜はナニする!?」の「THE 100人総選挙」でも第2位に選ばれた話題の商品です。\n\n1個100g、専用のコーチン岩塩付き。冷凍のまま湯せん約15分、または電子レンジで約2分温めてお召し上がりいただけます。まずは付属の岩塩で、名古屋コーチン本来の旨みをご堪能ください。",
+      "zh": "精选日本爱知县产纯种名古屋交趾鸡，鸡肉部分100%使用名古屋交趾鸡，制作成口感弹嫩、肉汁丰富的白金汉堡肉饼。\n\n特别选用鸡腿肉、鸡胸肉、鸡里脊及珍贵的鸡颈肉四个部位，充分展现名古屋交趾鸡独特的鲜香与嚼劲。\n\n2026年10月荣获第104届 Japan Food Selection 食品饮料部门最高奖「Grand Prix」。同时曾在日本电视节目《土曜はナニする!?》的百人评选企划中获得第2名。\n\n每份1个，100g，附专用岩盐。无需解冻，隔水加热约15分钟，或按照包装说明使用微波炉加热约2分钟即可享用。推荐先搭配附赠岩盐，品尝鸡肉本身的鲜美。",
+      "en": "A premium Japanese chicken hamburg steak made with 100% purebred Nagoya Cochin chicken in its meat portion, sourced from Aichi Prefecture.\n\nCombining thigh, breast, tenderloin, and the prized neck cut, this hamburg steak offers a springy texture, rich flavor, and juicy tenderness.\n\nAwarded the Grand Prix in the Food & Beverage Division at the 104th Japan Food Selection in October 2026. It also placed second in the “THE 100-Person Election” segment of the Japanese television program Doyo wa Nani Suru!?\n\nOne 100g hamburg steak with specially selected rock salt. Heat from frozen in boiling water for approximately 15 minutes, or microwave for approximately 2 minutes following the package instructions. Enjoy with the included rock salt to appreciate the natural flavor of Nagoya Cochin chicken."
+    },
+    "award": {
+      "enabled": true,
+      "title": {
+        "ja": "2026年10月 第104回ジャパン・フード・セレクション 食品・飲料部門 グランプリ受賞",
+        "zh": "2026年10月 第104届 Japan Food Selection 食品饮料部门最高奖 Grand Prix",
+        "en": "Grand Prix Winner – 104th Japan Food Selection, Food & Beverage Division (October 2026)"
+      }
+    }
   }
 ]
